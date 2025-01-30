@@ -69,7 +69,7 @@
                 <Properties>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
-                    <defaultProjectile>Bullet_45Colt_FMJ</defaultProjectile>
+                    <defaultProjectile>Ammo_45ACP_FMJ</defaultProjectile>
                     <warmupTime>0.4</warmupTime>
                     <range>10</range>
                     <soundCast>DMS_KnuckledusterRevolver_Shot</soundCast>
@@ -81,7 +81,7 @@
                     <magazineSize>5</magazineSize>
                     <reloadTime>0.85</reloadTime>
                     <reloadOneAtATime>true</reloadOneAtATime>
-                    <ammoSet>AmmoSet_45Colt410Bore_SB</ammoSet>
+                    <ammoSet>AmmoSet_45ACP</ammoSet>
                 </AmmoUser>
                 <FireModes>
                     <aiAimMode>Snapshot</aiAimMode>
@@ -217,7 +217,7 @@
                 <Properties>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
-                    <defaultProjectile>Bullet_10Gauge_Buck</defaultProjectile>
+                    <defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
                     <warmupTime>0.6</warmupTime>
                     <range>17</range>
                     <soundCast>Shot_Shotgun</soundCast>
@@ -229,7 +229,7 @@
                     <magazineSize>6</magazineSize>
                     <reloadOneAtATime>True</reloadOneAtATime>
                     <reloadTime>0.5</reloadTime>
-                    <ammoSet>AmmoSet_10Gauge</ammoSet>
+                    <ammoSet>AmmoSet_12Gauge</ammoSet>
                 </AmmoUser>
                 <FireModes>
                     <aiAimMode>Snapshot</aiAimMode>
@@ -456,7 +456,7 @@
                 <Properties>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
-                    <defaultProjectile>Bullet_40x53mmGrenade_HE</defaultProjectile>
+                    <defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>
                     <warmupTime>1.85</warmupTime>
                     <range>70</range>
                     <soundCast>DMS_SniperRifle_Shot</soundCast>
@@ -469,7 +469,7 @@
                 <AmmoUser>
                     <magazineSize>6</magazineSize>
                     <reloadTime>5.4</reloadTime>
-                    <ammoSet>AmmoSet_40x53mmGrenade</ammoSet>
+                    <ammoSet>AmmoSet_40x46mmGrenade</ammoSet>
                 </AmmoUser>
                 <FireModes>
                     <aiAimMode>AimedShot</aiAimMode>

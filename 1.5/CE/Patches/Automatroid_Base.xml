@@ -30,6 +30,11 @@
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[@Name="BaseAutomatroidRace"]/comps</xpath>
 				<value>
+					<!-- Made HSK Compat -->
+					<li>
+						<compClass>CombatExtended.CompInventory</compClass>
+					</li>
+					<!--End Make HSK Compat -->
 					<li>
 						<compClass>CombatExtended.CompAmmoGiver</compClass>
 					</li>
@@ -181,7 +186,7 @@
 					</li>
 				</value>
 			</li>
-			
+
 			<li Class="PatchOperationAddModExtension"> <!-- new -->
 				<xpath>Defs/ThingDef[@Name="BaseDMSMachine"]</xpath>
 				<value>
