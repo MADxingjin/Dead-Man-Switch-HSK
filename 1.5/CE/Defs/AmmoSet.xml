@@ -58,7 +58,9 @@
 			<Ammo_12Gauge_ElectroSlug>Bullet_12Gauge_ElectroSlug</Ammo_12Gauge_ElectroSlug>
 			<!-- TODO Add HMC more 12G ammo here with mayrequire.-->
 		</ammoTypes>
-		<similarTo>AmmoSet_Shotgun</similarTo>
+		<!--
+		 <similarTo>AmmoSet_Shotgun</similarTo>
+		  -->
 	</CombatExtended.AmmoSetDef>
 
 

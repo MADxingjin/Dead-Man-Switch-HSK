@@ -19,7 +19,7 @@
 			<Ammo_30x165mm_HE>Bullet_30x165mm_HE</Ammo_30x165mm_HE>
 			<Ammo_30x165mm_Sabot>Bullet_30x165mm_Sabot</Ammo_30x165mm_Sabot>
 		</ammoTypes>
-		<similarTo>AmmoSet_Autocannon</similarTo>
+		<!-- <similarTo>AmmoSet_Autocannon</similarTo>-->
 	</CombatExtended.AmmoSetDef>
 
 	<!-- ==================== Ammo ========================== -->
