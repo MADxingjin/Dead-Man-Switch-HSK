@@ -16,11 +16,12 @@
     <ingredients Inherit="False">
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
-        <count>175</count>
+        <count>110</count>
       </li>
       <li>
         <filter>
@@ -47,6 +48,12 @@
         <count>10</count>
       </li>
     </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
   </RecipeDef>
 
 
@@ -66,9 +73,10 @@
     <ingredients Inherit="False">
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>150</count>
       </li>
@@ -103,6 +111,10 @@
         <li>Synthread</li>
         <li>Polyester</li>
       </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
     </fixedIngredientFilter>
   </RecipeDef>
 
@@ -121,9 +133,10 @@
     <ingredients Inherit="False">
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>120</count>
       </li>
@@ -166,6 +179,10 @@
         <li>Synthread</li>
         <li>Polyester</li>
       </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
     </fixedIngredientFilter>
   </RecipeDef>
 
@@ -183,9 +200,10 @@
     <ingredients Inherit="False">
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>130</count>
       </li>
@@ -220,6 +238,10 @@
         <li>Synthread</li>
         <li>Polyester</li>
       </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
     </fixedIngredientFilter>
   </RecipeDef>
 
@@ -237,9 +259,10 @@
     <ingredients Inherit="False">
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>160</count>
       </li>
@@ -274,6 +297,10 @@
         <li>Synthread</li>
         <li>Polyester</li>
       </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
     </fixedIngredientFilter>
   </RecipeDef>
 
@@ -292,13 +319,22 @@
       <ThingDef>DMS_Mech_Ronin</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
+          <li>
+        <filter>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
+        </filter>
+        <count>50</count>
+      </li>
       <li>
         <filter>
           <thingDefs>
             <li>Tungsteel</li>
           </thingDefs>
         </filter>
-        <count>100</count>
+        <count>50</count>
       </li>
       <li>
         <filter>
@@ -331,6 +367,10 @@
         <li>Synthread</li>
         <li>Polyester</li>
       </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
     </fixedIngredientFilter>
   </RecipeDef>
 
@@ -346,13 +386,22 @@
       <ThingDef>DMS_Mech_Gladiator</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
+          <li>
+        <filter>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
+        </filter>
+        <count>30</count>
+      </li>
       <li>
         <filter>
           <thingDefs>
             <li>Tungsteel</li>
           </thingDefs>
         </filter>
-        <count>105</count>
+        <count>75</count>
       </li>
       <li>
         <filter>
@@ -385,6 +434,10 @@
         <li>Synthread</li>
         <li>Polyester</li>
       </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
     </fixedIngredientFilter>
   </RecipeDef>
 
@@ -400,13 +453,22 @@
       <ThingDef>DMS_Mech_Siegebreaker</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
+          <li>
+        <filter>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
+        </filter>
+        <count>30</count>
+      </li>
       <li>
         <filter>
           <thingDefs>
             <li>Tungsteel</li>
           </thingDefs>
         </filter>
-        <count>115</count>
+        <count>75</count>
       </li>
       <li>
         <filter>
@@ -447,9 +509,13 @@
         <li>Synthread</li>
         <li>Polyester</li>
       </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
     </fixedIngredientFilter>
   </RecipeDef>
-  
+
   <!--塔盾手-->
   <RecipeDef ParentName="DMS_RoninMechanoidRecipe">
     <defName>DMS_Make_Protector</defName>
@@ -462,13 +528,22 @@
       <ThingDef>DMS_Mech_Protector</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
+          <li>
+        <filter>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
+        </filter>
+        <count>50</count>
+      </li>
       <li>
         <filter>
           <thingDefs>
             <li>Tungsteel</li>
           </thingDefs>
         </filter>
-        <count>140</count>
+        <count>90</count>
       </li>
       <li>
         <filter>
@@ -501,6 +576,10 @@
         <li>Synthread</li>
         <li>Polyester</li>
       </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
     </fixedIngredientFilter>
   </RecipeDef>
 
@@ -519,9 +598,10 @@
     <ingredients Inherit="False">
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>40</count>
       </li>
@@ -564,6 +644,10 @@
         <li>Synthread</li>
         <li>Polyester</li>
       </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
     </fixedIngredientFilter>
   </RecipeDef>
 
@@ -574,7 +658,8 @@
   <RecipeDef ParentName="DMS_HumanoidMechanoidRecipe">
     <defName>DMS_Make_Arquebusier</defName>
     <label>Gestate Arquebusier</label>
-    <description>Gestate a arquebusier mechanoid, the standard version of mechanized soldiers with the ability to operate most common weapons.</description>
+    <description>Gestate a arquebusier mechanoid, the standard version of mechanized soldiers with
+      the ability to operate most common weapons.</description>
     <products>
       <DMS_Mech_Arquebusier>1</DMS_Mech_Arquebusier>
     </products>
@@ -582,13 +667,22 @@
       <ThingDef>DMS_Mech_Arquebusier</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
+          <li>
+        <filter>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
+        </filter>
+        <count>40</count>
+      </li>
       <li>
         <filter>
           <thingDefs>
             <li>Tungsteel</li>
           </thingDefs>
         </filter>
-        <count>80</count>
+        <count>40</count>
       </li>
       <li>
         <filter>
@@ -621,6 +715,10 @@
         <li>Synthread</li>
         <li>Polyester</li>
       </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
     </fixedIngredientFilter>
   </RecipeDef>
 
@@ -639,9 +737,10 @@
     <ingredients Inherit="False">
       <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>50</count>
       </li>
@@ -684,6 +783,10 @@
         <li>Synthread</li>
         <li>Polyester</li>
       </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
     </fixedIngredientFilter>
   </RecipeDef>
 
@@ -700,13 +803,22 @@
       <ThingDef>DMS_Mech_Sniper</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
+          <li>
+        <filter>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
+        </filter>
+        <count>50</count>
+      </li>
       <li>
         <filter>
           <thingDefs>
             <li>Tungsteel</li>
           </thingDefs>
         </filter>
-        <count>80</count>
+        <count>30</count>
       </li>
       <li>
         <filter>
@@ -747,6 +859,10 @@
         <li>Synthread</li>
         <li>Polyester</li>
       </thingDefs>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
     </fixedIngredientFilter>
   </RecipeDef>
 
@@ -762,13 +878,22 @@
       <ThingDef>DMS_Mech_Jaeger</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
+          <li>
+        <filter>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
+        </filter>
+        <count>35</count>
+      </li>
       <li>
         <filter>
           <thingDefs>
             <li>Tungsteel</li>
           </thingDefs>
         </filter>
-        <count>70</count>
+        <count>45</count>
       </li>
       <li>
         <filter>
@@ -803,5 +928,11 @@
         <count>2</count>
       </li>
     </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
   </RecipeDef>
 </Defs>

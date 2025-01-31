@@ -23,11 +23,11 @@
         </filter>
         <count>225</count>
       </li>
-      <li>
+          <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>155</count>
       </li>
@@ -56,6 +56,11 @@
         <count>1</count>
       </li>
     </ingredients>
+          <fixedIngredientFilter>
+				<categories>
+					<li>USLDBar</li>
+				</categories>
+          </fixedIngredientFilter>
   </RecipeDef>
   <!--DMS_Make_Gecko-->
   <RecipeDef ParentName="DMS_SuperHeavyMechanoidRecipe">
@@ -80,11 +85,11 @@
         </filter>
         <count>185</count>
       </li>  
-      <li>
+          <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>110</count>
       </li>
@@ -129,6 +134,11 @@
         <count>1</count>
       </li>
     </ingredients>
+              <fixedIngredientFilter>
+				<categories>
+					<li>USLDBar</li>
+				</categories>
+          </fixedIngredientFilter>
   </RecipeDef>
 
   <!--DMS_Mech_Geochelone-->
@@ -153,11 +163,11 @@
         </filter>
         <count>325</count>
       </li>
-      <li>
+          <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>120</count>
       </li>
@@ -194,6 +204,11 @@
         <count>1</count>
       </li>
     </ingredients>
+              <fixedIngredientFilter>
+				<categories>
+					<li>USLDBar</li>
+				</categories>
+          </fixedIngredientFilter>
   </RecipeDef>
 
   <!--DMS_Mech_Killdozer-->
@@ -217,11 +232,11 @@
         </filter>
         <count>325</count>
       </li>
-      <li>
+          <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>145</count>
       </li>
@@ -258,6 +273,11 @@
         <count>1</count>
       </li>
     </ingredients>
+              <fixedIngredientFilter>
+				<categories>
+					<li>USLDBar</li>
+				</categories>
+          </fixedIngredientFilter>
   </RecipeDef>
 
   <!--DMS_Mech_Caretta-->
@@ -282,11 +302,11 @@
         </filter>
         <count>375</count>
       </li>
-      <li>
+          <li>
         <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
+          <categories>
+            <li>USLDBar</li>
+          </categories>
         </filter>
         <count>100</count>
       </li>
@@ -323,6 +343,11 @@
         <count>1</count>
       </li>
     </ingredients>
+              <fixedIngredientFilter>
+				<categories>
+					<li>USLDBar</li>
+				</categories>
+          </fixedIngredientFilter>
   </RecipeDef>
 
   <!--DMS_Mech_HermitCrab-->
