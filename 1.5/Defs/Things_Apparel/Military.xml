@@ -154,6 +154,7 @@
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
+			<li>HF</li>
 		</stuffCategories>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
@@ -186,6 +187,7 @@
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
+			<li>HF</li>
 		</stuffCategories>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
@@ -219,6 +221,7 @@
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
+			<li>HF</li>
 		</stuffCategories>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
@@ -540,6 +543,7 @@
 		</graphicData>
 		<stuffCategories>
 			<li>Fabric</li>
+			<li>HF</li>
 		</stuffCategories>
 		<thingCategories>
 			<li>ApparelMisc</li>

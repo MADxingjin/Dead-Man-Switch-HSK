@@ -67,6 +67,7 @@
 		<uiIconScale>1.15</uiIconScale>
 		<stuffCategories>
 			<li>Fabric</li>
+			<li>HF</li>
 		</stuffCategories>
 		<costStuffCount>20</costStuffCount>
 		<statBases>

@@ -341,8 +341,11 @@
       <turretBurstCooldownTime>4.0</turretBurstCooldownTime>
     </building>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <stuffCategories>
+    <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>500</costStuffCount>
     <costList>
-      <Steel>500</Steel>
       <Tungsteel>200</Tungsteel>
       <ComponentStamped>20</ComponentStamped>
       <ComponentIndustrial>15</ComponentIndustrial>
@@ -458,8 +461,11 @@
       <turretBurstCooldownTime>3.2</turretBurstCooldownTime>
     </building>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+        <stuffCategories>
+    <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>450</costStuffCount>
     <costList>
-      <Steel>450</Steel>
       <Tungsteel>300</Tungsteel>
       <ComponentStamped>15</ComponentStamped>
       <ComponentIndustrial>10</ComponentIndustrial>
@@ -600,8 +606,11 @@
       <turretBurstCooldownTime>2</turretBurstCooldownTime>
     </building>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+        <stuffCategories>
+    <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>250</costStuffCount>
     <costList>
-      <Steel>250</Steel>
       <Tungsteel>100</Tungsteel>
       <ComponentStamped>5</ComponentStamped>
       <ComponentIndustrial>5</ComponentIndustrial>
@@ -743,8 +752,11 @@
     <recoilRelaxation>0</recoilRelaxation>
     <hasInteractionCell>true</hasInteractionCell>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <stuffCategories>
+    <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>150</costStuffCount>
     <costList>
-      <Steel>150</Steel>
       <Tungsteel>120</Tungsteel>
       <ComponentStamped>5</ComponentStamped>
       <ComponentIndustrial>5</ComponentIndustrial>
@@ -869,8 +881,11 @@
       <turretTopOffset>(0,0.4)</turretTopOffset>
     </building>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <stuffCategories>
+    <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>450</costStuffCount>
     <costList>
-      <Steel>450</Steel>
       <Tungsteel>300</Tungsteel>
       <ComponentStamped>15</ComponentStamped>
       <ComponentIndustrial>10</ComponentIndustrial>

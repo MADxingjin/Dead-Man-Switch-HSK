@@ -93,8 +93,11 @@
       <Mass>6</Mass>
       <Flammability>0.5</Flammability>
     </statBases>
+    <stuffCategories>
+    <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>75</costStuffCount>
     <costList>
-      <Steel>75</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <comps>
@@ -122,8 +125,11 @@
       <Mass>6</Mass>
       <Flammability>0.5</Flammability>
     </statBases>
+    <stuffCategories>
+    <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>75</costStuffCount>
     <costList>
-      <Steel>30</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <comps>
@@ -151,8 +157,11 @@
       <Mass>6</Mass>
       <Flammability>0.5</Flammability>
     </statBases>
+    <stuffCategories>
+    <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>75</costStuffCount>
     <costList>
-      <Steel>75</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <comps>
@@ -219,8 +228,11 @@
         </west>
       </barDrawData>
     </building>
+        <stuffCategories>
+    <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>100</costStuffCount>
     <costList>
-      <Steel>100</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <researchPrerequisites>

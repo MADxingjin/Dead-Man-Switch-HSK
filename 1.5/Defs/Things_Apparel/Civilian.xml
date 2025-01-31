@@ -21,6 +21,7 @@
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
+			<li>HF</li>
 		</stuffCategories>
 		<tradeTags>
 			<li>Clothing</li>
@@ -86,6 +87,7 @@
 		<stuffCategories>
 			<li>Fabric</li>
 			<li>Leathery</li>
+			<li>HF</li>
 		</stuffCategories>
 		<statBases>
 			<MaxHitPoints>50</MaxHitPoints>
@@ -122,6 +124,7 @@
 		<stuffCategories>
 		  <li>Fabric</li>
 		  <li>Leathery</li>
+		  <li>HF</li>
 		</stuffCategories>
 		<thingCategories>
 		  <li>ApparelMisc</li>

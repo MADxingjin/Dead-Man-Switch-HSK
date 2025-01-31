@@ -41,8 +41,11 @@
     </graphicData>  
     <uiIconScale>0.5</uiIconScale>
     <size>(1,1)</size>
+        <stuffCategories>
+    <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
     <costList>
-      <Steel>50</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <researchPrerequisites>
@@ -85,8 +88,11 @@
       </shadowData>
     </graphicData>
     <size>(3,3)</size>
+        <stuffCategories>
+    <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
     <costList>
-      <Steel>50</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
       <ComponentSpacer>1</ComponentSpacer>
     </costList>

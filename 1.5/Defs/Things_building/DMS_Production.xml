@@ -74,8 +74,11 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
+        <stuffCategories>
+    <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>300</costStuffCount>
     <costList>
-      <Steel>300</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
 	    <ComponentSpacer>1</ComponentSpacer>
     </costList>   
@@ -128,8 +131,11 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
+    <stuffCategories>
+    <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>400</costStuffCount>
     <costList>
-      <Steel>400</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
     </costList>   
     <statBases>
@@ -190,8 +196,11 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
+    <stuffCategories>
+    <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>175</costStuffCount>
     <costList>
-      <Steel>170</Steel>
       <ComponentIndustrial>4</ComponentIndustrial>
 	    <ComponentSpacer>1</ComponentSpacer>
     </costList>   
@@ -236,8 +245,11 @@
       </damageData>
     </graphicData>
     <designationCategory>DMS_Category</designationCategory>
+    <stuffCategories>
+    <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>250</costStuffCount>
     <costList>
-      <Steel>250</Steel>
       <ComponentIndustrial>8</ComponentIndustrial>
 	    <ComponentSpacer>1</ComponentSpacer>
     </costList>

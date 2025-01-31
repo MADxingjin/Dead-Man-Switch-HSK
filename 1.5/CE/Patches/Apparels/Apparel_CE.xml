@@ -92,7 +92,7 @@
 					<CarryWeight>30</CarryWeight>
 				</value>
 			</li>
-			
+			<!--
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DMS_Apparel_BionicSuit"]/apparel/bodyPartGroups</xpath>
 				<value>
@@ -100,7 +100,7 @@
 					<li>Feet</li>
 				</value>
 			</li>
-			
+			-->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>Defs/ThingDef[defName="DMS_Apparel_BionicSuit"]</xpath>
 				<value>
@@ -264,6 +264,7 @@
 					<CarryBulk>10</CarryBulk>
 				</value>
 			</li>
+			<!--
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DMS_Apparel_UnitSuit"]/apparel/bodyPartGroups</xpath>
 				<value>
@@ -271,7 +272,7 @@
 					<li>Feet</li>
 				</value>
 			</li>
-
+			-->
 			<!--DMS_Apparel_TacticalCloak-->
 			<li Class="PatchOperationReplace">
 				<xpath>
@@ -295,6 +296,7 @@
 					<ReloadSpeed>0.1</ReloadSpeed>
 				</value>
 			</li>
+			<!--
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DMS_Apparel_TacticalCloak"]/apparel/bodyPartGroups</xpath>
 				<value>
@@ -302,7 +304,7 @@
 					<li>Feet</li>
 				</value>
 			</li>
-			
+			-->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>Defs/ThingDef[defName="DMS_Apparel_TacticalCloak"]</xpath>
 				<value>
@@ -348,6 +350,7 @@
 					</equippedStatOffsets>
 				</value>
 			</li>
+			<!--
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DMS_Apparel_GarrisionCoat"]/apparel/bodyPartGroups</xpath>
 				<value>
@@ -355,7 +358,7 @@
 					<li>Feet</li>
 				</value>
 			</li>
-			
+			-->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>Defs/ThingDef[defName="DMS_Apparel_GarrisionCoat"]</xpath>
 				<value>
