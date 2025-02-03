@@ -38,11 +38,9 @@
 			<Ammo_40SW_FMJ>Bullet_40SW_FMJ</Ammo_40SW_FMJ>
 			<Ammo_40SW_AP>Bullet_40SW_AP</Ammo_40SW_AP>
 			<Ammo_40SW_HP>Bullet_40SW_HP</Ammo_40SW_HP>
-			-->
 			<Ammo_44Magnum_FMJ>Bullet_44Magnum_FMJ</Ammo_44Magnum_FMJ>
 			<Ammo_44Magnum_AP>Bullet_44Magnum_AP</Ammo_44Magnum_AP>
 			<Ammo_44Magnum_HP>Bullet_44Magnum_HP</Ammo_44Magnum_HP>
-			<!-- 
 			<Ammo_410Bore_Buck>Bullet_410Bore_Buck</Ammo_410Bore_Buck>
 			<Ammo_410Bore_Slug>Bullet_410Bore_Slug</Ammo_410Bore_Slug>
 			<Ammo_410Bore_Beanbag>Bullet_410Bore_Beanbag</Ammo_410Bore_Beanbag>

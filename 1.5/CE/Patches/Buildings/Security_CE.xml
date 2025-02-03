@@ -114,7 +114,7 @@
 					<recoilAmount>1.18</recoilAmount>
 					<verbClass>CombatExtended.Verb_ShootCE</verbClass>
 					<hasStandardCommand>true</hasStandardCommand>
-					<defaultProjectile>Bullet_30x173mmNATO_AP</defaultProjectile>
+					<defaultProjectile>Bullet_30x173mm_Incendiary</defaultProjectile>
 					<warmupTime>0.8</warmupTime>
 					<range>86</range>
 					<minRange>9</minRange>
@@ -131,7 +131,7 @@
 				<AmmoUser>
 					<magazineSize>1000</magazineSize>
 					<reloadTime>20</reloadTime>
-					<ammoSet>AmmoSet_30x173mmNATO</ammoSet>
+					<ammoSet>AmmoSet_30x173mm</ammoSet>
 				</AmmoUser>
 				<FireModes>
 					<noSingleShot>true</noSingleShot>

@@ -533,7 +533,7 @@
                     <recoilAmount>3.15</recoilAmount>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
-                    <defaultProjectile>Bullet_30x173mmNATO_AP</defaultProjectile>
+                    <defaultProjectile>Bullet_30x173mm_Incendiary</defaultProjectile>
                     <warmupTime>3.75</warmupTime>
                     <range>95</range>
                     <soundCast>DMS_MachineGunHeavy_Shot</soundCast>
@@ -544,7 +544,7 @@
                 <AmmoUser>
                     <magazineSize>5</magazineSize>
                     <reloadTime>6</reloadTime>
-                    <ammoSet>AmmoSet_30x173mmNATO</ammoSet>
+                    <ammoSet>AmmoSet_30x173mm</ammoSet>
                 </AmmoUser>
                 <FireModes>
                     <aiAimMode>AimedShot</aiAimMode>
@@ -700,7 +700,7 @@
                     <recoilAmount>1.87</recoilAmount>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
-                    <defaultProjectile>Bullet_20x102mmNATO_AP</defaultProjectile>
+                    <defaultProjectile>Bullet_20x102mm_Incendiary</defaultProjectile>
                     <burstShotCount>6</burstShotCount>
                     <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
                     <warmupTime>2.1</warmupTime>
@@ -712,7 +712,7 @@
                 <AmmoUser>
                     <magazineSize>60</magazineSize>
                     <reloadTime>9</reloadTime>
-                    <ammoSet>AmmoSet_20x102mmNATO</ammoSet>
+                    <ammoSet>AmmoSet_20x102mm</ammoSet>
                 </AmmoUser>
                 <FireModes>
                     <aiUseBurstMode>TRUE</aiUseBurstMode>

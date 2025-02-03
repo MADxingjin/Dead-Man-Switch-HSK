@@ -14,7 +14,7 @@
       <ThingDef>DMS_Mech_Falcon</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
-              <li>
+      <li>
         <filter>
           <categories>
             <li>SLDBar</li>
@@ -32,12 +32,12 @@
         <count>6</count>
       </li>
     </ingredients>
-    			<fixedIngredientFilter>
-				<categories>
-					<li>SLDBar</li>
-					<li>USLDBar</li>
-				</categories>
-          </fixedIngredientFilter>
+    <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
   </RecipeDef>
 
   <!--夜蝠-->
@@ -54,7 +54,7 @@
       <ThingDef>DMS_Mech_Noctula</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
-          <li>
+      <li>
         <filter>
           <categories>
             <li>SLDBar</li>
@@ -80,12 +80,12 @@
         <count>1</count>
       </li>
     </ingredients>
-        			<fixedIngredientFilter>
-				<categories>
-					<li>SLDBar</li>
-					<li>USLDBar</li>
-				</categories>
-          </fixedIngredientFilter>
+    <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
   </RecipeDef>
 
   <!--獒犬-->
@@ -102,7 +102,7 @@
       <ThingDef>DMS_Mech_Dogge</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
-          <li>
+      <li>
         <filter>
           <categories>
             <li>SLDBar</li>
@@ -128,12 +128,12 @@
         <count>2</count>
       </li>
     </ingredients>
-        			<fixedIngredientFilter>
-				<categories>
-					<li>SLDBar</li>
-					<li>USLDBar</li>
-				</categories>
-          </fixedIngredientFilter>
+    <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
   </RecipeDef>
 
   <!--士兵-->
@@ -149,7 +149,7 @@
       <ThingDef>DMS_Mech_Soldat</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
-          <li>
+      <li>
         <filter>
           <categories>
             <li>SLDBar</li>
@@ -167,12 +167,12 @@
         <count>5</count>
       </li>
     </ingredients>
-        			<fixedIngredientFilter>
-				<categories>
-					<li>SLDBar</li>
-					<li>USLDBar</li>
-				</categories>
-          </fixedIngredientFilter>
+    <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
   </RecipeDef>
 
   <!--擲彈手-->
@@ -187,7 +187,7 @@
       <ThingDef>DMS_Mech_Grenadier</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
-          <li>
+      <li>
         <filter>
           <categories>
             <li>SLDBar</li>
@@ -227,14 +227,14 @@
         <li>Synthread</li>
         <li>Polyester</li>
       </thingDefs>
-      				<categories>
-					<li>SLDBar</li>
-					<li>USLDBar</li>
-				</categories>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
     </fixedIngredientFilter>
-    
+
   </RecipeDef>
-  
+
   <!--軍士-->
   <RecipeDef ParentName="DMS_LegionMechanoidRecipe">
     <defName>DMS_Make_Sergeant</defName>
@@ -249,7 +249,7 @@
       <ThingDef>DMS_Mech_Sergeant</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
-          <li>
+      <li>
         <filter>
           <categories>
             <li>SLDBar</li>
@@ -275,11 +275,11 @@
         <count>1</count>
       </li>
     </ingredients>
-        			<fixedIngredientFilter>
-				<categories>
-					<li>SLDBar</li>
-					<li>USLDBar</li>
-				</categories>
-          </fixedIngredientFilter>
+    <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
   </RecipeDef>
 </Defs>

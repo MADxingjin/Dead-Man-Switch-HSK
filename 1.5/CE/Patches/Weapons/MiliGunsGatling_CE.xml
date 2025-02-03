@@ -17,7 +17,7 @@
                 <AmmoUser>
                     <magazineSize>150</magazineSize>
                     <reloadTime>15</reloadTime>
-                    <ammoSet>AmmoSet_30x173mmNATO</ammoSet>
+                    <ammoSet>AmmoSet_30x173mm</ammoSet>
                 </AmmoUser>
                 <FireModes>
                     <aiUseBurstMode>FALSE</aiUseBurstMode>
@@ -40,7 +40,7 @@
                             <recoilAmount>1.18</recoilAmount>
                             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                             <hasStandardCommand>true</hasStandardCommand>
-                            <defaultProjectile>Bullet_30x173mmNATO_AP</defaultProjectile>
+                            <defaultProjectile>Bullet_30x173mm_Incendiary</defaultProjectile>
                             <burstShotCount>40</burstShotCount>
                             <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
                             <warmupTime>1.35</warmupTime>
@@ -68,7 +68,7 @@
                 <AmmoUser>
                     <magazineSize>300</magazineSize>
                     <reloadTime>12</reloadTime>
-                    <ammoSet>AmmoSet_20x102mmNATO</ammoSet>
+                    <ammoSet>AmmoSet_20x102mm</ammoSet>
                 </AmmoUser>
                 <FireModes>
                     <aiUseBurstMode>FALSE</aiUseBurstMode>
@@ -91,7 +91,7 @@
                             <recoilAmount>1.09</recoilAmount>
                             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                             <hasStandardCommand>true</hasStandardCommand>
-                            <defaultProjectile>Bullet_20x102mmNATO_AP</defaultProjectile>
+                            <defaultProjectile>Bullet_20x102mm_Incendiary</defaultProjectile>
                             <burstShotCount>25</burstShotCount>
                             <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
                             <warmupTime>0.8</warmupTime>
@@ -121,7 +121,7 @@
                 <AmmoUser>
                     <magazineSize>300</magazineSize>
                     <reloadTime>12</reloadTime>
-                    <ammoSet>AmmoSet_20x102mmNATO</ammoSet>
+                    <ammoSet>AmmoSet_20x102mm</ammoSet>
                 </AmmoUser>
                 <FireModes>
                     <aiUseBurstMode>FALSE</aiUseBurstMode>
@@ -144,7 +144,7 @@
                             <recoilAmount>1.09</recoilAmount>
                             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                             <hasStandardCommand>true</hasStandardCommand>
-                            <defaultProjectile>Bullet_20x102mmNATO_AP</defaultProjectile>
+                            <defaultProjectile>Bullet_20x102mm_Incendiary</defaultProjectile>
                             <burstShotCount>25</burstShotCount>
                             <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
                             <warmupTime>0.8</warmupTime>

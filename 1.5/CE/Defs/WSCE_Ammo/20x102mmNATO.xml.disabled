@@ -11,10 +11,10 @@
 	<!-- ==================== AmmoSet ========================== -->
 
 	<CombatExtended.AmmoSetDef>
-		<defName>AmmoSet_20x102mmNATO</defName>
+		<defName>AmmoSet_20x102mm</defName>
 		<label>20x102mm NATO</label>
 		<ammoTypes>
-			<Ammo_20x102mmNATO_AP>Bullet_20x102mmNATO_AP</Ammo_20x102mmNATO_AP>
+			<Ammo_20x102mmNATO_AP>Bullet_20x102mm_Incendiary</Ammo_20x102mmNATO_AP>
 			<Ammo_20x102mmNATO_Incendiary>Bullet_20x102mmNATO_Incendiary</Ammo_20x102mmNATO_Incendiary>
 			<Ammo_20x102mmNATO_HE>Bullet_20x102mmNATO_HE</Ammo_20x102mmNATO_HE>
 			<Ammo_20x102mmNATO_Sabot>Bullet_20x102mmNATO_Sabot</Ammo_20x102mmNATO_Sabot>
@@ -54,7 +54,7 @@
 			<MarketValue>1.04</MarketValue>
 		</statBases>
 		<ammoClass>ArmorPiercing</ammoClass>
-		<cookOffProjectile>Bullet_20x102mmNATO_AP</cookOffProjectile>
+		<cookOffProjectile>Bullet_20x102mm_Incendiary</cookOffProjectile>
 	</ThingDef>
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="Ammo20x102mmNATOBase">
@@ -117,7 +117,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="Base20x102mmNATOBullet">
-		<defName>Bullet_20x102mmNATO_AP</defName>
+		<defName>Bullet_20x102mm_Incendiary</defName>
 		<label>20x102mm NATO bullet (AP)</label>
 		<projectile Class="CombatExtended.ProjectilePropertiesCE">
 			<damageAmountBase>44</damageAmountBase>
