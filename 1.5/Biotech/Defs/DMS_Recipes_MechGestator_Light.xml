@@ -29,7 +29,31 @@
             <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
-        <count>6</count>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ElectronicComponents</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -69,7 +93,39 @@
             <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
-        <count>6</count>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ElectronicComponents</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wire</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
       </li>
       <li>
         <filter>
@@ -109,7 +165,7 @@
             <li>USLDBar</li>
           </categories>
         </filter>
-        <count>150</count>
+        <count>100</count>
       </li>
       <li>
         <filter>
@@ -117,7 +173,7 @@
             <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
-        <count>7</count>
+        <count>6</count>
       </li>
       <li>
         <filter>
@@ -126,6 +182,46 @@
           </thingDefs>
         </filter>
         <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ElectronicComponents</li>
+          </thingDefs>
+        </filter>
+        <count>7</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Rifle_Component</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Weapon_Parts</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -156,7 +252,7 @@
             <li>USLDBar</li>
           </categories>
         </filter>
-        <count>115</count>
+        <count>75</count>
       </li>
       <li>
         <filter>
@@ -164,7 +260,39 @@
             <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
-        <count>5</count>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ElectronicComponents</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wire</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -194,7 +322,7 @@
             <li>USLDBar</li>
           </categories>
         </filter>
-        <count>75</count>
+        <count>60</count>
       </li>
       <li>
         <filter>
@@ -219,7 +347,39 @@
             <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
-        <count>5</count>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ElectronicComponents</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wire</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -256,15 +416,7 @@
             <li>USLDBar</li>
           </categories>
         </filter>
-        <count>100</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-        <count>5</count>
+        <count>75</count>
       </li>
       <li>
         <filter>
@@ -273,6 +425,46 @@
           </thingDefs>
         </filter>
         <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>9</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ElectronicComponents</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wire</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
