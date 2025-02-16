@@ -44,7 +44,9 @@
     		</researchPrerequisites>
 		</recipeMaker>	
 		<costList>
-			<Steel>20</Steel>
+			<Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+			<ComponentIndustrial>4</ComponentIndustrial>
 		</costList>
 		<verbs>
 			<li>
@@ -145,8 +147,10 @@
     		</researchPrerequisites>
 		</recipeMaker>
 		<costList>
-			<Steel>70</Steel>
-			<ComponentIndustrial>4</ComponentIndustrial>
+			<SMG_Component>1</SMG_Component>
+			<Weapon_Parts>4</Weapon_Parts>
+			<ComponentIndustrial>8</ComponentIndustrial>
+			<Plasteel>20</Plasteel>
 		</costList>
 		<modExtensions>
 			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
@@ -220,8 +224,10 @@
     		</researchPrerequisites>
 		</recipeMaker>
 		<costList>
-			<Steel>35</Steel>
-			<ComponentIndustrial>1</ComponentIndustrial>
+			<Rifle_Component>1</Rifle_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+			<ComponentIndustrial>3</ComponentIndustrial>
+			<Plasteel>10</Plasteel>
 		</costList>
 		<tools Inherit="False">
 			<li>
@@ -308,8 +314,10 @@
 			<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
-			<Steel>45</Steel>
-			<ComponentIndustrial>2</ComponentIndustrial>
+			<Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Plasteel>15</Plasteel>
 		</costList>
 		<verbs>
 			<li>
@@ -411,8 +419,10 @@
     		</researchPrerequisites>
 		</recipeMaker>
 		<costList>
-			<Steel>75</Steel>
-			<ComponentStamped>1</ComponentStamped>
+			<Shotgun_Component>1</Shotgun_Component>
+			<Weapon_Parts>3</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Plasteel>20</Plasteel>
 		</costList>
 		<verbs>
 			<li>
@@ -522,9 +532,10 @@
     		</researchPrerequisites>
 		</recipeMaker>
 		<costList>
-			<Steel>80</Steel>
-			<WoodLog>50</WoodLog>
-			<ComponentIndustrial>3</ComponentIndustrial>
+			<Rifle_Component>1</Rifle_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<Plasteel>15</Plasteel>
 		</costList>		
 		<verbs>
 			<li>
