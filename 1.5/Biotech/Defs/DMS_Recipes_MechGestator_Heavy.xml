@@ -23,13 +23,13 @@
         </filter>
         <count>225</count>
       </li>
-          <li>
+      <li>
         <filter>
           <categories>
             <li>USLDBar</li>
           </categories>
         </filter>
-        <count>155</count>
+        <count>35</count>
       </li>
       <li>
         <filter>
@@ -55,12 +55,52 @@
         </filter>
         <count>1</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Microchips</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AdvMechanism</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentAdvanced</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Rifle_Component</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Weapon_Parts</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
     </ingredients>
-          <fixedIngredientFilter>
-				<categories>
-					<li>USLDBar</li>
-				</categories>
-          </fixedIngredientFilter>
+    <fixedIngredientFilter>
+      <categories>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
   </RecipeDef>
   <!--DMS_Make_Gecko-->
   <RecipeDef ParentName="DMS_SuperHeavyMechanoidRecipe">
@@ -84,8 +124,8 @@
           </thingDefs>
         </filter>
         <count>185</count>
-      </li>  
-          <li>
+      </li>
+      <li>
         <filter>
           <categories>
             <li>USLDBar</li>
@@ -120,25 +160,49 @@
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-        <count>5</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
             <li>Neurocomputer</li>
           </thingDefs>
         </filter>
         <count>1</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Microchips</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AdvMechanism</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Heavy_Component</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Weapon_Parts</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
     </ingredients>
-              <fixedIngredientFilter>
-				<categories>
-					<li>USLDBar</li>
-				</categories>
-          </fixedIngredientFilter>
+    <fixedIngredientFilter>
+      <categories>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
   </RecipeDef>
 
   <!--DMS_Mech_Geochelone-->
@@ -163,15 +227,7 @@
         </filter>
         <count>325</count>
       </li>
-          <li>
-        <filter>
-          <categories>
-            <li>USLDBar</li>
-          </categories>
-        </filter>
-        <count>120</count>
-      </li>
-      <li MayRequire="ludeon.rimworld.royalty"> 
+      <li MayRequire="ludeon.rimworld.royalty">
         <filter>
           <thingDefs>
             <li>BroadshieldCore</li>
@@ -190,25 +246,41 @@
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-        <count>10</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
             <li>Neurocomputer</li>
           </thingDefs>
         </filter>
         <count>1</count>
       </li>
+            <li>
+        <filter>
+          <thingDefs>
+            <li>Microchips</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AdvMechanism</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentAdvanced</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
     </ingredients>
-              <fixedIngredientFilter>
-				<categories>
-					<li>USLDBar</li>
-				</categories>
-          </fixedIngredientFilter>
+    <fixedIngredientFilter>
+      <categories>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
   </RecipeDef>
 
   <!--DMS_Mech_Killdozer-->
@@ -232,14 +304,6 @@
         </filter>
         <count>325</count>
       </li>
-          <li>
-        <filter>
-          <categories>
-            <li>USLDBar</li>
-          </categories>
-        </filter>
-        <count>145</count>
-      </li>
       <li>
         <filter>
           <thingDefs>
@@ -259,25 +323,41 @@
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-        <count>10</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
             <li>Neurocomputer</li>
           </thingDefs>
         </filter>
         <count>1</count>
       </li>
+            <li>
+        <filter>
+          <thingDefs>
+            <li>Microchips</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AdvMechanism</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentAdvanced</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
     </ingredients>
-              <fixedIngredientFilter>
-				<categories>
-					<li>USLDBar</li>
-				</categories>
-          </fixedIngredientFilter>
+    <fixedIngredientFilter>
+      <categories>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
   </RecipeDef>
 
   <!--DMS_Mech_Caretta-->
@@ -292,6 +372,7 @@
       <ThingDef>Neurocomputer</ThingDef>
       <ThingDef>ComponentFireControl</ThingDef>
       <ThingDef>DMS_Mech_Caretta</ThingDef>
+      <ThingDef>DMS_Turret_Vasilek</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
       <li>
@@ -302,14 +383,6 @@
         </filter>
         <count>375</count>
       </li>
-          <li>
-        <filter>
-          <categories>
-            <li>USLDBar</li>
-          </categories>
-        </filter>
-        <count>100</count>
-      </li>
       <li>
         <filter>
           <thingDefs>
@@ -317,14 +390,6 @@
           </thingDefs>
         </filter>
         <count>10</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-        <count>8</count>
       </li>
       <li>
         <filter>
@@ -342,12 +407,52 @@
         </filter>
         <count>1</count>
       </li>
+            <li>
+        <filter>
+          <thingDefs>
+            <li>Microchips</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AdvMechanism</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentAdvanced</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+            <li>
+        <filter>
+          <thingDefs>
+            <li>Cannon_Component</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Weapon_Parts</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
     </ingredients>
-              <fixedIngredientFilter>
-				<categories>
-					<li>USLDBar</li>
-				</categories>
-          </fixedIngredientFilter>
+    <fixedIngredientFilter>
+      <categories>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
   </RecipeDef>
 
   <!--DMS_Mech_HermitCrab-->
@@ -383,18 +488,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-        <count>12</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
             <li>ComponentSpacer</li>
           </thingDefs>
         </filter>
-        <count>2</count>
+        <count>12</count>
       </li>
       <li>
         <filter>
@@ -403,6 +500,22 @@
           </thingDefs>
         </filter>
         <count>1</count>
+      </li>
+            <li>
+        <filter>
+          <thingDefs>
+            <li>Microchips</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AdvMechanism</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
       </li>
       <li>
         <filter>
@@ -467,7 +580,7 @@
             <li>ComponentSpacer</li>
           </thingDefs>
         </filter>
-        <count>3</count>
+        <count>13</count>
       </li>
       <li>
         <filter>
@@ -485,6 +598,38 @@
         </filter>
         <count>1</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Heavy_Component</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Shotgun_Component</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Weapon_Parts</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      				<li>
+					<filter>
+						<thingDefs>
+							<li>AdvMechanism</li>
+						</thingDefs>
+					</filter>
+					<count>10</count>
+				</li>
     </ingredients>
   </RecipeDef>
 </Defs>

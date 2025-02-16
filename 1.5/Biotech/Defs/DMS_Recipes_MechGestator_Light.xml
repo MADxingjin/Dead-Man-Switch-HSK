@@ -42,14 +42,6 @@
       <li>
         <filter>
           <thingDefs>
-            <li>ElectronicComponents</li>
-          </thingDefs>
-        </filter>
-        <count>3</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
             <li>Electronics</li>
           </thingDefs>
         </filter>
@@ -102,14 +94,6 @@
           </thingDefs>
         </filter>
         <count>1</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ElectronicComponents</li>
-          </thingDefs>
-        </filter>
-        <count>4</count>
       </li>
       <li>
         <filter>
@@ -189,15 +173,7 @@
             <li>Mechanism</li>
           </thingDefs>
         </filter>
-        <count>5</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ElectronicComponents</li>
-          </thingDefs>
-        </filter>
-        <count>7</count>
+        <count>3</count>
       </li>
       <li>
         <filter>
@@ -252,7 +228,15 @@
             <li>USLDBar</li>
           </categories>
         </filter>
-        <count>75</count>
+        <count>60</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LeadBar</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
       </li>
       <li>
         <filter>
@@ -268,15 +252,7 @@
             <li>Mechanism</li>
           </thingDefs>
         </filter>
-        <count>4</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ElectronicComponents</li>
-          </thingDefs>
-        </filter>
-        <count>8</count>
+        <count>3</count>
       </li>
       <li>
         <filter>
@@ -322,7 +298,15 @@
             <li>USLDBar</li>
           </categories>
         </filter>
-        <count>60</count>
+        <count>45</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LeadBar</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
       </li>
       <li>
         <filter>
@@ -355,15 +339,7 @@
             <li>Mechanism</li>
           </thingDefs>
         </filter>
-        <count>4</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ElectronicComponents</li>
-          </thingDefs>
-        </filter>
-        <count>8</count>
+        <count>3</count>
       </li>
       <li>
         <filter>
@@ -416,7 +392,15 @@
             <li>USLDBar</li>
           </categories>
         </filter>
-        <count>75</count>
+        <count>60</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>LeadBar</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
       </li>
       <li>
         <filter>
@@ -440,15 +424,7 @@
             <li>Mechanism</li>
           </thingDefs>
         </filter>
-        <count>6</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>ElectronicComponents</li>
-          </thingDefs>
-        </filter>
-        <count>10</count>
+        <count>4</count>
       </li>
       <li>
         <filter>

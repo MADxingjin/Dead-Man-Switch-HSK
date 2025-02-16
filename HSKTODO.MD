@@ -83,7 +83,7 @@ Sort by Weap Ammo, Size(dimension)
     30x165 ,used by GAU-8,but HSK has a builtin GAU-8 and it uses a different ammoset,no comment on that but if we patches it?
     30x173NATO # ! HSK has this one !
     762x385RCannonShell #added
-    127x108 # already added im my setup ,maybe by HMC?
+    127x108,included in HMC,needed to add in loadfolders in case hmc is not loaded.
     81mmMortarShell
     45Colt410BoreSB # only used in DMS_KnuckledusterRevolver, so nerfed that gun to 45ACP only ,no additional import.
     12Gauge
@@ -104,6 +104,9 @@ Sort by Weap Ammo, Size(dimension)
     `DMS_FlameThrower` # Self Def,
 
 ## REF Mech cost tier
+
+Somehow current cost is way too high, still needs nerf.
+
 Different from how CORESK patches their way to biomatterize biotech mechs,DMS mechs are mostly made of metallic,which means way more comp usage.
 
 obviously Artifical muscle will require biomatter to grow with.
@@ -119,6 +122,8 @@ W(ingot) + Al +Silcon(K)(Na) fast
 W(raw ore) + Sulfur + Al + Silcon Slow
 FUN:
 designate WCo Alloy as tungsteel(very fast)
+
+
 
 1. Soldat Based
    1. 4 Mech Parts = 2 for arms and legs, 1 for weapon attach, 1 for head.
@@ -137,5 +142,12 @@ designate WCo Alloy as tungsteel(very fast)
    1. Already requires tungsteel, it requires 4 adv mech parts to operate as a mil tier mech.
 5. Super Heavy
    1. Gecko
-6. Addon-Synth
+6. Addon TODO
    1. Big sister requires additional resource to support its embedded structure.
+
+
+## REF Heavy Mech Builtin Weapon
+Iguana -> 5.56x45NATO SMG -> Rifle
+Gecko -> Flamethrower -> Heavy
+Tarbosaurus -> .50BMG HMG -> Heavy
+Tarbosaurus -> CIDS shotgun -> Shotgun

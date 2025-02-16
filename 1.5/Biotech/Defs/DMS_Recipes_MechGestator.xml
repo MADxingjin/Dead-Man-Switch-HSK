@@ -21,7 +21,7 @@
             <li>USLDBar</li>
           </categories>
         </filter>
-        <count>110</count>
+        <count>80</count>
       </li>
       <li>
         <filter>
@@ -46,6 +46,30 @@
           </thingDefs>
         </filter>
         <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wire</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -78,7 +102,7 @@
             <li>USLDBar</li>
           </categories>
         </filter>
-        <count>150</count>
+        <count>110</count>
       </li>
       <li>
         <filter>
@@ -103,7 +127,23 @@
             <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
-        <count>4</count>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wire</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -138,7 +178,7 @@
             <li>USLDBar</li>
           </categories>
         </filter>
-        <count>120</count>
+        <count>130</count>
       </li>
       <li>
         <filter>
@@ -160,18 +200,42 @@
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-        <count>4</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
             <li>ComponentTransmitter</li>
           </thingDefs>
         </filter>
         <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wire</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -205,7 +269,7 @@
             <li>USLDBar</li>
           </categories>
         </filter>
-        <count>130</count>
+        <count>110</count>
       </li>
       <li>
         <filter>
@@ -222,7 +286,7 @@
             <li>ComponentStamped</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>2</count>
       </li>
       <li>
         <filter>
@@ -230,7 +294,31 @@
             <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
         <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wire</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -264,7 +352,15 @@
             <li>USLDBar</li>
           </categories>
         </filter>
-        <count>160</count>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Tungsteel</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
       </li>
       <li>
         <filter>
@@ -289,7 +385,31 @@
             <li>ComponentIndustrial</li>
           </thingDefs>
         </filter>
-        <count>5</count>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wire</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -319,7 +439,7 @@
       <ThingDef>DMS_Mech_Ronin</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
-          <li>
+      <li>
         <filter>
           <categories>
             <li>SLDBar</li>
@@ -355,11 +475,35 @@
       </li>
       <li>
         <filter>
+          <categories>
+            <li>HCMBar</li>
+          </categories>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
+            <li>ComponentAdvanced</li>
           </thingDefs>
         </filter>
-        <count>3</count>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -370,6 +514,7 @@
       <categories>
         <li>SLDBar</li>
         <li>USLDBar</li>
+        <li>HCMBar</li>
       </categories>
     </fixedIngredientFilter>
   </RecipeDef>
@@ -386,7 +531,7 @@
       <ThingDef>DMS_Mech_Gladiator</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
-          <li>
+      <li>
         <filter>
           <categories>
             <li>SLDBar</li>
@@ -422,11 +567,35 @@
       </li>
       <li>
         <filter>
+          <categories>
+            <li>HCMBar</li>
+          </categories>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
+            <li>ComponentAdvanced</li>
           </thingDefs>
         </filter>
-        <count>3</count>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -437,6 +606,7 @@
       <categories>
         <li>SLDBar</li>
         <li>USLDBar</li>
+        <li>HCMBar</li>
       </categories>
     </fixedIngredientFilter>
   </RecipeDef>
@@ -453,7 +623,7 @@
       <ThingDef>DMS_Mech_Siegebreaker</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
-          <li>
+      <li>
         <filter>
           <categories>
             <li>SLDBar</li>
@@ -497,11 +667,35 @@
       </li>
       <li>
         <filter>
+          <categories>
+            <li>HCMBar</li>
+          </categories>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
+            <li>ComponentAdvanced</li>
           </thingDefs>
         </filter>
-        <count>3</count>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -512,6 +706,7 @@
       <categories>
         <li>SLDBar</li>
         <li>USLDBar</li>
+        <li>HCMBar</li>
       </categories>
     </fixedIngredientFilter>
   </RecipeDef>
@@ -528,7 +723,7 @@
       <ThingDef>DMS_Mech_Protector</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
-          <li>
+      <li>
         <filter>
           <categories>
             <li>SLDBar</li>
@@ -564,11 +759,35 @@
       </li>
       <li>
         <filter>
+          <categories>
+            <li>HCMBar</li>
+          </categories>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
+            <li>ComponentAdvanced</li>
           </thingDefs>
         </filter>
-        <count>3</count>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -579,6 +798,7 @@
       <categories>
         <li>SLDBar</li>
         <li>USLDBar</li>
+        <li>HCMBar</li>
       </categories>
     </fixedIngredientFilter>
   </RecipeDef>
@@ -632,11 +852,35 @@
       </li>
       <li>
         <filter>
+          <categories>
+            <li>HCMBar</li>
+          </categories>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
+            <li>ComponentAdvanced</li>
           </thingDefs>
         </filter>
-        <count>3</count>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -647,6 +891,7 @@
       <categories>
         <li>SLDBar</li>
         <li>USLDBar</li>
+        <li>HCMBar</li>
       </categories>
     </fixedIngredientFilter>
   </RecipeDef>
@@ -667,7 +912,7 @@
       <ThingDef>DMS_Mech_Arquebusier</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
-          <li>
+      <li>
         <filter>
           <categories>
             <li>SLDBar</li>
@@ -703,12 +948,44 @@
       </li>
       <li>
         <filter>
+          <categories>
+            <li>HCMBar</li>
+          </categories>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
+            <li>ComponentAdvanced</li>
           </thingDefs>
         </filter>
-        <count>3</count>
+        <count>6</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      				<li>
+					<filter>
+						<thingDefs>
+							<li>AdvMechanism</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
@@ -718,6 +995,7 @@
       <categories>
         <li>SLDBar</li>
         <li>USLDBar</li>
+        <li>HCMBar</li>
       </categories>
     </fixedIngredientFilter>
   </RecipeDef>
@@ -771,12 +1049,44 @@
       </li>
       <li>
         <filter>
+          <categories>
+            <li>HCMBar</li>
+          </categories>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
+            <li>ComponentAdvanced</li>
           </thingDefs>
         </filter>
-        <count>3</count>
+        <count>6</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      				<li>
+					<filter>
+						<thingDefs>
+							<li>AdvMechanism</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
@@ -786,6 +1096,7 @@
       <categories>
         <li>SLDBar</li>
         <li>USLDBar</li>
+        <li>HCMBar</li>
       </categories>
     </fixedIngredientFilter>
   </RecipeDef>
@@ -803,7 +1114,7 @@
       <ThingDef>DMS_Mech_Sniper</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
-          <li>
+      <li>
         <filter>
           <categories>
             <li>SLDBar</li>
@@ -840,19 +1151,43 @@
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-        <count>3</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
             <li>ComponentFireControl</li>
           </thingDefs>
         </filter>
         <count>1</count>
       </li>
+      <li>
+        <filter>
+          <categories>
+            <li>HCMBar</li>
+          </categories>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentAdvanced</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      				<li>
+					<filter>
+						<thingDefs>
+							<li>AdvMechanism</li>
+						</thingDefs>
+					</filter>
+					<count>4</count>
+				</li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
@@ -862,6 +1197,7 @@
       <categories>
         <li>SLDBar</li>
         <li>USLDBar</li>
+        <li>HCMBar</li>
       </categories>
     </fixedIngredientFilter>
   </RecipeDef>
@@ -878,7 +1214,7 @@
       <ThingDef>DMS_Mech_Jaeger</ThingDef>
     </descriptionHyperlinks>
     <ingredients Inherit="False">
-          <li>
+      <li>
         <filter>
           <categories>
             <li>SLDBar</li>
@@ -914,24 +1250,57 @@
       <li>
         <filter>
           <thingDefs>
-            <li>ComponentIndustrial</li>
-          </thingDefs>
-        </filter>
-        <count>3</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
             <li>ComponentSpacer</li>
           </thingDefs>
         </filter>
         <count>2</count>
       </li>
+      <li>
+        <filter>
+          <categories>
+            <li>HCMBar</li>
+          </categories>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentAdvanced</li>
+          </thingDefs>
+        </filter>
+        <count>6</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Electronics</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      				<li>
+					<filter>
+						<thingDefs>
+							<li>AdvMechanism</li>
+						</thingDefs>
+					</filter>
+					<count>2</count>
+				</li>
     </ingredients>
     <fixedIngredientFilter>
       <categories>
         <li>SLDBar</li>
         <li>USLDBar</li>
+        <li>HCMBar</li>
       </categories>
     </fixedIngredientFilter>
   </RecipeDef>

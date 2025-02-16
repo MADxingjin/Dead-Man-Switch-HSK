@@ -56,7 +56,7 @@
 	<ThingDef Name="DMS_BaseMakeableGun" ParentName="DMS_AutomatroidGun" Abstract="True">
 		<recipeMaker>
 			<recipeUsers Inherit="False">
-				<li>TableMachining</li>
+				<li>WeaponCraftingWorkTable</li>
 				<li>DMS_TableMachinePrinter</li>
 			</recipeUsers>
 		</recipeMaker>
