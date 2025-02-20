@@ -4,6 +4,7 @@
   <ThingDef ParentName="UniversalFermenterBase" Class="UniversalFermenterSK.ThingDef_UF">
     <defName>DMS_UF_ReactionChamber</defName>
     <label>Pressure Chamber</label>
+    <designationCategory>DMS_Category</designationCategory>
     <!-- 巨大的工業生產設備,用於在常溫常壓環境下製造出高壓環境來使材料發生交互反應. -->
     <description>A massive industrial-grade vacuum chamber used to create a high-pressure
       environment to create mineral alloys.</description>
@@ -56,6 +57,7 @@
       <li>BiofuelRefining</li>
       <li>DMS_Material</li>
     </researchPrerequisites>
+    <!-- 
     <modExtensions>
       <li Class="RecipeInheritance.ThingDefExtension">
         <inheritRecipesFrom>
@@ -63,6 +65,7 @@
         </inheritRecipesFrom>
       </li>
     </modExtensions>
+    -->
     <!-- UF -->
     <showProductIcon>true</showProductIcon>
     <barOffset>(0.0, 0.25)</barOffset>
@@ -75,6 +78,7 @@
   <ThingDef ParentName="UniversalFermenterBase" Class="UniversalFermenterSK.ThingDef_UF">
     <defName>DMS_UF_TableArtifuscle</defName>
     <label>Artifuscle Chamber</label>
+    <designationCategory>DMS_Category</designationCategory>
     <!-- 用於培育人工肌肉束與人工肌肉仿生體的高端生產設備. -->
     <description>High-end production equipment for cultivating Artifuscle and bionics.</description>
     <graphicData>
@@ -123,6 +127,6 @@
     <barOffset>(0.0, 0.25)</barOffset>
     <barScale>(1.0, 1.0)</barScale>
     <slotsCount>3</slotsCount>
-    <insulation>1</insulation>
+    <insulation>0.33</insulation>
   </ThingDef>
 </Defs>

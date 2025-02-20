@@ -30,7 +30,7 @@
     <prioritizeSustains>false</prioritizeSustains>
   </WorkGiverDef>
 
-<!-- BUGGY DUE TO HSK HAS MULTI METAL CHOICES TO USE.
+  <!-- BUGGY DUE TO HSK HAS MULTI METAL CHOICES TO USE.
   <DesignatorDropdownGroupDef>
     <defName>DMS_MachineHound</defName>
     <label>machine platforms</label>
@@ -94,8 +94,11 @@
       <Mass>6</Mass>
       <Flammability>0.5</Flammability>
     </statBases>
+    <stuffCategories>
+      <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
     <costList>
-      <Plasteel>50</Plasteel>
       <Electronics>2</Electronics>
       <ComponentIndustrial>2</ComponentIndustrial>
       <Mechanism>3</Mechanism>
@@ -126,8 +129,11 @@
       <Mass>6</Mass>
       <Flammability>0.5</Flammability>
     </statBases>
+    <stuffCategories>
+      <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
     <costList>
-      <Plasteel>50</Plasteel>
       <Electronics>2</Electronics>
       <ComponentIndustrial>2</ComponentIndustrial>
       <Mechanism>3</Mechanism>
@@ -158,8 +164,11 @@
       <Mass>6</Mass>
       <Flammability>0.5</Flammability>
     </statBases>
+    <stuffCategories>
+      <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
     <costList>
-      <Plasteel>50</Plasteel>
       <Electronics>2</Electronics>
       <ComponentIndustrial>2</ComponentIndustrial>
       <Mechanism>3</Mechanism>

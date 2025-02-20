@@ -1,5 +1,7 @@
 # HSK(ify) TODO.MD
 
+WTF UF only allows one RecipeUser Per Recipe.
+
 ## Working on
 Weap classify > COST HSKify
 

@@ -9,7 +9,7 @@
     <jobString>Synthesizing.</jobString>
     <recipeUsers>
       <li>DMS_UF_ReactionChamber</li>
-      <li>BiofuelRefinery</li>
+      <!-- <li>BiofuelRefinery</li>-->
     </recipeUsers>
     <researchPrerequisite>DMS_Plasfiber</researchPrerequisite>
     <ingredients>
@@ -157,9 +157,11 @@
     <description>Grow artificial muscle using plasfiber as skin and tungsteel as bone, gold as
       neurofilament and neutroamine as blood.</description>
     <jobString>Growing artifuscle.</jobString>
+    <!-- 
     <descriptionHyperlinks>
       <ThingDef>Artifuscle</ThingDef>
     </descriptionHyperlinks>
+    -->
     <recipeUsers>
       <li>DMS_UF_TableArtifuscle</li>
     </recipeUsers>
@@ -219,9 +221,11 @@
     <label>Grow artifuscle x100</label>
     <description>Grow a large batch of artifuscle.</description>
     <jobString>Growing artifuscle.</jobString>
+    <!-- 
     <descriptionHyperlinks>
       <ThingDef>Artifuscle</ThingDef>
     </descriptionHyperlinks>
+    -->
     <recipeUsers>
       <li>DMS_UF_TableArtifuscle</li>
     </recipeUsers>
