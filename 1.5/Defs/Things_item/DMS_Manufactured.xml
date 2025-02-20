@@ -23,6 +23,7 @@
       <StuffPower_Insulation_Cold>10</StuffPower_Insulation_Cold>
       <StuffPower_Insulation_Heat>24</StuffPower_Insulation_Heat>
     </statBases>
+    <stackLimit>300</stackLimit>
     <burnableByRecipe>true</burnableByRecipe>
     <healthAffectsPrice>false</healthAffectsPrice>
     <minRewardCount>75</minRewardCount>
@@ -40,7 +41,7 @@
       </statFactors>
     </stuffProps>
     <thingCategories>
-      <li>Textiles</li>
+      <li>HTextiles</li>
     </thingCategories>
     <tradeTags>
       <li>ExoticMisc</li>
@@ -48,6 +49,11 @@
     <thingSetMakerTags>
       <li>RewardStandardCore</li>
     </thingSetMakerTags>
+    		<comps>
+			<li>
+				<compClass>CompColorable</compClass>
+			</li>
+		</comps>
   </ThingDef>
 
   <!-- 塑化纖維 玩家能生產的進階纖維，性質接近魔鬼布。製造需要塑鋼。-->  
@@ -70,8 +76,9 @@
       <StuffPower_Armor_Blunt>0.1</StuffPower_Armor_Blunt>
       <StuffPower_Armor_Heat>2.50</StuffPower_Armor_Heat>
       <StuffPower_Insulation_Cold>15</StuffPower_Insulation_Cold>
-      <StuffPower_Insulation_Heat>0</StuffPower_Insulation_Heat>
+      <StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
     </statBases>
+    <stackLimit>150</stackLimit>
     <burnableByRecipe>true</burnableByRecipe>
     <healthAffectsPrice>false</healthAffectsPrice>
     <minRewardCount>30</minRewardCount>
@@ -88,7 +95,7 @@
       </statFactors>
     </stuffProps>
     <thingCategories>
-      <li>Textiles</li>
+      <li>HTextiles</li>
     </thingCategories>
     <tradeTags>
       <li>ExoticMisc</li>
@@ -123,8 +130,10 @@
       <SharpDamageMultiplier>1.2</SharpDamageMultiplier>
       <BluntDamageMultiplier>1.1</BluntDamageMultiplier>
     </statBases>
+    <stackLimit>150</stackLimit>
     <thingCategories>
-      <li>ResourcesRaw</li>
+			<li>USLDBar</li>
+			<li>USLDHBar</li>
     </thingCategories>
     <tradeTags>
       <li>ExoticMisc</li>
@@ -134,6 +143,9 @@
     <stuffProps>
       <categories>
         <li>Metallic</li>
+        <li>SolidMetallic</li>
+				<li>StrongMetallic</li>
+				<li>RuggedMetallic</li>
       </categories>
       <appearance>Metal</appearance>
       <commonality>0</commonality>
@@ -215,7 +227,7 @@
     <defName>Artifuscle</defName>
     <label>Artifuscle</label>
     <description>Artifuscle is a type of prosthetic material made from genetically enhanced lab grown muscle-fiber bundles.</description>
-    <descriptionHyperlinks><ThingDef>DMS_TableArtifuscle</ThingDef></descriptionHyperlinks>
+    <descriptionHyperlinks><ThingDef>DMS_UF_TableArtifuscle</ThingDef></descriptionHyperlinks>
     <graphicData>
       <texPath>Things/Resource/Artifuscle</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -316,7 +328,7 @@
     <defName>Neurocomputer</defName>
     <label>Wetware computer</label>
     <description>An organic computer which functions as an artificial organic brain. It fills the role of a cheap computational brain for factions without access to rare metals and precision machining.</description>
-    <descriptionHyperlinks><ThingDef>DMS_TableArtifuscle</ThingDef></descriptionHyperlinks>
+    <descriptionHyperlinks><ThingDef>DMS_UF_TableArtifuscle</ThingDef></descriptionHyperlinks>
     <possessionCount>2</possessionCount>
     <graphicData>
       <texPath>Things/Resource/ComponentBioCPU</texPath>

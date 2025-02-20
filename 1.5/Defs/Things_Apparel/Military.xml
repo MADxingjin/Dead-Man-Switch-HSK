@@ -5,7 +5,8 @@
 		<defName>DMS_Apparel_BionicSuit</defName>
 		<label>Bionic Suit</label>
 		<description>A step above the civilian model Powered Exoskeleton Suit, this military grade bionic suit is sewn from artificial muscle fibers and amplifies the wearers pre-existing muscular strength. Greatly increases the wearers carrying capacity and movement speed.</description>
-		<techLevel>Industrial</techLevel>
+		<techLevel>Spacer</techLevel>
+    <!-- 
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
@@ -22,6 +23,7 @@
 			<Artifuscle>75</Artifuscle>
 			<Chemfuel>20</Chemfuel>
 		</costList>
+    -->
 		<tradeTags>
 			<li>DMS_Armor</li>
 		</tradeTags>
@@ -33,7 +35,7 @@
 			<li>ApparelArmor</li>
 		</thingCategories>
 		<statBases>
-			<WorkToMake>8000</WorkToMake>
+			<!-- <WorkToMake>8000</WorkToMake>-->
 			<Mass>7</Mass>
 			<ArmorRating_Sharp>0.4</ArmorRating_Sharp>
 			<ArmorRating_Blunt>0.4</ArmorRating_Blunt>

@@ -15,7 +15,7 @@
     </requiredCapacities>
     <prioritizeSustains>false</prioritizeSustains>
   </WorkGiverDef>
-  
+
   <WorkGiverDef>
     <defName>DMS_Mechanoids_AttachTurret</defName>
     <label>attach turret</label>
@@ -30,11 +30,12 @@
     <prioritizeSustains>false</prioritizeSustains>
   </WorkGiverDef>
 
+<!-- BUGGY DUE TO HSK HAS MULTI METAL CHOICES TO USE.
   <DesignatorDropdownGroupDef>
     <defName>DMS_MachineHound</defName>
     <label>machine platforms</label>
   </DesignatorDropdownGroupDef>
-
+-->
   <ThingDef Name="DMS_BaseChargeStation" ParentName="BuildingBase" Abstract="True">
     <thingClass>VFE.Mechanoids.Buildings.Building_BedMachine</thingClass>
     <graphicData>
@@ -68,11 +69,11 @@
       <li Class="CompProperties_Flickable" />
     </comps>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
-      <passability>Standable</passability>
-      <blockWind>false</blockWind>
-      <rotatable>false</rotatable>
-      <fillPercent>0.1</fillPercent>
-      <uiIconScale>0.8</uiIconScale>
+    <passability>Standable</passability>
+    <blockWind>false</blockWind>
+    <rotatable>false</rotatable>
+    <fillPercent>0.1</fillPercent>
+    <uiIconScale>0.8</uiIconScale>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationCategory>DMS_Category</designationCategory>
     <researchPrerequisites>
@@ -93,12 +94,12 @@
       <Mass>6</Mass>
       <Flammability>0.5</Flammability>
     </statBases>
-    <stuffCategories>
-    <li>RuggedMetallic</li>
-    </stuffCategories>
-    <costStuffCount>75</costStuffCount>
     <costList>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <Plasteel>50</Plasteel>
+      <Electronics>2</Electronics>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Mechanism>3</Mechanism>
+      <Carbon>3</Carbon>
     </costList>
     <comps>
       <li Class="CompProperties_Power">
@@ -118,19 +119,19 @@
     <defName>DMS_VerlingBird_Base</defName>
     <label>Verlingbird Charging Station</label>
     <description>A station for assembling and recharging Verlingbirds.</description>
-    <designatorDropdown>DMS_MachineHound</designatorDropdown>
+    <!-- <designatorDropdown>DMS_MachineHound</designatorDropdown>-->
     <statBases>
       <WorkToBuild>1000</WorkToBuild>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>6</Mass>
       <Flammability>0.5</Flammability>
     </statBases>
-    <stuffCategories>
-    <li>RuggedMetallic</li>
-    </stuffCategories>
-    <costStuffCount>75</costStuffCount>
     <costList>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <Plasteel>50</Plasteel>
+      <Electronics>2</Electronics>
+      <ComponentIndustrial>2</ComponentIndustrial>
+      <Mechanism>3</Mechanism>
+      <Carbon>3</Carbon>
     </costList>
     <comps>
       <li Class="CompProperties_Power">
@@ -150,19 +151,19 @@
     <defName>DMS_Hound_Base</defName>
     <label>Hound Charging Station</label>
     <description>A station for assembling and recharging Hounds.</description>
-    <designatorDropdown>DMS_MachineHound</designatorDropdown>
+    <!-- <designatorDropdown>DMS_MachineHound</designatorDropdown>-->
     <statBases>
       <WorkToBuild>1000</WorkToBuild>
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>6</Mass>
       <Flammability>0.5</Flammability>
     </statBases>
-    <stuffCategories>
-    <li>RuggedMetallic</li>
-    </stuffCategories>
-    <costStuffCount>75</costStuffCount>
     <costList>
+      <Plasteel>50</Plasteel>
+      <Electronics>2</Electronics>
       <ComponentIndustrial>2</ComponentIndustrial>
+      <Mechanism>3</Mechanism>
+      <Carbon>3</Carbon>
     </costList>
     <comps>
       <li Class="CompProperties_Power">
@@ -180,7 +181,8 @@
   <ThingDef ParentName="BaseMechCharger">
     <defName>DMS_Recharger</defName>
     <label>Automatroid Recharger</label>
-    <description>Automatroids can recharge here. During the charging cycle, toxic wastepacks are produced and stored internally. Haulers must remove the wastepacks from time to time.</description>
+    <description>Automatroids can recharge here. During the charging cycle, toxic wastepacks are
+      produced and stored internally. Haulers must remove the wastepacks from time to time.</description>
     <graphicData>
       <texPath>Things/Building/MechCharger</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -228,12 +230,17 @@
         </west>
       </barDrawData>
     </building>
-        <stuffCategories>
-    <li>RuggedMetallic</li>
+    <stuffCategories>
+      <li>Metallic</li>
     </stuffCategories>
-    <costStuffCount>100</costStuffCount>
+    <costStuffCount>175</costStuffCount>
     <costList>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <Plastic>35</Plastic>
+      <GoldBar>30</GoldBar>
+      <ElectronicComponents>8</ElectronicComponents>
+      <Mechanism>2</Mechanism>
+      <Electronics>2</Electronics>
+      <ComponentAdvanced>2</ComponentAdvanced>
     </costList>
     <researchPrerequisites>
       <li>DMS_Automatroid</li>

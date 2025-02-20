@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <ThingDef ParentName="UniversalFermenterBase" Class="UniversalFermenterSK.ThingDef_UF">
+    <defName>DMS_UF_ReactionChamber</defName>
+    <label>Pressure Chamber</label>
+    <!-- 巨大的工業生產設備,用於在常溫常壓環境下製造出高壓環境來使材料發生交互反應. -->
+    <description>A massive industrial-grade vacuum chamber used to create a high-pressure
+      environment to create mineral alloys.</description>
+    <graphicData>
+      <texPath>Things/Building/ReactionChamber</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(5,5)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <stuffCategories>
+      <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>300</costStuffCount>
+    <costList>
+      <ReinforcedConcrete>40</ReinforcedConcrete>
+      <ComponentSpacer>4</ComponentSpacer>
+      <ComponentStamped>4</ComponentStamped>
+      <Mechanism>10</Mechanism>
+      <ElectronicComponents>4</ElectronicComponents>
+      <Electronics>2</Electronics>
+      <Wire>60</Wire>
+    </costList>
+    <statBases>
+      <WorkToBuild>3000</WorkToBuild>
+      <MaxHitPoints>1200</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Cleanliness>2</Cleanliness>
+      <WorkTableWorkSpeedFactor>2.0</WorkTableWorkSpeedFactor>
+    </statBases>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <size>(3,3)</size>
+    <interactionCellOffset>(0,0,-2)</interactionCellOffset>
+    <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+    <recipes>
+    </recipes>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>900</basePowerConsumption>
+        <idlePowerDraw>300</idlePowerDraw>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>BiofuelRefining</li>
+      <li>DMS_Material</li>
+    </researchPrerequisites>
+    <modExtensions>
+      <li Class="RecipeInheritance.ThingDefExtension">
+        <inheritRecipesFrom>
+          <li>BiofuelRefinery</li>
+        </inheritRecipesFrom>
+      </li>
+    </modExtensions>
+    <!-- UF -->
+    <showProductIcon>true</showProductIcon>
+    <barOffset>(0.0, 0.25)</barOffset>
+    <barScale>(1.0, 1.0)</barScale>
+    <slotsCount>30</slotsCount>
+    <insulation>1</insulation>
+
+  </ThingDef>
+
+  <ThingDef ParentName="UniversalFermenterBase" Class="UniversalFermenterSK.ThingDef_UF">
+    <defName>DMS_UF_TableArtifuscle</defName>
+    <label>Artifuscle Chamber</label>
+    <!-- 用於培育人工肌肉束與人工肌肉仿生體的高端生產設備. -->
+    <description>High-end production equipment for cultivating Artifuscle and bionics.</description>
+    <graphicData>
+      <texPath>Things/Building/ArtifuscleTable</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(5,3)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <stuffCategories>
+      <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>175</costStuffCount>
+    <costList>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
+    </costList>
+    <statBases>
+      <WorkToBuild>3000</WorkToBuild>
+      <MaxHitPoints>200</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <Cleanliness>2</Cleanliness>
+    </statBases>
+    <size>(3,1)</size>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <recipes>
+    </recipes>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>800</basePowerConsumption>
+        <idlePowerDraw>300</idlePowerDraw>
+      </li>
+    </comps>
+    <researchPrerequisites>
+      <li>DMS_Artifuscle</li>
+    </researchPrerequisites>
+          <!-- UF -->
+    <showProductIcon>true</showProductIcon>
+    <barOffset>(0.0, 0.25)</barOffset>
+    <barScale>(1.0, 1.0)</barScale>
+    <slotsCount>3</slotsCount>
+    <insulation>1</insulation>
+  </ThingDef>
+</Defs>

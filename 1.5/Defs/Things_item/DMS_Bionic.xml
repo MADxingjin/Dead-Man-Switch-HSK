@@ -710,6 +710,7 @@
     <techHediffsTags>
       <li>DMS_Synth_Bionic</li>
     </techHediffsTags>
+    <!-- 
     <statBases>
       <WorkToMake>26000</WorkToMake>
     </statBases>
@@ -729,6 +730,7 @@
       </recipeUsers>
       <displayPriority>300</displayPriority>
     </recipeMaker>
+    -->
   </ThingDef>
 
   
@@ -739,6 +741,7 @@
 	</description>
     <descriptionHyperlinks><RecipeDef>DMS_InstallSensoryFilter</RecipeDef></descriptionHyperlinks>
     <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+    <!-- 
     <costList>
       <Plasfiber>15</Plasfiber>
       <ComponentSpacer>1</ComponentSpacer>
@@ -746,6 +749,7 @@
     <recipeMaker>
       <researchPrerequisite>DMS_OrganSurgery</researchPrerequisite>
     </recipeMaker>
+    -->
   </ThingDef>
 
   <RecipeDef ParentName="SurgeryInstallImplantBase">
@@ -833,6 +837,7 @@
     <description>A total overhaul of the patient's digestive system, replacing it with a fueling port and nutrient storage.</description>
     <descriptionHyperlinks><RecipeDef>DMS_InstallNutrientPort</RecipeDef></descriptionHyperlinks>
     <thingSetMakerTags><li>RewardStandardLowFreq</li></thingSetMakerTags>
+    <!-- 
     <costList>
       <Plasfiber>15</Plasfiber>
       <Neutroamine>20</Neutroamine>
@@ -841,6 +846,7 @@
     <recipeMaker>
       <researchPrerequisite>DMS_OrganSurgery</researchPrerequisite>
     </recipeMaker>
+    -->
   </ThingDef>
 
   <RecipeDef ParentName="DMS_SurgeryInstallBase">
@@ -928,9 +934,11 @@
     <label>Biosynthetic arm</label>
     <description>An advanced artificial arm composed of synthetic muscles and plasfiber skin grown on bone made by tungsteel.</description>
     <descriptionHyperlinks><RecipeDef>DMS_InstallSyntheticArm</RecipeDef></descriptionHyperlinks>
+    <!-- 
     <costList>
       <Artifuscle>40</Artifuscle>
     </costList>
+    -->
     <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
     <statBases>
       <Mass>5</Mass>
@@ -1009,9 +1017,11 @@
     <label>Biosynthetic leg</label>
     <description>An advanced artificial leg. With its biogel nerve-link, powerful mini-servos, and lattice-dust healing system, it is better than a biological leg in almost every way.</description>
     <descriptionHyperlinks><RecipeDef>DMS_InstallSyntheticLeg</RecipeDef></descriptionHyperlinks>
+    <!-- 
     <costList>
       <Artifuscle>40</Artifuscle>
     </costList>
+    -->
     <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
     <statBases>
       <Mass>8</Mass>

@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+  <!-- 反應釜 -->
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_Make_Polyester</defName>
+    <label>Make polyester x50</label>
+    <description>Synthesize synthetic polyester fibers using chemfuel.</description>
+    <jobString>Synthesizing.</jobString>
+    <recipeUsers>
+      <li>DMS_UF_ReactionChamber</li>
+      <li>BiofuelRefinery</li>
+    </recipeUsers>
+    <researchPrerequisite>DMS_Plasfiber</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Polyester>50</Polyester>
+    </products>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>false</usesTemperature>
+    <processDays>1.5</processDays>
+  </RecipeDef>
+
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_Make_PolyesterMass</defName>
+    <label>Make polyester x200</label>
+    <description>Synthesize synthetic polyester fibers using chemfuel.</description>
+    <jobString>Synthesizing.</jobString>
+    <recipeUsers>
+      <li>DMS_UF_ReactionChamber</li>
+    </recipeUsers>
+    <researchPrerequisite>DMS_Plasfiber</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Polyester>200</Polyester>
+    </products>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>false</usesTemperature>
+    <processDays>1.5</processDays>
+    <slotsRequired>4</slotsRequired>
+  </RecipeDef>
+
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_Make_Plasfiber</defName>
+    <label>Make plasfiber x25</label>
+    <description>Synthesize plasfibers.</description>
+    <jobString>Synthesizing.</jobString>
+    <recipeUsers>
+      <li>DMS_UF_ReactionChamber</li>
+    </recipeUsers>
+    <researchPrerequisite>DMS_Plasfiber</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Polyester</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Polyester</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Plasfiber>25</Plasfiber>
+    </products>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>false</usesTemperature>
+    <processDays>1.5</processDays>
+    <slotsRequired>3</slotsRequired>
+  </RecipeDef>
+
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_Make_PlasfiberMass</defName>
+    <label>Make plasfiber x100</label>
+    <description>Synthesize a large batch of plasfiber.</description>
+    <jobString>Synthesizing.</jobString>
+    <recipeUsers>
+      <li>DMS_UF_ReactionChamber</li>
+    </recipeUsers>
+    <researchPrerequisite>DMS_Plasfiber</researchPrerequisite>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Polyester</li>
+          </thingDefs>
+        </filter>
+        <count>300</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Polyester</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Plasfiber>100</Plasfiber>
+    </products>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>false</usesTemperature>
+    <processDays>1.5</processDays>
+    <slotsRequired>12</slotsRequired>
+  </RecipeDef>
+
+  <!-- 合成肌肉培育槽 -->
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_Make_Artifuscle</defName>
+    <label>Grow artifuscle x25</label>
+    <description>Grow artificial muscle using plasfiber as skin and tungsteel as bone, gold as
+      neurofilament and neutroamine as blood.</description>
+    <jobString>Growing artifuscle.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>Artifuscle</ThingDef>
+    </descriptionHyperlinks>
+    <recipeUsers>
+      <li>DMS_UF_TableArtifuscle</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Tungsteel</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasfiber</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gold</li>
+        <li>Tungsteel</li>
+        <li>Plasfiber</li>
+        <li>Neutroamine</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Artifuscle>25</Artifuscle>
+    </products>
+    <researchPrerequisite>DMS_Artifuscle</researchPrerequisite>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>true</usesTemperature>
+    <processDays>3</processDays>
+  </RecipeDef>
+
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_Make_ArtifuscleMass</defName>
+    <label>Grow artifuscle x100</label>
+    <description>Grow a large batch of artifuscle.</description>
+    <jobString>Growing artifuscle.</jobString>
+    <descriptionHyperlinks>
+      <ThingDef>Artifuscle</ThingDef>
+    </descriptionHyperlinks>
+    <recipeUsers>
+      <li>DMS_UF_TableArtifuscle</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>4</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Tungsteel</li>
+          </thingDefs>
+        </filter>
+        <count>32</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasfiber</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>80</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gold</li>
+        <li>Tungsteel</li>
+        <li>Plasfiber</li>
+        <li>Neutroamine</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Artifuscle>100</Artifuscle>
+    </products>
+    <researchPrerequisite>DMS_Artifuscle</researchPrerequisite>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>true</usesTemperature>
+    <processDays>3</processDays>
+    <slotsRequired>3</slotsRequired>
+  </RecipeDef>
+
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_Make_WetWare</defName>
+    <label>Synthesize wetware computer</label>
+    <description>Synthesize a wetware computer- A high-precision computer that can be produced and
+      used on a large scale.</description>
+    <jobString>Sythesizing wetware computer.</jobString>
+    <recipeUsers>
+      <li>DMS_UF_TableArtifuscle</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentStamped</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasfiber</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gold</li>
+        <li>ComponentStamped</li>
+        <li>Plasfiber</li>
+        <li>Neutroamine</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Neurocomputer>1</Neurocomputer>
+    </products>
+    <researchPrerequisite>DMS_Hypothesis</researchPrerequisite>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>true</usesTemperature>
+    <processDays>3</processDays>
+    <slotsRequired>3</slotsRequired>
+  </RecipeDef>
+
+  <!-- Other recipes using recipemaker targets ArtificalMuscle Generator -->
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_HSK_Make_DMS_MechLink</defName>
+    <label>Synthesize Cluster Transceiver</label>
+    <description>Synthesize a Cluster Transceiver.</description>
+    <jobString>Sythesizing Cluster Transceiver.</jobString>
+    <recipeUsers>
+      <li>DMS_UF_TableArtifuscle</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasfiber</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentTransmitter</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>MedicineUltratech</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <DMS_MechLink>1</DMS_MechLink>
+    </products>
+    <researchPrerequisite>DMS_Mechlink</researchPrerequisite>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>true</usesTemperature>
+    <processDays>3</processDays>
+    <slotsRequired>1</slotsRequired>
+  </RecipeDef>
+
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_HSK_Make_DMS_Apparel_BionicSuit</defName>
+    <label>Synthesize Bionic Suit</label>
+    <description>Synthesize Bionic Suit</description>
+    <jobString>Sythesizing Bionic Suit.</jobString>
+    <recipeUsers>
+      <li>DMS_UF_TableArtifuscle</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasfiber</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Artifuscle</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Synthread</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <DMS_Apparel_BionicSuit>1</DMS_Apparel_BionicSuit>
+    </products>
+    <researchPrerequisite>DMS_Artifuscle</researchPrerequisite>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>true</usesTemperature>
+    <processDays>3</processDays>
+    <slotsRequired>1</slotsRequired>
+  </RecipeDef>
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_HSK_Make_DMS_SensoryFilter</defName>
+    <label>Synthesize Emotion Filter</label>
+    <description>Synthesize Emotion Filter</description>
+    <jobString>Sythesizing Emotion Filter.</jobString>
+    <recipeUsers>
+      <li>DMS_UF_TableArtifuscle</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasfiber</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentSpacer</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <DMS_SensoryFilter>1</DMS_SensoryFilter>
+    </products>
+    <researchPrerequisite>DMS_OrganSurgery</researchPrerequisite>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>true</usesTemperature>
+    <processDays>2</processDays>
+    <slotsRequired>1</slotsRequired>
+  </RecipeDef>
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_HSK_Make_DMS_NutrientPort</defName>
+    <label>Synthesize Nutrition port</label>
+    <description>Synthesize Nutrition port.</description>
+    <jobString>Sythesizing Nutrition port.</jobString>
+    <recipeUsers>
+      <li>DMS_UF_TableArtifuscle</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasfiber</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentStamped</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Neutroamine</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+    </ingredients>
+    <products>
+      <DMS_NutrientPort>1</DMS_NutrientPort>
+    </products>
+    <researchPrerequisite>DMS_OrganSurgery</researchPrerequisite>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>true</usesTemperature>
+    <processDays>2</processDays>
+    <slotsRequired>1</slotsRequired>
+  </RecipeDef>
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_HSK_Make_DMS_SyntheticArm</defName>
+    <label>Synthesize Biosynthetic arm</label>
+    <description>Synthesize Biosynthetic arm.</description>
+    <jobString>Sythesizing Biosynthetic arm.</jobString>
+    <recipeUsers>
+      <li>DMS_UF_TableArtifuscle</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Artifuscle</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentStamped</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <DMS_SyntheticArm>1</DMS_SyntheticArm>
+    </products>
+    <researchPrerequisite>DMS_Artifuscle</researchPrerequisite>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>true</usesTemperature>
+    <processDays>2</processDays>
+    <slotsRequired>1</slotsRequired>
+  </RecipeDef>
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_HSK_Make_DMS_SyntheticLeg</defName>
+    <label>Synthesize Biosynthetic Leg</label>
+    <description>Synthesize Biosynthetic Leg.</description>
+    <jobString>Sythesizing Biosynthetic Leg.</jobString>
+    <recipeUsers>
+      <li>DMS_UF_TableArtifuscle</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Artifuscle</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentStamped</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <products>
+      <DMS_SyntheticLeg>1</DMS_SyntheticLeg>
+    </products>
+    <researchPrerequisite>DMS_Artifuscle</researchPrerequisite>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>true</usesTemperature>
+    <processDays>2</processDays>
+    <slotsRequired>1</slotsRequired>
+  </RecipeDef>
+</Defs>

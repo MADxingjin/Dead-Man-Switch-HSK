@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  
+
   <ThingDef ParentName="BuildingBase" Name="DMS_BossCallerBase" Abstract="True">
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
@@ -21,7 +21,7 @@
     </statBases>
     <killedLeavings>
       <ChunkSlagSteel>3</ChunkSlagSteel>
-    </killedLeavings> 
+    </killedLeavings>
     <tickerType>Normal</tickerType>
     <filthLeaving>Filth_MachineBits</filthLeaving>
   </ThingDef>
@@ -29,7 +29,11 @@
   <ThingDef ParentName="DMS_BossCallerBase">
     <defName>DMS_DecoyRadio</defName>
     <label>Decoy Antenna</label>
-    <description>A modified signal transponder which is rigged to send a high power burst transmission. Once activated it puts out a powerful decoy signal which will attract a feral group of automatroid forces to attack your colony. If you can defeat them, you can collect the advanced technology from their corpses. The signal pulse burns out the transmitter, so this building can only be used once.</description>
+    <description>A modified signal transponder which is rigged to send a high power burst
+      transmission. Once activated it puts out a powerful decoy signal which will attract a feral
+      group of automatroid forces to attack your colony. If you can defeat them, you can collect the
+      advanced technology from their corpses. The signal pulse burns out the transmitter, so this
+      building can only be used once.</description>
     <graphicData>
       <texPath>Things/Building/Facility_Decoy</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -38,15 +42,17 @@
         <volume>(1.7, 0.75, 0.8)</volume>
         <offset>(0.15, 0, 0)</offset>
       </shadowData>
-    </graphicData>  
+    </graphicData>
     <uiIconScale>0.5</uiIconScale>
     <size>(1,1)</size>
-        <stuffCategories>
-    <li>RuggedMetallic</li>
+    <stuffCategories>
+      <li>Metallic</li>
     </stuffCategories>
-    <costStuffCount>50</costStuffCount>
+    <costStuffCount>40</costStuffCount>
     <costList>
       <ComponentIndustrial>5</ComponentIndustrial>
+      <ElectronicComponents>2</ElectronicComponents>
+      <Wire>50</Wire>
     </costList>
     <researchPrerequisites>
       <li>DMS_DeadMansSwitch</li>
@@ -77,7 +83,10 @@
   <ThingDef ParentName="DMS_BossCallerBase">
     <defName>DMS_DecoyRadar</defName>
     <label>Decoy Radar</label>
-    <description>A phase array radar. Once activated, it puts out a powerful wave radiation signal which will attract a feral automatroid to attack along with its escorts. If you can defeat it, you can collect the advanced technology from its corpse. The signal pulse burns out the transmitter, so this building can only be used once.</description>
+    <description>A phase array radar. Once activated, it puts out a powerful wave radiation signal
+      which will attract a feral automatroid to attack along with its escorts. If you can defeat it,
+      you can collect the advanced technology from its corpse. The signal pulse burns out the
+      transmitter, so this building can only be used once.</description>
     <graphicData>
       <texPath>Things/Building/Facility_Decoy_B</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
@@ -88,13 +97,16 @@
       </shadowData>
     </graphicData>
     <size>(3,3)</size>
-        <stuffCategories>
-    <li>RuggedMetallic</li>
+    <stuffCategories>
+      <li>Metallic</li>
     </stuffCategories>
     <costStuffCount>50</costStuffCount>
     <costList>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentAdvanced>3</ComponentAdvanced>
       <ComponentSpacer>1</ComponentSpacer>
+      <Electronics>2</Electronics>
+      <Glass>20</Glass>
+      <Wire>50</Wire>
     </costList>
     <researchPrerequisites>
       <li>DMS_Hypothesis</li>

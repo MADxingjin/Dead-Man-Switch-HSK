@@ -16,6 +16,7 @@
 			<WorkToMake>60000</WorkToMake>
       <DeteriorationRate>0</DeteriorationRate>
     </statBases>
+    <!-- 
     <costList>
       <Plasfiber>20</Plasfiber>
       <ComponentSpacer>5</ComponentSpacer>
@@ -37,6 +38,7 @@
       </recipeUsers>
       <displayPriority>300</displayPriority>
     </recipeMaker>
+    -->
     <graphicData>
       <texPath>Things/Misc/DMS_Mechlink</texPath>
       <graphicClass>Graphic_Single</graphicClass>

@@ -69,7 +69,7 @@
                 <Properties>
                     <verbClass>CombatExtended.Verb_ShootCE</verbClass>
                     <hasStandardCommand>true</hasStandardCommand>
-                    <defaultProjectile>Ammo_45ACP_FMJ</defaultProjectile>
+                    <defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
                     <warmupTime>0.4</warmupTime>
                     <range>10</range>
                     <soundCast>DMS_KnuckledusterRevolver_Shot</soundCast>
