@@ -36,5 +36,11 @@
   <DMS_WokenMechLeaveDesc>After spending some time together, {0} decided it is time to leave.</DMS_WokenMechLeaveDesc>
   <DMS_MechStory_Attack>{0}'s after story</DMS_MechStory_Attack>
   <DMS_MechStory_Loot>{0}'s return of favors</DMS_MechStory_Loot>
+
+  <DMS_APS_TickRemain>APS remain time:{0}</DMS_APS_TickRemain>
+
+  <DMS_WeaponImprinted>Imprinted: {0}({1})</DMS_WeaponImprinted>
+  <DMS_Inprinted>Imprinted: {0}</DMS_Inprinted>
+  <DMS_InprintedDesc>the colony mech {0} has equipped with its first weapon, this makes its adaptive learning ability bound to that type of weapon.</DMS_InprintedDesc>
   
 </LanguageData>

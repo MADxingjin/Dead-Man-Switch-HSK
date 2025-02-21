@@ -45,8 +45,9 @@
       <intelligence>ToolUser</intelligence>
       <thinkTreeMain>DMS_Mechanoid</thinkTreeMain>
       <nameGenerator>DMS_VanguardMechStandard</nameGenerator>
-      <soundCallIntervalRange>1000~2000</soundCallIntervalRange>
+      <soundCallIntervalRange>2000~4000</soundCallIntervalRange>
       <soundCallIntervalFriendlyFactor>2</soundCallIntervalFriendlyFactor>
+      <soundCallIntervalAggressiveFactor>0.5</soundCallIntervalAggressiveFactor>
       <thinkTreeConstant MayRequire="Ludeon.RimWorld.Biotech">MechConstant</thinkTreeConstant>
       <soundMeleeHitPawn>Pawn_Melee_MechanoidBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_MechanoidBash_HitBuilding</soundMeleeHitBuilding>
@@ -58,14 +59,14 @@
           <minAge>0</minAge>
           <soundWounded>Pawn_Mech_Cleansweeper_Wounded</soundWounded>
           <soundDeath>Pawn_Mech_Cleansweeper_Death</soundDeath>
-          <soundCall>Pawn_Mech_Cleansweeper_Call</soundCall>
+          <soundCall>DMS_Pawn_Mech_Call</soundCall>
         </li>
         <li>
           <def>DMS_Automatroid_Damaged</def>
           <minAge>70</minAge>
           <soundWounded>Pawn_Mech_Cleansweeper_Wounded</soundWounded>
           <soundDeath>Pawn_Mech_Cleansweeper_Death</soundDeath>
-          <soundCall>Pawn_Mech_Cleansweeper_Call</soundCall>
+          <soundCall>DMS_Pawn_Mech_Call</soundCall>
         </li>
       </lifeStageAges>
     </race>
@@ -118,7 +119,7 @@
   <ThingDef ParentName="BaseAutomatroidRace" Name="BaseAutomatroidWalker" Abstract="True">
     <race>
       <intelligence>ToolUser</intelligence>
-      <thinkTreeMain>Mechanoid</thinkTreeMain>
+      <thinkTreeMain>DMS_Mechanoid</thinkTreeMain>
       <baseBodySize>1.0</baseBodySize>
       <mechEnabledWorkTypes>
         <li>BasicWorker</li>
@@ -174,8 +175,9 @@
   </ThingDef>
 
   <PawnKindDef Name="BaseAutomatroidKind" ParentName="BaseMechanoidKind" Abstract="True">
-    <defaultFactionType>DMS_Army</defaultFactionType>
-    <allowInMechClusters>false</allowInMechClusters>    <!--是否出現在機械集群-->
+    <!-- <defaultFactionType>DMS_Army</defaultFactionType> 設置成殖民艦隊可能會導致任務隨機Pawnkind時隨機到。 -->
+    <defaultFactionType>Mechanoid</defaultFactionType>
+    <allowInMechClusters>false</allowInMechClusters>
     <isFighter>true</isFighter>
     <destroyGearOnDrop>false</destroyGearOnDrop>
     <canStrip>false</canStrip>
