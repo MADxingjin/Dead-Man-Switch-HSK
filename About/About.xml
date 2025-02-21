@@ -1,31 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>The Dead Man's Switch HSK</name>
-	<modIconPath IgnoreIfNoMatchingField="True">UI/NaraLogo</modIconPath>
-  	<author>AobaKuma ,Bill Doors, KV4EX,MADxingjin</author>
-    <supportedVersions>
-		<li>1.5</li>
-	</supportedVersions>
-	<packageId>Aoba.DeadManSwitch.Core</packageId>
-    <modDependencies>
-        <li>
-			<packageId>ludeon.rimworld.biotech</packageId>
-			<displayName>Biotech</displayName>
-		</li>
-        <li>
-			<packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
-			<displayName>Vanilla Expanded Framework</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
-		</li>
-	</modDependencies>
-	<loadAfter>
-		<li>Ludeon.Rimworld.Biotech</li>
-		<li>Ludeon.RimWorld.Ideology</li>
-		<li>Ludeon.RimWorld.Royalty</li>
-		<li>ceteam.combatextended</li>
-    	<li>OskarPotocki.VanillaFactionsExpanded.Core</li>
-		<li>vanillaracesexpanded.android</li>
-  	</loadAfter>
-	<description>Millennia earlier, as the threat of archotech war machines, pirates and awry bio-organic weapons arise. Nara Industries initiated a project of semi-automated war-machines, which aimed at creating a legion of war-machines with low technology and maintenance requirements to aid humans in all galaxy to the war against all those threats.
-	</description>
+  <name>The Dead Man's Switch HSK</name>
+  <modIconPath IgnoreIfNoMatchingField="True">UI/NaraLogo</modIconPath>
+  <author>AobaKuma ,Bill Doors, KV4EX,MADxingjin</author>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+  <packageId>Aoba.DeadManSwitch.Core</packageId>
+  <modDependencies>
+    <li>
+      <packageId>ludeon.rimworld.biotech</packageId>
+      <displayName>Biotech</displayName>
+    </li>
+    <li>
+      <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+      <displayName>Vanilla Expanded Framework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
+    </li>
+    <li>
+      <packageId>skyarkhangel.hsk</packageId>
+      <displayName>HardcoreSK Project</displayName>
+      <url>https://github.com/skyarkhangel/Hardcore-SK/tree/development</url>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.Rimworld.Biotech</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>ceteam.combatextended</li>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+    <li>vanillaracesexpanded.android</li>
+    <li>skyarkhangel.hsk</li>
+    <li>arpomo6.hmc.project</li>
+    <li>xxnelsonxx.parabellum</li>
+  </loadAfter>
+  <description>Millennia earlier, as the threat of archotech war machines, pirates and awry
+    bio-organic weapons arise. Nara Industries initiated a project of semi-automated war-machines,
+    which aimed at creating a legion of war-machines with low technology and maintenance
+    requirements to aid humans in all galaxy to the war against all those threats.
+  </description>
 </ModMetaData>

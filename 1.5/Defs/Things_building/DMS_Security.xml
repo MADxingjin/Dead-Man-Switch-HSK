@@ -26,7 +26,7 @@
     <designationCategory>DMS_Category</designationCategory>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
     <comps>
-      <li MayRequire="VanillaExpanded.VFEA" Class="VFEAncients.CompProperties_SolarPowerUp"/>
+      <li MayRequire="VanillaExpanded.VFEA" Class="VFEAncients.CompProperties_SolarPowerUp" />
       <li Class="CompProperties_Forbiddable" />
       <li Class="CompProperties_Flickable" />
       <li>
@@ -34,232 +34,237 @@
       </li>
     </comps>
     <damageMultipliers>
-		  <li>
-			<damageDef>Cut</damageDef>
-			<multiplier>0.1</multiplier>
-		  </li>
-		  <li>
-			<damageDef>Crush</damageDef>
-			<multiplier>0.1</multiplier>
-		  </li>
-		  <li>
-			<damageDef>Stab</damageDef>
-			<multiplier>0.1</multiplier>
-		  </li>
-		  <li>
-			<damageDef>Scratch</damageDef>
-			<multiplier>0</multiplier>
-		  </li>
-		   <li>
-			<damageDef>ScratchToxic</damageDef>
-			<multiplier>0</multiplier>
-		  </li>
-		  <li>
-			<damageDef>Bite</damageDef>
-			<multiplier>0</multiplier>
-		  </li>
-		  <li>
-			<damageDef>ToxicBite</damageDef>
-			<multiplier>0</multiplier>
-		  </li>
-		  <li>
-			<damageDef>Blunt</damageDef>
-			<multiplier>0.25</multiplier>
-		  </li>
-		  <li>
-			<damageDef>Poke</damageDef>
-			<multiplier>0.25</multiplier>
-		  </li>
-		  <li>
-			<damageDef>Bomb</damageDef>
-			<multiplier>0.25</multiplier>
-		  </li>
-		  <li>
-			<damageDef>BombSuper</damageDef>
-			<multiplier>0.25</multiplier>
-		  </li>	  
-		  <li>
-			<damageDef>Demolish</damageDef>
-			<multiplier>0.5</multiplier>
-		  </li>
-		  <li>
-			<damageDef>Thump</damageDef>
-			<multiplier>0.5</multiplier>
-		  </li>
-		  <li>
-			<damageDef>Bullet</damageDef>
-			<multiplier>0.5</multiplier>
-		  </li>
-		  <li>
-			<damageDef>Arrow</damageDef>
-			<multiplier>0.1</multiplier>
-		  </li>
-		  <li>
-			<damageDef>ArrowHighVelocity</damageDef>
-			<multiplier>0.1</multiplier>
-		  </li>
-		  <li>
-			<damageDef>Flame</damageDef>
-			<multiplier>0</multiplier>
-		  </li>
-		  <li>
-			<damageDef>Burn</damageDef>
-			<multiplier>0</multiplier>
-		  </li>
-		  <li>
-			<damageDef>Frostbite</damageDef>
-			<multiplier>0</multiplier>
-		  </li>
-		  <li>
-			<damageDef>TornadoScratch</damageDef>
-			<multiplier>0</multiplier>
-		  </li>
-		  <li>
-			<damageDef>Mining</damageDef>
-			<multiplier>0.1</multiplier>
-		  </li>
-		  <li>
-			<damageDef>EMP</damageDef>
-			<multiplier>0</multiplier>
-		  </li>
-		  <li>
-			<damageDef>Stun</damageDef>
-			<multiplier>0</multiplier>
-		  </li>
-		  <li>
-			<damageDef>Smoke</damageDef>
-			<multiplier>0</multiplier>
-		  </li>
-			<li>
-				<damageDef>Vaporize</damageDef>
-				<multiplier>0.25</multiplier>
-			</li>
-			<li>
-				<damageDef>AcidBurn</damageDef>
-				<multiplier>0.25</multiplier>
-			</li>
-<!--Biotech DLC -->
-			<li MayRequire="Ludeon.RimWorld.Biotech">
-				<damageDef>BulletToxic</damageDef>
-				<multiplier>0.5</multiplier>
-			</li>
-			<li MayRequire="Ludeon.RimWorld.Biotech">
-				<damageDef>Beam</damageDef>
-				<multiplier>0.5</multiplier>
-			</li>
-			<li MayRequire="Ludeon.RimWorld.Biotech">
-				<damageDef>MechBandShockwave</damageDef>
-				<multiplier>0</multiplier>
-			</li>
-<!--Anomaly DLC -->
-			<li MayRequire="Ludeon.RimWorld.Anomaly">
-				<damageDef>Nerve</damageDef>
-				<multiplier>0.1</multiplier>
-			</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">
-				<damageDef>EnergyBolt</damageDef>
-				<multiplier>0.1</multiplier>
-			</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">
-				<damageDef>Digested</damageDef>
-				<multiplier>0.1</multiplier>
-			</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">
-				<damageDef>ElectricalBurn</damageDef>
-				<multiplier>0</multiplier>
-			</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">
-				<damageDef>NerveStun</damageDef>
-				<multiplier>0.1</multiplier>
-			</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">
-				<damageDef>Psychic</damageDef>
-				<multiplier>0</multiplier>
-			</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">
-				<damageDef>DeadlifeDust</damageDef>
-				<multiplier>0</multiplier>
-			</li>
-			<li MayRequire="Ludeon.RimWorld.Anomaly">
-				<damageDef>NociosphereVaporize</damageDef>
-				<multiplier>0.25</multiplier>
-			</li>
-<!--==========-->
-<!-- Combat Extended -->
-			<li MayRequire="CETeam.CombatExtended">
-				<damageDef>Beanbag</damageDef>
-				<multiplier>0</multiplier>
-			</li>
-			<li MayRequire="CETeam.CombatExtended">
-				<damageDef>Taser</damageDef>
-				<multiplier>0</multiplier>
-			</li>
-			<li MayRequire="CETeam.CombatExtended">
-				<damageDef>Fragment</damageDef>
-				<multiplier>0.25</multiplier>
-			</li>
-			<li MayRequire="CETeam.CombatExtended">
-				<damageDef>PrometheumFlame</damageDef>
-				<multiplier>0</multiplier>
-			</li>
-			<li MayRequire="CETeam.CombatExtended">
-				<damageDef>Bomb_Secondary</damageDef>
-				<multiplier>0.25</multiplier>
-			</li>
-			<li MayRequire="CETeam.CombatExtended">
-				<damageDef>Flame_Secondary</damageDef>
-				<multiplier>0</multiplier>
-			</li>
-			<li MayRequire="CETeam.CombatExtended">
-				<damageDef>ArrowVenom</damageDef>
-				<multiplier>0.1</multiplier>
-			</li>
-			<li MayRequire="CETeam.CombatExtended">
-				<damageDef>ArrowFire</damageDef>
-				<multiplier>0.1</multiplier>
-			</li>
-			<li MayRequire="CETeam.CombatExtended">
-				<damageDef>Tranquilizer</damageDef>
-				<multiplier>0</multiplier>
-			</li>
-			<li MayRequire="CETeam.CombatExtended">
-				<damageDef>Thermobaric</damageDef>
-				<multiplier>0.25</multiplier>
-			</li>
-			<li MayRequire="CETeam.CombatExtended">
-				<damageDef>Electrical</damageDef>
-				<multiplier>0</multiplier>
-			</li>
-<!--==========-->
-<!--3HSTltd Plasma Weapons-->
-			<li MayRequire="3HSTltd.Weapons.Plasma">
-				<damageDef>LizionExplosion</damageDef>
-				<multiplier>0.25</multiplier>
-			</li>
-			<li MayRequire="3HSTltd.Weapons.Plasma">
-				<damageDef>LizionPlasma</damageDef>
-				<multiplier>0.25</multiplier>
-			</li>
-			<li MayRequire="3HSTltd.Weapons.Plasma">
-				<damageDef>LizionPlasmaFlamer</damageDef>
-				<multiplier>0.25</multiplier>
-			</li>
-<!--==========-->
-<!--3HSTltd Rail Guns-->
-			<li MayRequire="3HSTltd.Weapons.Base">
-				<damageDef>DamageDef_Shockwave</damageDef>
-				<multiplier>0.25</multiplier>
-			</li>
-			<li MayRequire="3HSTltd.Weapons.Base">
-				<damageDef>BDRG_HighCalRailgun</damageDef>
-				<multiplier>0.25</multiplier>
-			</li>
-<!--==========-->
-<!--FT HESH-->
-			<li MayRequire="CETeam.CombatExtended,Aoba.Fortress.Industrial">
-			<damageDef>HESH_ShockWave</damageDef>
-			<multiplier>0.25</multiplier>
-		  </li>
+      <li>
+        <damageDef>Cut</damageDef>
+        <multiplier>0.1</multiplier>
+      </li>
+      <li>
+        <damageDef>Crush</damageDef>
+        <multiplier>0.1</multiplier>
+      </li>
+      <li>
+        <damageDef>Stab</damageDef>
+        <multiplier>0.1</multiplier>
+      </li>
+      <li>
+        <damageDef>Scratch</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li>
+        <damageDef>ScratchToxic</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li>
+        <damageDef>Bite</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li>
+        <damageDef>ToxicBite</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li>
+        <damageDef>Blunt</damageDef>
+        <multiplier>0.25</multiplier>
+      </li>
+      <li>
+        <damageDef>Poke</damageDef>
+        <multiplier>0.25</multiplier>
+      </li>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>0.25</multiplier>
+      </li>
+      <li>
+        <damageDef>BombSuper</damageDef>
+        <multiplier>0.25</multiplier>
+      </li>
+      <li>
+        <damageDef>Demolish</damageDef>
+        <multiplier>0.5</multiplier>
+      </li>
+      <li>
+        <damageDef>Thump</damageDef>
+        <multiplier>0.5</multiplier>
+      </li>
+      <li>
+        <damageDef>Bullet</damageDef>
+        <multiplier>0.5</multiplier>
+      </li>
+      <li>
+        <damageDef>Arrow</damageDef>
+        <multiplier>0.1</multiplier>
+      </li>
+      <li>
+        <damageDef>ArrowHighVelocity</damageDef>
+        <multiplier>0.1</multiplier>
+      </li>
+      <li>
+        <damageDef>Flame</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li>
+        <damageDef>Burn</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li>
+        <damageDef>Frostbite</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li>
+        <damageDef>TornadoScratch</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li>
+        <damageDef>Mining</damageDef>
+        <multiplier>0.1</multiplier>
+      </li>
+      <li>
+        <damageDef>EMP</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li>
+        <damageDef>Stun</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li>
+        <damageDef>Smoke</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li>
+        <damageDef>Vaporize</damageDef>
+        <multiplier>0.25</multiplier>
+      </li>
+      <li>
+        <damageDef>AcidBurn</damageDef>
+        <multiplier>0.25</multiplier>
+      </li>
+      <!--Biotech
+      DLC -->
+      <li MayRequire="Ludeon.RimWorld.Biotech">
+        <damageDef>BulletToxic</damageDef>
+        <multiplier>0.5</multiplier>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">
+        <damageDef>Beam</damageDef>
+        <multiplier>0.5</multiplier>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Biotech">
+        <damageDef>MechBandShockwave</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <!--Anomaly
+      DLC -->
+      <li MayRequire="Ludeon.RimWorld.Anomaly">
+        <damageDef>Nerve</damageDef>
+        <multiplier>0.1</multiplier>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">
+        <damageDef>EnergyBolt</damageDef>
+        <multiplier>0.1</multiplier>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">
+        <damageDef>Digested</damageDef>
+        <multiplier>0.1</multiplier>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">
+        <damageDef>ElectricalBurn</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">
+        <damageDef>NerveStun</damageDef>
+        <multiplier>0.1</multiplier>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">
+        <damageDef>Psychic</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">
+        <damageDef>DeadlifeDust</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">
+        <damageDef>NociosphereVaporize</damageDef>
+        <multiplier>0.25</multiplier>
+      </li>
+      <!--==========-->
+      <!-- Combat Extended -->
+      <li MayRequire="CETeam.CombatExtended">
+        <damageDef>Beanbag</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li MayRequire="CETeam.CombatExtended">
+        <damageDef>Taser</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li MayRequire="CETeam.CombatExtended">
+        <damageDef>Fragment</damageDef>
+        <multiplier>0.25</multiplier>
+      </li>
+      <li MayRequire="CETeam.CombatExtended">
+        <damageDef>PrometheumFlame</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li MayRequire="CETeam.CombatExtended">
+        <damageDef>Bomb_Secondary</damageDef>
+        <multiplier>0.25</multiplier>
+      </li>
+      <li MayRequire="CETeam.CombatExtended">
+        <damageDef>Flame_Secondary</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li MayRequire="CETeam.CombatExtended">
+        <damageDef>ArrowVenom</damageDef>
+        <multiplier>0.1</multiplier>
+      </li>
+      <li MayRequire="CETeam.CombatExtended">
+        <damageDef>ArrowFire</damageDef>
+        <multiplier>0.1</multiplier>
+      </li>
+      <li MayRequire="CETeam.CombatExtended">
+        <damageDef>Tranquilizer</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <li MayRequire="CETeam.CombatExtended">
+        <damageDef>Thermobaric</damageDef>
+        <multiplier>0.25</multiplier>
+      </li>
+      <li MayRequire="CETeam.CombatExtended">
+        <damageDef>Electrical</damageDef>
+        <multiplier>0</multiplier>
+      </li>
+      <!--==========-->
+      <!--3HSTltd
+      Plasma Weapons-->
+      <li MayRequire="3HSTltd.Weapons.Plasma">
+        <damageDef>LizionExplosion</damageDef>
+        <multiplier>0.25</multiplier>
+      </li>
+      <li MayRequire="3HSTltd.Weapons.Plasma">
+        <damageDef>LizionPlasma</damageDef>
+        <multiplier>0.25</multiplier>
+      </li>
+      <li MayRequire="3HSTltd.Weapons.Plasma">
+        <damageDef>LizionPlasmaFlamer</damageDef>
+        <multiplier>0.25</multiplier>
+      </li>
+      <!--==========-->
+      <!--3HSTltd
+      Rail Guns-->
+      <li MayRequire="3HSTltd.Weapons.Base">
+        <damageDef>DamageDef_Shockwave</damageDef>
+        <multiplier>0.25</multiplier>
+      </li>
+      <li MayRequire="3HSTltd.Weapons.Base">
+        <damageDef>BDRG_HighCalRailgun</damageDef>
+        <multiplier>0.25</multiplier>
+      </li>
+      <!--==========-->
+      <!--FT
+      HESH-->
+      <li MayRequire="CETeam.CombatExtended,Aoba.Fortress.Industrial">
+        <damageDef>HESH_ShockWave</damageDef>
+        <multiplier>0.25</multiplier>
+      </li>
     </damageMultipliers>
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
@@ -281,7 +286,9 @@
   <ThingDef ParentName="DMS_BaseCannonBuilding">
     <defName>DMS_Turret_Tunguska</defName>
     <label>Tunguska</label>
-    <description>A remote-controlled turret composed of two 2A38 autoaconnon and eight missile launchers. Due to its cheap maintenance and modification costs, it is commonly seen in colonial fleet outposts in rim worlds.</description>
+    <description>A remote-controlled turret composed of two 2A38 autoaconnon and eight missile
+      launchers. Due to its cheap maintenance and modification costs, it is commonly seen in
+      colonial fleet outposts in rim worlds.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>Things/Turrets/DMS_Base_Tunguska_GateKeeper</texPath>
@@ -342,7 +349,7 @@
     </building>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <stuffCategories>
-    <li>RuggedMetallic</li>
+      <li>RuggedMetallic</li>
     </stuffCategories>
     <costStuffCount>500</costStuffCount>
     <costList>
@@ -401,7 +408,9 @@
   <ThingDef ParentName="DMS_BaseCannonBuilding">
     <defName>DMS_Turret_GateKeeper</defName>
     <label>Gatekeeper</label>
-    <description>A large-caliber multi-barreled machine gun turret typically used on spacecraft and maritime ships. It has an extremely high rates of fire and devastating suppression capabilities.</description>
+    <description>A large-caliber multi-barreled machine gun turret typically used on spacecraft and
+      maritime ships. It has an extremely high rates of fire and devastating suppression
+      capabilities.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>Things/Turrets/DMS_Base_Tunguska_GateKeeper</texPath>
@@ -461,8 +470,8 @@
       <turretBurstCooldownTime>3.2</turretBurstCooldownTime>
     </building>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
-        <stuffCategories>
-    <li>RuggedMetallic</li>
+    <stuffCategories>
+      <li>RuggedMetallic</li>
     </stuffCategories>
     <costStuffCount>450</costStuffCount>
     <costList>
@@ -486,17 +495,19 @@
   <ThingDef ParentName="BaseWeaponTurret">
     <defName>DMS_Gun_GateKeeper</defName>
     <label>Gatekeeper</label>
-    <description>A large-caliber multi-barreled autocannon, also known as the GAU-8 "Avenger". Its an ancient practical design with an extremely high rate of fire and a devastating effect on anything unfortunate enough to stand infront of it.</description>
+    <description>A large-caliber multi-barreled autocannon, also known as the GAU-8 "Avenger". Its
+      an ancient practical design with an extremely high rate of fire and a devastating effect on
+      anything unfortunate enough to stand infront of it.</description>
     <graphicData>
       <texPath>Things/Turrets/DMS_Gun_GateKeeper</texPath>
       <drawSize>5</drawSize>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-			<AccuracyTouch>0.45</AccuracyTouch>
-			<AccuracyShort>0.6</AccuracyShort>
-			<AccuracyMedium>0.78</AccuracyMedium>
-			<AccuracyLong>0.90</AccuracyLong>
+      <AccuracyTouch>0.45</AccuracyTouch>
+      <AccuracyShort>0.6</AccuracyShort>
+      <AccuracyMedium>0.78</AccuracyMedium>
+      <AccuracyLong>0.90</AccuracyLong>
       <RangedWeapon_Cooldown>3.2</RangedWeapon_Cooldown>
     </statBases>
     <verbs>
@@ -506,7 +517,7 @@
         <requireLineOfSight>true</requireLineOfSight>
         <warmupTime>2.0</warmupTime>
         <minRange>3.9</minRange>
-				<range>59.9</range>
+        <range>59.9</range>
         <ai_AvoidFriendlyFireRadius>4.9</ai_AvoidFriendlyFireRadius>
         <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
         <burstShotCount>18</burstShotCount>
@@ -552,7 +563,8 @@
   <ThingDef ParentName="DMS_BaseCannonBuilding">
     <defName>DMS_Turret_Okhotnik</defName>
     <label>Okhotnik</label>
-    <description>An ancient design of a remote controlled turret widely used on armored vehicles and mech armor platforms.</description>
+    <description>An ancient design of a remote controlled turret widely used on armored vehicles and
+      mech armor platforms.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>Things/Turrets/DMS_Weapon_Base</texPath>
@@ -606,8 +618,8 @@
       <turretBurstCooldownTime>2</turretBurstCooldownTime>
     </building>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
-        <stuffCategories>
-    <li>RuggedMetallic</li>
+    <stuffCategories>
+      <li>RuggedMetallic</li>
     </stuffCategories>
     <costStuffCount>250</costStuffCount>
     <costList>
@@ -682,12 +694,13 @@
       <shadowSize>0.6</shadowSize>
     </projectile>
   </ThingDef>
-  
+
   <!-- 矢車菊  -->
   <ThingDef ParentName="DMS_BaseCannonBuilding">
     <defName>DMS_Turret_Vasilek</defName>
     <label>Vasilek</label>
-    <description>An ancient design of a rapid fire indirect artillery piece capable of firing four mortar rounds in one burst.</description>
+    <description>An ancient design of a rapid fire indirect artillery piece capable of firing four
+      mortar rounds in one burst.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>Things/Turrets/Bipod_Base</texPath>
@@ -753,7 +766,7 @@
     <hasInteractionCell>true</hasInteractionCell>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <stuffCategories>
-    <li>RuggedMetallic</li>
+      <li>RuggedMetallic</li>
     </stuffCategories>
     <costStuffCount>150</costStuffCount>
     <costList>
@@ -779,7 +792,8 @@
   <ThingDef ParentName="BaseWeaponTurret">
     <defName>DMS_Gun_Vasilek</defName>
     <label>2B9M vasilek</label>
-    <description>An ancient design of rapid fire indirect artillery piece capabler of firing four mortar rounds in one burst.</description>
+    <description>An ancient design of rapid fire indirect artillery piece capabler of firing four
+      mortar rounds in one burst.</description>
     <graphicData>
       <texPath>Things/Turrets/DMS_Vasilek</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -815,12 +829,16 @@
     </verbs>
   </ThingDef>
 
-	<!--Dawnblade Fixed Mount-->
+  <!--Dawnblade
+  Fixed Mount-->
 
   <ThingDef ParentName="DMS_BaseCannonBuilding">
     <defName>DMS_Turret_Dawnblade</defName>
     <label>Dawnblade</label>
-    <description>MPQFS-85 "Dawnblade" is an onboard multi-role quick-firing cannon system. It uses drum magazines and an automatic revolver loader to permit a high rate of sustained fire.\n\nThe armor plating has been removed to allow emplacement to be redeployed as needed for heavy fire support.</description>
+    <description>MPQFS-85 "Dawnblade" is an onboard multi-role quick-firing cannon system. It uses
+      drum magazines and an automatic revolver loader to permit a high rate of sustained
+      fire.\n\nThe armor plating has been removed to allow emplacement to be redeployed as needed
+      for heavy fire support.</description>
     <techLevel>Industrial</techLevel>
     <graphicData>
       <texPath>Things/Turrets/DMS_Base_Tunguska_GateKeeper</texPath>
@@ -882,7 +900,7 @@
     </building>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <stuffCategories>
-    <li>RuggedMetallic</li>
+      <li>RuggedMetallic</li>
     </stuffCategories>
     <costStuffCount>450</costStuffCount>
     <costList>
@@ -906,7 +924,8 @@
   <ThingDef ParentName="BaseWeaponTurret">
     <defName>DMS_Gun_Dawnblade</defName>
     <label>Type 85 Multi-Purpose-Quick-Firing System</label>
-    <description>An automated artillery system widely used on small to medium-sized frigates and corvettes in colonial fleets.</description>
+    <description>An automated artillery system widely used on small to medium-sized frigates and
+      corvettes in colonial fleets.</description>
     <graphicData>
       <texPath>Things/Turrets/DMS_Gun_DawnBlade</texPath>
       <drawSize>5</drawSize>
@@ -926,7 +945,7 @@
         <requireLineOfSight>true</requireLineOfSight>
         <warmupTime>2.0</warmupTime>
         <minRange>3.9</minRange>
-	      <range>69.9</range>
+        <range>69.9</range>
         <ai_AvoidFriendlyFireRadius>2.9</ai_AvoidFriendlyFireRadius>
         <ticksBetweenBurstShots>40</ticksBetweenBurstShots>
         <burstShotCount>4</burstShotCount>
@@ -942,51 +961,51 @@
     </verbs>
   </ThingDef>
 
-<ThingDef ParentName="BaseBullet">
-	<defName>DMS_Bullet_Dawnblade</defName>
-	<label>armor piercing shell</label>
-  <thingClass>DMS.Projectile_ConeExplosive</thingClass>
-  <tickerType>Normal</tickerType>
-	<graphicData>
-		<texPath>Things/Projectile/Bullet_Big</texPath>
-		<graphicClass>Graphic_Single</graphicClass>
-		<drawSize>2</drawSize>
-	</graphicData>
-	<projectile>
-    <explosionDelay>1</explosionDelay>
-    <soundExplode>Explosion_Rocket</soundExplode>
-		<damageDef>Bullet</damageDef>
-		<damageAmountBase>50</damageAmountBase>
-		<armorPenetrationBase>0.9</armorPenetrationBase>
-		<stoppingPower>10</stoppingPower>
-		<speed>100</speed>
-		<arcHeightFactor>0.2</arcHeightFactor>
-		<shadowSize>0.6</shadowSize>
-	</projectile>
-  <modExtensions>
-    <li Class="DMS.ExplosiveExtension">
-      <damage>Bullet</damage>
-      <damageAmount>30</damageAmount>
-      <armorPen>0.35</armorPen>
-      <preExplosionOffset>4</preExplosionOffset>
-      <range>15</range>
-      <swayAngle>12</swayAngle>
-      <doVisualEffects>false</doVisualEffects>
-      <effecterDef>DMS_ConeExplosion</effecterDef>
-    </li>
-  </modExtensions>
-	<comps>
-		<li Class="CompProperties_Explosive">
-			<explosiveRadius>1.1</explosiveRadius>
-			<explosiveDamageType>Bullet</explosiveDamageType>
-			<armorPenetrationBase>0.9</armorPenetrationBase>
-			<damageAmountBase>50</damageAmountBase>
-			<explodeOnDestroyed>true</explodeOnDestroyed>
-			<explodeOnKilled>true</explodeOnKilled>
-      <doSoundEffects>false</doSoundEffects>
-			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
-		</li>
-	</comps>
-</ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>DMS_Bullet_Dawnblade</defName>
+    <label>armor piercing shell</label>
+    <thingClass>DMS.Projectile_ConeExplosive</thingClass>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_Big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2</drawSize>
+    </graphicData>
+    <projectile>
+      <explosionDelay>1</explosionDelay>
+      <soundExplode>Explosion_Rocket</soundExplode>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>50</damageAmountBase>
+      <armorPenetrationBase>0.9</armorPenetrationBase>
+      <stoppingPower>10</stoppingPower>
+      <speed>100</speed>
+      <arcHeightFactor>0.2</arcHeightFactor>
+      <shadowSize>0.6</shadowSize>
+    </projectile>
+    <modExtensions>
+      <li Class="DMS.ExplosiveExtension">
+        <damage>Bullet</damage>
+        <damageAmount>30</damageAmount>
+        <armorPen>0.35</armorPen>
+        <preExplosionOffset>4</preExplosionOffset>
+        <range>15</range>
+        <swayAngle>12</swayAngle>
+        <doVisualEffects>false</doVisualEffects>
+        <effecterDef>DMS_ConeExplosion</effecterDef>
+      </li>
+    </modExtensions>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>1.1</explosiveRadius>
+        <explosiveDamageType>Bullet</explosiveDamageType>
+        <armorPenetrationBase>0.9</armorPenetrationBase>
+        <damageAmountBase>50</damageAmountBase>
+        <explodeOnDestroyed>true</explodeOnDestroyed>
+        <explodeOnKilled>true</explodeOnKilled>
+        <doSoundEffects>false</doSoundEffects>
+        <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+      </li>
+    </comps>
+  </ThingDef>
 
 </Defs>	

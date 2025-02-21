@@ -385,6 +385,15 @@
         <count>5</count>
       </li>
     </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ComponentTransmitter</li>
+        <li>Plasfiber</li>
+        <li>ComponentStamped</li>
+        <li>ComponentSpacer</li>
+        <li>MedicineUltratech</li>
+      </thingDefs>
+    </fixedIngredientFilter>
     <products>
       <DMS_MechLink>1</DMS_MechLink>
     </products>

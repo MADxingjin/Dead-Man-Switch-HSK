@@ -13,7 +13,7 @@
       <Beauty>-4</Beauty>
       <Mass>1</Mass>
       <MarketValue>2000</MarketValue>
-			<WorkToMake>60000</WorkToMake>
+			<!-- <WorkToMake>60000</WorkToMake>-->
       <DeteriorationRate>0</DeteriorationRate>
     </statBases>
     <!-- 

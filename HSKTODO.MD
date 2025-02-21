@@ -14,6 +14,7 @@ Sort by Weap Ammo, Size(dimension)
    1. DMS_RiotShotgun
    2. DMS_AssaultShotgun
 3. Rifle
+   1. DMS_SurvivalRifle
 4. SMG 
    1. DMS_TaticalPistol (it fires .50AE, and it a semiauto)
    2. DMS_PDW
@@ -24,31 +25,30 @@ Sort by Weap Ammo, Size(dimension)
    3. DMS_MarksmanRifle
 6. Heavy
    1. DMS_ElephantGun
-   2. DMS_SemiAutoRifle
+   2. DMS_SemiAutoRifle (.50BMG)
    3. DMS_BattleRifle
    4. DMS_AntiMaterialRifle
    5. DMS_LightMachineGun
    6. DMS_HeavyMachineGun
-   7. DMS_Autocannon
-   8. DMS_GAU19Gatlinggun (.50BMG)
-   9. DMS_M214Gatlinggun (556x45)
+   7. DMS_GAU19Gatlinggun (.50BMG)
+   8. DMS_M214Gatlinggun (556x45)
+   9. DMS_SniperCannon
+   10. DMS_SniperGrenadeLauncher
+   11. DMS_AutomaticGrenadeLauncher
 7.  Launcher
    1. DMS_DoorBreaker
-   2. DMS_SniperCannon
-   3. DMS_SniperGrenadeLauncher
-   4. DMS_AutomaticGrenadeLauncher
-   5. DMS_Gun_Recoilless
-   6. DMS_Gun_DragoonRifle
-   7. DMS_Gun_DragoonGrenade
+   2. DMS_Gun_Recoilless
+   3. DMS_Gun_DragoonRifle
+   4. DMS_Gun_DragoonGrenade
 8. Specific
-   1. DMS_GAU8Gatlinggun
-   2. DMS_GAU4Gatlinggun
-   3. DMS_GAU4Gatlinggun_Hold
-   4. DMS_Tarbosaurus_Gun
-   5. DMS_Gun_2A38M
-   6. DMS_Gun_DawnbladeM
-   7. DMS_Flameblaster
-   8. DMS_SurvivalRifle( its single loaded,special.)
+   1. DMS_Autocannon
+   2. DMS_GAU8Gatlinggun
+   3. DMS_GAU4Gatlinggun
+   4. DMS_GAU4Gatlinggun_Hold
+   5. DMS_Tarbosaurus_Gun
+   6. DMS_Gun_2A38M
+   7. DMS_Gun_DawnbladeM
+   8. DMS_Flameblaster
 
 
 
