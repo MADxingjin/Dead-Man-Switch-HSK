@@ -14,15 +14,17 @@
 			<soundWorking>Recipe_Tailor</soundWorking>
 			<recipeUsers>
 				<li>ElectricTailoringBench</li>
-				<li>HandTailoringBench</li>
+				<li>HyperTailoringBench</li>
 			</recipeUsers>
 			<researchPrerequisite>DMS_Prosthetic</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
 		<costList>
 			<Plasfiber>80</Plasfiber>
-			<Steel>20</Steel>
-			<Chemfuel>20</Chemfuel>
+			<Electronics>4</Electronics>
+			<Wire>40</Wire>
+      <Mechanism>3</Mechanism>
+      <ComponentIndustrial>5</ComponentIndustrial>
 			<ComponentStamped>1</ComponentStamped>
 		</costList>
 		<tradeTags>
