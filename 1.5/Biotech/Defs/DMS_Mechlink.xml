@@ -7,21 +7,21 @@
     <label>Cluster Transceiver</label>
     <description>A man-made bionic implant that allows direct control of mechanoids. No one know if this is the early form of mechlinking or if it's a reverse engineered product of later generations. It functions as a regular mechlink when installed in a colonist.\n\nDue to processing precision issues, these imitation mechlink devices from rim worlds often have installation side effects.</description>
     <thingClass>Mechlink</thingClass>
-    <descriptionHyperlinks><HediffDef>MechlinkImplant</HediffDef></descriptionHyperlinks>
+    <descriptionHyperlinks><HediffDef>MechlinkImplant</HediffDef><HediffDef>DMS_MechlinkOverload</HediffDef><HediffDef>DMS_MechlinkKillSwitch</HediffDef><HediffDef>DMS_MechlinkRejection</HediffDef></descriptionHyperlinks>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <Beauty>-4</Beauty>
       <Mass>1</Mass>
       <MarketValue>2000</MarketValue>
-			<!-- <WorkToMake>60000</WorkToMake>-->
+			<WorkToMake>60000</WorkToMake>
       <DeteriorationRate>0</DeteriorationRate>
     </statBases>
-    <!-- 
     <costList>
       <Plasfiber>20</Plasfiber>
       <ComponentSpacer>5</ComponentSpacer>
       <ComponentTransmitter>1</ComponentTransmitter>
       <MedicineUltratech>5</MedicineUltratech>
+      <Biomatter>25</Biomatter>
     </costList>
     <recipeMaker>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
@@ -34,11 +34,10 @@
       </skillRequirements>
       <researchPrerequisite>DMS_Mechlink</researchPrerequisite>
       <recipeUsers>
-        <li>DMS_TableArtifuscle</li>
+        <li>DMS_TableMachinePrinter</li>
       </recipeUsers>
       <displayPriority>300</displayPriority>
     </recipeMaker>
-    -->
     <graphicData>
       <texPath>Things/Misc/DMS_Mechlink</texPath>
       <graphicClass>Graphic_Single</graphicClass>

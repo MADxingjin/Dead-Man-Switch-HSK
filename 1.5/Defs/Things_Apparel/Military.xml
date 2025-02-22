@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!-- 仿生作戰服 -->
+  <!-- 仿生作戰服,No Durability, +1.75 Speed,prob PA Soldier designated best outfit.  -->
   <ThingDef ParentName="ApparelBase">
     <defName>DMS_Apparel_BionicSuit</defName>
     <label>Bionic Suit</label>
@@ -8,14 +8,13 @@
       bionic suit is sewn from artificial muscle fibers and amplifies the wearers pre-existing
       muscular strength. Greatly increases the wearers carrying capacity and movement speed.</description>
     <techLevel>Spacer</techLevel>
-    <!-- 
 		<recipeMaker>
 			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
-			<effectWorking>Smith</effectWorking>
-			<soundWorking>Recipe_Machining</soundWorking>
+			<effectWorking>Surgery</effectWorking>
+			<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
 			<recipeUsers>
-				<li>DMS_TableArtifuscle</li>
+				<li>DMS_TableMachinePrinter</li>
 			</recipeUsers>
 			<researchPrerequisite>DMS_Artifuscle</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -23,9 +22,9 @@
 		<costList>
 			<Plasfiber>40</Plasfiber>
 			<Artifuscle>75</Artifuscle>
-			<Chemfuel>20</Chemfuel>
+			<Paraffins>20</Paraffins>
+      <ComponentAdvanced>8</ComponentAdvanced>
 		</costList>
-    -->
     <tradeTags>
       <li>DMS_Armor</li>
     </tradeTags>

@@ -44,7 +44,7 @@
     <surgeryOutcomeEffect IsNull="True" /> <!-- Always succeeds -->
   </RecipeDef>
 
-  <!-- DMS_ProstheticEye -->
+  <!-- DMS_ProstheticEye,too powerful in CE  -->
   <ThingDef ParentName="DMS_BioMechBionicBase">
     <defName>DMS_ProstheticEye</defName>
     <label>Mechaneural Visual Sensor</label>
@@ -52,8 +52,9 @@
     <descriptionHyperlinks><RecipeDef>DMS_InstallProstheticEye</RecipeDef></descriptionHyperlinks>
     <costList>
       <Plasfiber>5</Plasfiber>
-      <ComponentStamped>3</ComponentStamped>
+      <ComponentStamped>1</ComponentStamped>
       <ComponentSpacer>1</ComponentSpacer>
+      <Microchips>1</Microchips>
     </costList>
     <thingSetMakerTags><li>RewardStandardMidFreq</li></thingSetMakerTags>
     <statBases>
@@ -488,7 +489,7 @@
     <addsHediff>DMS_ProstheticKidney</addsHediff>
   </RecipeDef>
 
-  <!-- 輔助神經索 -->
+  <!-- 輔助神經索, Too powerful. -->
 
   <HediffDef>
     <defName>DMS_ProstheticSpine</defName>
@@ -617,8 +618,9 @@
     </graphicData>
     <costList>
       <Plasfiber>10</Plasfiber>
-      <ComponentStamped>7</ComponentStamped>
+      <ComponentStamped>3</ComponentStamped>
       <ComponentSpacer>2</ComponentSpacer>
+      <BioMicrochips>1</BioMicrochips>
     </costList>
     <statBases>
       <MaxInstallCount>6</MaxInstallCount>
