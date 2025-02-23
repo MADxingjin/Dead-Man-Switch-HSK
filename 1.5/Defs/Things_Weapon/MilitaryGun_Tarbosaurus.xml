@@ -45,7 +45,11 @@
 			</researchPrerequisites>
 		</recipeMaker>
 		<costList>
-			<Tungsteel>242</Tungsteel>
+      <Heavy_Component>1</Heavy_Component>
+      <Launcher_Component></Launcher_Component>
+      <Sniper_Component>1</Sniper_Component>
+      <Weapon_Parts>14</Weapon_Parts>
+			<Tungsteel>162</Tungsteel>
 			<ComponentStamped>18</ComponentStamped>
 			<ComponentSpacer>2</ComponentSpacer>
 		</costList>

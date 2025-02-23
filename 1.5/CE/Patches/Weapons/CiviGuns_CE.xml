@@ -79,7 +79,7 @@
                 </Properties>
                 <AmmoUser>
                     <magazineSize>5</magazineSize>
-                    <reloadTime>0.85</reloadTime>
+                    <reloadTime>0.70</reloadTime>
                     <reloadOneAtATime>true</reloadOneAtATime>
                     <ammoSet>AmmoSet_45ACP</ammoSet>
                 </AmmoUser>

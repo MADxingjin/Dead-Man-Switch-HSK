@@ -5,7 +5,8 @@ WTF UF only allows one RecipeUser Per Recipe.
 ## Working on
 Weap classify > COST HSKify
 
-Sort by Weap Ammo, Size(dimension)
+Sort by Weap Ammo, Size(dimension), And Human barearm usability.
+Only human barearm equipable weapon is needed to modify into HSK Style, the rest just inject the cost for recipe maker and we are done.
 
 1. Pistol
    1. DMS_KnuckledusterRevolver
@@ -18,21 +19,21 @@ Sort by Weap Ammo, Size(dimension)
 4. SMG 
    1. DMS_TaticalPistol (it fires .50AE, and it a semiauto)
    2. DMS_PDW
-   3. DMS_MiniMachineGun(yes,even this one  only fires .22LR)
+   3. DMS_MiniMachineGun (yes I say this IS a SMG,even this one only fires .22LR,but it has 200 MAG SIZE.)
 5. Sniper
    1. DMS_AssaultPiercer
    2. DMS_AssaultRifle
    3. DMS_MarksmanRifle
 6. Heavy
-   1. DMS_ElephantGun
+   1. DMS_ElephantGun H
    2. DMS_SemiAutoRifle (.50BMG)
    3. DMS_BattleRifle
    4. DMS_AntiMaterialRifle
-   5. DMS_LightMachineGun
+   5. DMS_LightMachineGun (.338)
    6. DMS_HeavyMachineGun
    7. DMS_GAU19Gatlinggun (.50BMG)
    8. DMS_M214Gatlinggun (556x45)
-   9. DMS_SniperCannon
+   9. DMS_SniperCannon (30x173,5,95)
    10. DMS_SniperGrenadeLauncher
    11. DMS_AutomaticGrenadeLauncher
 7.  Launcher
@@ -41,7 +42,7 @@ Sort by Weap Ammo, Size(dimension)
    3. DMS_Gun_DragoonRifle
    4. DMS_Gun_DragoonGrenade
 8. Specific
-   1. DMS_Autocannon
+   1. DMS_Autocannon (20x102,60,78)
    2. DMS_GAU8Gatlinggun
    3. DMS_GAU4Gatlinggun
    4. DMS_GAU4Gatlinggun_Hold
