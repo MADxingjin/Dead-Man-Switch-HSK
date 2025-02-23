@@ -123,20 +123,19 @@
     <label>Make ceramics x20</label>
     <description>Make a small amount of ceramic plates.</description>
     <jobString>Making.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_Machining</soundWorking>
-    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
     <recipeUsers>
       <li>DMS_Furnace</li>
       <li>EAF</li>
     </recipeUsers>
     <skillRequirements>
-      <Crafting>2</Crafting>
+      <Crafting>9</Crafting>
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite>DMS_Material</researchPrerequisite>
-    <workAmount>2400</workAmount>
+    <workAmount>1200</workAmount>
     <ingredients>
       <li>
         <filter>
@@ -148,11 +147,28 @@
       </li>
       <li>
         <filter>
-        <thingDefs><li>Silicon</li></thingDefs>
+          <thingDefs>
+            <li>Silicon</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SoftClay</li>
+          </thingDefs>
         </filter>
         <count>20</count>
       </li>
     </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SoftClay</li>
+        <li>Silicon</li>
+        <li>Polymers</li>
+      </thingDefs>
+    </fixedIngredientFilter>
     <products>
       <DMS_Ceramics>20</DMS_Ceramics>
     </products>
@@ -163,20 +179,19 @@
     <label>Make ceramics x80</label>
     <description>Making a large amount of ceramic plates.</description>
     <jobString>Making.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_Machining</soundWorking>
-    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
+    <workSpeedStat>SmeltingSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Interact_Repair</soundWorking>
     <recipeUsers>
       <li>DMS_Furnace</li>
       <li>EAF</li>
     </recipeUsers>
     <skillRequirements>
-      <Crafting>4</Crafting>
+      <Crafting>11</Crafting>
     </skillRequirements>
     <workSkill>Crafting</workSkill>
     <researchPrerequisite>DMS_Material</researchPrerequisite>
-    <workAmount>20000</workAmount>
+    <workAmount>3600</workAmount>
     <ingredients>
       <li>
         <filter>
@@ -184,15 +199,32 @@
             <li>Polymers</li>
           </thingDefs>
         </filter>
-        <count>10</count>
+        <count>40</count>
       </li>
       <li>
         <filter>
-        <thingDefs><li>Silicon</li></thingDefs>
+          <thingDefs>
+            <li>Silicon</li>
+          </thingDefs>
+        </filter>
+        <count>40</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>SoftClay</li>
+          </thingDefs>
         </filter>
         <count>80</count>
       </li>
     </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>SoftClay</li>
+        <li>Silicon</li>
+        <li>Polymers</li>
+      </thingDefs>
+    </fixedIngredientFilter>
     <products>
       <DMS_Ceramics>80</DMS_Ceramics>
     </products>
@@ -205,13 +237,13 @@
     <label>Make stamponent</label>
     <description>Make a stamponent</description>
     <jobString>Stamping compoments.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>ButcherMechanoid</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <recipeUsers>
       <li>DMS_TableMachinePrinter</li>
     </recipeUsers>
-    <workAmount>3500</workAmount>
+    <workAmount>2000</workAmount>
     <skillRequirements>
       <Crafting>6</Crafting>
     </skillRequirements>
@@ -253,14 +285,13 @@
     <label>Make stamponent x4</label>
     <description>Make stamponents.</description>
     <jobString>stamping compoments.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>ButcherMechanoid</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
-    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     <recipeUsers>
       <li>DMS_TableMachinePrinter</li>
     </recipeUsers>
-    <workAmount>7000</workAmount>
+    <workAmount>6000</workAmount>
     <skillRequirements>
       <Crafting>8</Crafting>
     </skillRequirements>
@@ -339,10 +370,10 @@
   <RecipeDef>
     <defName>DMS_Convert_ComponentIndustrial</defName>
     <label>Convert stamponent</label>
-    <description>Convert a stamponent into a component.</description>
+    <description>Convert a stamponent into 4 Industrial Component.</description>
     <jobString>Making component.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>ButcherMechanoid</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <recipeUsers>
       <li>FabricationBench</li>
