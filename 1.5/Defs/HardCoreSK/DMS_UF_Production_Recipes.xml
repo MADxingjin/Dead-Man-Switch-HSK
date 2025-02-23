@@ -196,7 +196,15 @@
             <li>Neutroamine</li>
           </thingDefs>
         </filter>
-        <count>20</count>
+        <count>10</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Biomatter</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -260,7 +268,15 @@
             <li>Neutroamine</li>
           </thingDefs>
         </filter>
-        <count>80</count>
+        <count>40</count>
+      </li>
+            <li>
+        <filter>
+          <thingDefs>
+            <li>Biomatter</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -406,7 +422,7 @@
     <slotsRequired>1</slotsRequired>
   </RecipeDef>
    -->
-<!-- Also This one.
+  <!-- Also This one.
   <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
     <defName>DMS_HSK_Make_DMS_Apparel_BionicSuit</defName>
     <label>Synthesize Bionic Suit</label>
