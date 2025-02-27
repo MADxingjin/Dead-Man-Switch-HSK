@@ -31,7 +31,7 @@
             <li>Tungsten</li>
           </thingDefs>
         </filter>
-        <count>10</count>
+        <count>12</count>
       </li>
       <li>
         <filter>
@@ -47,7 +47,7 @@
             <li>AluminiumBar</li>
           </thingDefs>
         </filter>
-        <count>5</count>
+        <count>3</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -88,7 +88,7 @@
             <li>Tungsten</li>
           </thingDefs>
         </filter>
-        <count>40</count>
+        <count>48</count>
       </li>
       <li>
         <filter>
@@ -104,7 +104,7 @@
             <li>AluminiumBar</li>
           </thingDefs>
         </filter>
-        <count>20</count>
+        <count>12</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -151,7 +151,7 @@
             <li>Silicon</li>
           </thingDefs>
         </filter>
-        <count>10</count>
+        <count>5</count>
       </li>
       <li>
         <filter>
@@ -207,7 +207,7 @@
             <li>Silicon</li>
           </thingDefs>
         </filter>
-        <count>40</count>
+        <count>20</count>
       </li>
       <li>
         <filter>
@@ -328,45 +328,6 @@
     </products>
   </RecipeDef>
 
-  <!-- 
-  <RecipeDef>
-    <defName>DMS_Make_ComponentIndustrial</defName>
-    <label>Make Component</label>
-    <description>Make a component using the machinery printer which takes a longer time and more
-  resources.</description>
-    <jobString>Making component.</jobString>
-    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-    <effectWorking>Cook</effectWorking>
-    <soundWorking>Recipe_Machining</soundWorking>
-    <recipeUsers>
-      <li>DMS_TableMachinePrinter</li>
-    </recipeUsers>
-    <workAmount>15000</workAmount>
-    <skillRequirements>
-      <Crafting>5</Crafting>
-    </skillRequirements>
-    <workSkill>Crafting</workSkill>
-    <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Steel</li>
-          </thingDefs>
-        </filter>
-        <count>20</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>Steel</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <products>
-      <ComponentIndustrial>1</ComponentIndustrial>
-    </products>
-  </RecipeDef>
--->
   <RecipeDef>
     <defName>DMS_Convert_ComponentIndustrial</defName>
     <label>Convert stamponent</label>

@@ -3,8 +3,17 @@
 WTF UF only allows one RecipeUser Per Recipe.
 
 ## Working on
-Weap classify > COST HSKify
 
+## Works Done
+
+1. CE Ammoset missing in HSK CE
+   Check all weap in game and record their ammo set & ammo type
+   1.1 Patch ammo recipes to HSK style & cost rebalance
+
+2. Building Stuffable
+   
+
+### Weap classify > COST HSKify
 Sort by Weap Ammo, Size(dimension), And Human barearm usability.
 Only human barearm equipable weapon is needed to modify into HSK Style, the rest just inject the cost for recipe maker and we are done.
 
@@ -52,15 +61,6 @@ Only human barearm equipable weapon is needed to modify into HSK Style, the rest
    8. DMS_Flameblaster
 
 
-
-## Works Done
-
-1. CE Ammoset missing in HSK CE
-   Check all weap in game and record their ammo set & ammo type
-   1.1 Patch ammo recipes to HSK style & cost rebalance
-
-2. Building Stuffable
-3. 
 
 
 ## TODO
