@@ -143,6 +143,7 @@
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
     <recipes>
       <li>DMS_ResurrectMediumMech</li>
+      <li>DMS_HSK_ResurrectArmyMech</li>
       <li>DMS_ResurrectHeavyMech</li>
       <li>DMS_ResurrectUltraheavyMech</li>
     </recipes>

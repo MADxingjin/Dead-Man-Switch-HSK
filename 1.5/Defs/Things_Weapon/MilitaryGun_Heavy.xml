@@ -117,11 +117,10 @@
       </researchPrerequisites>
     </recipeMaker>
     <costList>
-      <Heavy_Component>2</Heavy_Component>
-      <Weapon_Parts>14</Weapon_Parts>
-      <Rubber>50</Rubber>
-      <Tungsteel>65</Tungsteel>
-      <ComponentStamped>5</ComponentStamped>
+      <Heavy_Component>1</Heavy_Component>
+      <Weapon_Parts>15</Weapon_Parts>
+      <Tungsteel>40</Tungsteel>
+      <ComponentStamped>8</ComponentStamped>
     </costList>
     <verbs>
       <li>
