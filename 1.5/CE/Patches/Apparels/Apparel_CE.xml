@@ -100,7 +100,7 @@
 					<li>Feet</li>
 				</value>
 			</li>
-			-->
+
 			<li Class="PatchOperationAddModExtension">
 				<xpath>Defs/ThingDef[defName="DMS_Apparel_BionicSuit"]</xpath>
 				<value>
@@ -124,7 +124,7 @@
 					</li>
 				</value>
 			</li>
-
+			-->
 
 			<!--Army cap-->
 			<li Class="PatchOperationAdd">
@@ -138,6 +138,7 @@
 
 
 			<!--DMS_ArmorHelmetMakeableBase-->
+      <!-- NOT NEEDED IN HSK
 			<li Class="PatchOperationAdd">
 				<xpath>
 					Defs/ThingDef[@Name="DMS_ArmorHelmetMakeableBase"]/stuffCategories</xpath>
@@ -145,6 +146,7 @@
 					<li>Steeled</li>
 				</value>
 			</li>
+      -->
 			<!--PASGT-->
 			<li Class="PatchOperationReplace">
 				<xpath>
@@ -204,6 +206,7 @@
 					<Mass>9</Mass>
 				</value>
 			</li>
+      <!-- NOT NEEDED IN HSK
 			<li Class="PatchOperationReplace">
 				<xpath>
 					Defs/ThingDef[defName="DMS_Apparel_TacticalVest"]/stuffCategories</xpath>
@@ -213,6 +216,7 @@
 					</stuffCategories>
 				</value>
 			</li>
+      -->
 			<li Class="PatchOperationRemove">
 				<xpath>Defs/ThingDef[defName="DMS_Apparel_TacticalVest"]/equippedStatOffsets/MoveSpeed</xpath>
 			</li>
@@ -273,12 +277,12 @@
 				</value>
 			</li>
 			-->
-			<!--DMS_Apparel_TacticalCloak-->
+			<!--DMS_Apparel_TacticalCloak,Nerfed StuffEffectMultiplierArmor from 6 to 3 bcz original value way too powerful-->
 			<li Class="PatchOperationReplace">
 				<xpath>
 					Defs/ThingDef[defName="DMS_Apparel_TacticalCloak"]/statBases/StuffEffectMultiplierArmor</xpath>
 				<value>
-					<StuffEffectMultiplierArmor>6</StuffEffectMultiplierArmor>
+					<StuffEffectMultiplierArmor>3</StuffEffectMultiplierArmor>
 				</value>
 			</li>
 
@@ -296,7 +300,7 @@
 					<ReloadSpeed>0.1</ReloadSpeed>
 				</value>
 			</li>
-			<!--
+      <!-- RESPECT HSK GLOVES & BOOTS
 			<li Class="PatchOperationAdd">
 				<xpath>Defs/ThingDef[defName="DMS_Apparel_TacticalCloak"]/apparel/bodyPartGroups</xpath>
 				<value>
@@ -304,7 +308,6 @@
 					<li>Feet</li>
 				</value>
 			</li>
-			-->
 			<li Class="PatchOperationAddModExtension">
 				<xpath>Defs/ThingDef[defName="DMS_Apparel_TacticalCloak"]</xpath>
 				<value>
@@ -326,12 +329,12 @@
 					</li>
 				</value>
 			</li>
-
+-->
 			<!--DMS_Apparel_GarrisionCoat-->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="DMS_Apparel_GarrisionCoat"]/statBases/StuffEffectMultiplierArmor</xpath>
 				<value>
-					<StuffEffectMultiplierArmor>4</StuffEffectMultiplierArmor>
+					<StuffEffectMultiplierArmor>2.75</StuffEffectMultiplierArmor>
 				</value>
 			</li>
 

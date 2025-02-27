@@ -12,8 +12,10 @@
 		  <drawSize>1.4</drawSize>
 		</graphicData>
 		<costList>
-			<Chemfuel>75</Chemfuel>
-			<Tungsteel>10</Tungsteel>
+      <Heavy_Component>1</Heavy_Component>
+      <Plastic>10</Plastic>
+      <Weapon_Parts>3</Weapon_Parts>
+      <Mechanism>2</Mechanism>
 			<ComponentStamped>1</ComponentStamped>
 		</costList>
 		<statBases>

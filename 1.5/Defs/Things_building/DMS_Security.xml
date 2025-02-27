@@ -349,16 +349,24 @@
     </building>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <stuffCategories>
-      <li>RuggedMetallic</li>
+      <li>SolidMetallic</li>
     </stuffCategories>
-    <costStuffCount>500</costStuffCount>
+    <costStuffCount>250</costStuffCount>
     <costList>
-      <Tungsteel>200</Tungsteel>
-      <ComponentStamped>20</ComponentStamped>
-      <ComponentIndustrial>15</ComponentIndustrial>
+      <ReinforcedConcrete>150</ReinforcedConcrete>
+      <Tungsteel>100</Tungsteel>
+      <Heavy_Component>2</Heavy_Component>
+      <Launcher_Component>2</Launcher_Component>
+      <Sniper_Component>1</Sniper_Component>
+      <Weapon_Parts>14</Weapon_Parts>
+      <ComponentStamped>10</ComponentStamped>
+      <ComponentSpacer>5</ComponentSpacer>
+      <AdvMechanism>8</AdvMechanism>
       <ComponentFireControl>1</ComponentFireControl>
     </costList>
     <researchPrerequisites>
+      <li>GunTurrets</li>
+      <li>Artillery_C2</li>
       <li>DMS_EquipmentHeavy</li>
     </researchPrerequisites>
     <uiIconPath>Things/Turrets/DMS_Tunguska</uiIconPath>
@@ -403,17 +411,17 @@
       </li>
     </verbs>
     <modExtensions>
-			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
-				<def>MF_StandardMuzzleFalsh</def>
-				<drawSize>(1.9,1.75)</drawSize>
-				<offsets>
-					<li>(1.55,0.55)</li>
-					<li>(1.55,-0.55)</li>
-					<li>(1.7,0.675)</li>
-					<li>(1.7,-0.675)</li>
-				</offsets>
-				<isAlternately>true</isAlternately>
-			</li>
+      <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+        <def>MF_StandardMuzzleFalsh</def>
+        <drawSize>(1.9,1.75)</drawSize>
+        <offsets>
+          <li>(1.55,0.55)</li>
+          <li>(1.55,-0.55)</li>
+          <li>(1.7,0.675)</li>
+          <li>(1.7,-0.675)</li>
+        </offsets>
+        <isAlternately>true</isAlternately>
+      </li>
     </modExtensions>
   </ThingDef>
 
@@ -484,16 +492,22 @@
     </building>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <stuffCategories>
-      <li>RuggedMetallic</li>
+      <li>SolidMetallic</li>
     </stuffCategories>
-    <costStuffCount>450</costStuffCount>
+    <costStuffCount>250</costStuffCount>
     <costList>
-      <Tungsteel>300</Tungsteel>
+      <ReinforcedConcrete>200</ReinforcedConcrete>
+      <Cannon_Component>1</Cannon_Component>
+      <Weapon_Parts>30</Weapon_Parts>
+      <Tungsteel>100</Tungsteel>
       <ComponentStamped>15</ComponentStamped>
-      <ComponentIndustrial>10</ComponentIndustrial>
+      <Rubber>60</Rubber>
+      <MagneticMaterial>20</MagneticMaterial>
+      <AdvMechanism>8</AdvMechanism>
       <ComponentFireControl>1</ComponentFireControl>
     </costList>
     <researchPrerequisites>
+      <li>GunTurrets</li>
       <li>DMS_EquipmentElite</li>
       <li>MultibarrelWeapons</li>
     </researchPrerequisites>
@@ -545,14 +559,14 @@
       </li>
     </verbs>
     <modExtensions>
-			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
-				<def>MF_StandardMuzzleFalsh</def>
-				<drawSize>(3,1.75)</drawSize>
-				<offsets>
-					<li>(2.35,0)</li>
-				</offsets>
-				<isAlternately>true</isAlternately>
-			</li>
+      <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+        <def>MF_StandardMuzzleFalsh</def>
+        <drawSize>(3,1.75)</drawSize>
+        <offsets>
+          <li>(2.35,0)</li>
+        </offsets>
+        <isAlternately>true</isAlternately>
+      </li>
     </modExtensions>
   </ThingDef>
 
@@ -580,9 +594,9 @@
       <soundAmbient>MortarRound_Ambient</soundAmbient>
     </projectile>
     <comps>
-			<li Class="CompProperties_ProjectileEffecter">
-				<effecterDef>DMS_LaunchDust_Grenade</effecterDef>
-			</li>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>DMS_LaunchDust_Grenade</effecterDef>
+      </li>
     </comps>
   </ThingDef>
 
@@ -649,14 +663,19 @@
     <stuffCategories>
       <li>RuggedMetallic</li>
     </stuffCategories>
-    <costStuffCount>250</costStuffCount>
+    <costStuffCount>200</costStuffCount>
     <costList>
-      <Tungsteel>100</Tungsteel>
+      <ReinforcedConcrete>50</ReinforcedConcrete>
+      <Heavy_Component>2</Heavy_Component>
+      <Weapon_Parts>15</Weapon_Parts>
+      <Rubber>50</Rubber>
+      <Tungsteel>65</Tungsteel>
       <ComponentStamped>5</ComponentStamped>
-      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <researchPrerequisites>
+      <li>Components_D1</li>
       <li>DMS_EquipmentElite</li>
+      <li>Heavy_C2</li>
     </researchPrerequisites>
     <uiIconPath>Things/Turrets/DMS_5ETs16U</uiIconPath>
     <uiIconScale>1.2</uiIconScale>
@@ -798,11 +817,14 @@
     </stuffCategories>
     <costStuffCount>150</costStuffCount>
     <costList>
-      <Tungsteel>120</Tungsteel>
+      <Tungsteel>50</Tungsteel>
+      <Rubber>50</Rubber>
+      <Mortar_Crate>2</Mortar_Crate>
       <ComponentStamped>5</ComponentStamped>
-      <ComponentIndustrial>5</ComponentIndustrial>
+      <Mechanism>4</Mechanism>
     </costList>
     <researchPrerequisites>
+      <li>Mortars</li>
       <li>DMS_EquipmentElite</li>
     </researchPrerequisites>
     <uiIconPath>Things/Turrets/DMS_Vasilek_Icon</uiIconPath>
@@ -928,16 +950,22 @@
     </building>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <stuffCategories>
-      <li>RuggedMetallic</li>
+      <li>SolidMetallic</li>
     </stuffCategories>
-    <costStuffCount>450</costStuffCount>
+    <costStuffCount>250</costStuffCount>
     <costList>
-      <Tungsteel>300</Tungsteel>
-      <ComponentStamped>15</ComponentStamped>
-      <ComponentIndustrial>10</ComponentIndustrial>
+      <ReinforcedConcrete>200</ReinforcedConcrete>
+      <Cannon_Component>2</Cannon_Component>
+      <Weapon_Parts>16</Weapon_Parts>
+      <Tungsteel>200</Tungsteel>
+      <Rubber>35</Rubber>
+      <Plastic>30</Plastic>
+      <ComponentStamped>18</ComponentStamped>
       <ComponentFireControl>2</ComponentFireControl>
+      <Electronics>4</Electronics>
     </costList>
     <researchPrerequisites>
+      <li>HeavyTurrets</li>
       <li>DMS_Synthroid</li>
       <li>DMS_EquipmentHeavy</li>
     </researchPrerequisites>
@@ -988,14 +1016,14 @@
       </li>
     </verbs>
     <modExtensions>
-			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
-				<def>MF_StandardMuzzleFalsh</def>
-				<drawSize>(2.75,2.75)</drawSize>
-				<offsets>
-					<li>(3,0)</li>
-				</offsets>
-				<isAlternately>true</isAlternately>
-			</li>
+      <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+        <def>MF_StandardMuzzleFalsh</def>
+        <drawSize>(2.75,2.75)</drawSize>
+        <offsets>
+          <li>(3,0)</li>
+        </offsets>
+        <isAlternately>true</isAlternately>
+      </li>
     </modExtensions>
   </ThingDef>
 
@@ -1043,9 +1071,9 @@
         <doSoundEffects>false</doSoundEffects>
         <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
       </li>
-			<li Class="CompProperties_ProjectileEffecter">
-				<effecterDef>DMS_LaunchDust</effecterDef>
-			</li>
+      <li Class="CompProperties_ProjectileEffecter">
+        <effecterDef>DMS_LaunchDust</effecterDef>
+      </li>
     </comps>
   </ThingDef>
 

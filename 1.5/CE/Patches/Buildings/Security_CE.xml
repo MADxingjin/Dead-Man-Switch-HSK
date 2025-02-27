@@ -214,15 +214,15 @@
 					<recoilPattern>Mounted</recoilPattern>
 				</Properties>
 				<AmmoUser>
-					<magazineSize>240</magazineSize>
-					<reloadTime>13</reloadTime>
+					<magazineSize>400</magazineSize>
+					<reloadTime>16</reloadTime>
 					<ammoSet>AmmoSet_127x108mm</ammoSet>
 				</AmmoUser>
 				<FireModes>
-					<noSingleShot>true</noSingleShot>
+					<noSingleShot>false</noSingleShot>
 					<aiUseBurstMode>FALSE</aiUseBurstMode>
 					<aiAimMode>SuppressFire</aiAimMode>
-					<aimedBurstShotCount>4</aimedBurstShotCount>
+					<aimedBurstShotCount>6</aimedBurstShotCount>
 				</FireModes>
 			</li>
 

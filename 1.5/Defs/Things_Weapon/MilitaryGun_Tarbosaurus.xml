@@ -46,7 +46,7 @@
 		</recipeMaker>
 		<costList>
       <Heavy_Component>1</Heavy_Component>
-      <Launcher_Component></Launcher_Component>
+      <Launcher_Component>1</Launcher_Component>
       <Sniper_Component>1</Sniper_Component>
       <Weapon_Parts>14</Weapon_Parts>
 			<Tungsteel>162</Tungsteel>
