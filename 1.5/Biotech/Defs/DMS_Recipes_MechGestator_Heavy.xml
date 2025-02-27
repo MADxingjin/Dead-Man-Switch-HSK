@@ -25,11 +25,11 @@
       </li>
       <li>
         <filter>
-          <categories>
-            <li>USLDBar</li>
-          </categories>
+          <thingDefs>
+            <li>Artifuscle</li>
+          </thingDefs>
         </filter>
-        <count>35</count>
+        <count>80</count>
       </li>
       <li>
         <filter>
@@ -131,7 +131,15 @@
             <li>USLDBar</li>
           </categories>
         </filter>
-        <count>110</count>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Artifuscle</li>
+          </thingDefs>
+        </filter>
+        <count>70</count>
       </li>
       <li>
         <filter>
@@ -139,12 +147,12 @@
             <li>Plasfiber</li>
           </thingDefs>
         </filter>
-        <count>20</count>
+        <count>100</count>
       </li>
       <li>
         <filter>
           <thingDefs>
-            <li>Chemfuel</li>
+            <li>Rubber</li>
           </thingDefs>
         </filter>
         <count>25</count>
@@ -225,7 +233,7 @@
             <li>Tungsteel</li>
           </thingDefs>
         </filter>
-        <count>325</count>
+        <count>250</count>
       </li>
       <li MayRequire="ludeon.rimworld.royalty">
         <filter>
@@ -234,6 +242,14 @@
           </thingDefs>
         </filter>
         <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Artifuscle</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
       </li>
       <li>
         <filter>
@@ -251,7 +267,7 @@
         </filter>
         <count>1</count>
       </li>
-            <li>
+      <li>
         <filter>
           <thingDefs>
             <li>Microchips</li>
@@ -302,7 +318,15 @@
             <li>Tungsteel</li>
           </thingDefs>
         </filter>
-        <count>325</count>
+        <count>250</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Artifuscle</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
       </li>
       <li>
         <filter>
@@ -328,7 +352,7 @@
         </filter>
         <count>1</count>
       </li>
-            <li>
+      <li>
         <filter>
           <thingDefs>
             <li>Microchips</li>
@@ -381,7 +405,15 @@
             <li>Tungsteel</li>
           </thingDefs>
         </filter>
-        <count>375</count>
+        <count>250</count>
+      </li>
+            <li>
+        <filter>
+          <thingDefs>
+            <li>Artifuscle</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
       </li>
       <li>
         <filter>
@@ -407,7 +439,7 @@
         </filter>
         <count>1</count>
       </li>
-            <li>
+      <li>
         <filter>
           <thingDefs>
             <li>Microchips</li>
@@ -431,7 +463,7 @@
         </filter>
         <count>6</count>
       </li>
-            <li>
+      <li>
         <filter>
           <thingDefs>
             <li>Cannon_Component</li>
@@ -477,6 +509,14 @@
         </filter>
         <count>200</count>
       </li>
+            <li>
+        <filter>
+          <thingDefs>
+            <li>Artifuscle</li>
+          </thingDefs>
+        </filter>
+        <count>75</count>
+      </li>
       <li>
         <filter>
           <thingDefs>
@@ -501,7 +541,7 @@
         </filter>
         <count>1</count>
       </li>
-            <li>
+      <li>
         <filter>
           <thingDefs>
             <li>Microchips</li>
@@ -622,14 +662,14 @@
         </filter>
         <count>20</count>
       </li>
-      				<li>
-					<filter>
-						<thingDefs>
-							<li>AdvMechanism</li>
-						</thingDefs>
-					</filter>
-					<count>10</count>
-				</li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>AdvMechanism</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
     </ingredients>
   </RecipeDef>
 </Defs>
