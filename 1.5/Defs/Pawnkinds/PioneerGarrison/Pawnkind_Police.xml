@@ -50,7 +50,7 @@
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
         <apparelLayer>Middle</apparelLayer>
-        <stuff>Steel</stuff>
+        <stuff>Plasteel</stuff>
       </li>
       <li>
         <colorGenerator Class="ColorGenerator_Options">
@@ -79,6 +79,8 @@
     <weaponTags Inherit="False">
       <li>Revolver</li>
       <li>ShortShots</li>
+      <li>CE_AI_Pistol</li>
+
     </weaponTags>
   </PawnKindDef>
 
@@ -95,7 +97,7 @@
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
         <apparelLayer>Middle</apparelLayer>
-        <stuff>Steel</stuff>
+        <stuff>Plasteel</stuff>
       </li>
       <li>
         <colorGenerator Class="ColorGenerator_Options">
@@ -197,13 +199,13 @@
       <li>
         <bodyPartGroup>UpperHead</bodyPartGroup>
         <apparelLayer>Middle</apparelLayer>
-        <stuff>Steel</stuff>
+        <stuff>Plasteel</stuff>
         <color>(68,68,68)</color>
       </li>
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
         <apparelLayer>Middle</apparelLayer>
-        <stuff>Steel</stuff>
+        <stuff>Plasteel</stuff>
       </li>
     </specificApparelRequirements>
     <skills>
@@ -220,7 +222,7 @@
       <li>DMS_Tactical</li>
       <li>IndustrialBasic</li>
     </apparelTags>
-    <weaponMoney>530~2000</weaponMoney>
+    <weaponMoney>1500~3000</weaponMoney>
     <weaponTags Inherit="False">
       <li>A_RC_LongRifle</li>
       <li>AssaultRifle</li>
@@ -254,7 +256,7 @@
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
         <apparelLayer>Middle</apparelLayer>
-        <stuff>Steel</stuff>
+        <stuff>Plasteel</stuff>
       </li>
     </specificApparelRequirements>
     <skills>
@@ -267,7 +269,7 @@
       <li>DMS_Tactical</li>
       <li>IndustrialBasic</li>
     </apparelTags>
-    <weaponMoney>1060~3000</weaponMoney>
+    <weaponMoney>3000~4000</weaponMoney>
     <weaponTags Inherit="False">
       <li>SniperRifle</li>
       <li>SNIP2</li>

@@ -11,7 +11,7 @@
     <apparelRequired>
       <li>DMS_Apparel_UnitSuit</li>
     </apparelRequired>
-    <apparelMoney>500~1750</apparelMoney>
+    <apparelMoney>1000~2000</apparelMoney>
     <apparelTags>
       <li>IndustrialBasic</li>
     </apparelTags>
@@ -40,7 +40,10 @@
       <li>MedievalMeleeBasic</li>
     </weaponTags>
     <weaponMoney>260~1000</weaponMoney>
-
+    <apparelRequired>
+      <li>DMS_Apparel_UnitSuit</li>
+    </apparelRequired>
+    <apparelMoney>500~1750</apparelMoney>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <techHediffsChance>0.06</techHediffsChance>
     <techHediffsMoney>500~600</techHediffsMoney>
@@ -137,13 +140,14 @@
     <weaponTags>
     </weaponTags>
     <weaponMoney>800~1600</weaponMoney>
-
+    <apparelMoney>500~1750</apparelMoney>
     <apparelTags>
       <li>IndustrialMilitaryBasic</li>
       <li>IndustrialMilitaryAdvanced</li>
       <li>BeltDefensePop</li>
     </apparelTags>
     <apparelRequired>
+      <li>DMS_Apparel_UnitSuit</li>
       <li>Apparel_BowlerHat</li>
     </apparelRequired>
     <techHediffsChance>0.15</techHediffsChance>
@@ -173,9 +177,10 @@
       <li>MedievalMeleeDecent</li>
     </weaponTags>
     <weaponMoney>800~1600</weaponMoney>
-
+<apparelMoney>500~1750</apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <apparelRequired>
+      <li>DMS_Apparel_UnitSuit</li>
       <li>Apparel_FlakVest</li>
       <li>Apparel_SimpleHelmet</li>
     </apparelRequired>
@@ -201,9 +206,10 @@
       <li></li>
     </weaponTags>
     <weaponMoney>1200~2000</weaponMoney>
-
+<apparelMoney>500~1750</apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <apparelRequired>
+      <li>DMS_Apparel_UnitSuit</li>
       <li>Apparel_FlakVest</li>
       <li>Apparel_SimpleHelmet</li>
     </apparelRequired>
@@ -228,7 +234,7 @@
       <li>SMG2</li>
     </weaponTags>
     <weaponMoney>1200~2200</weaponMoney>
-
+<apparelMoney>500~1750</apparelMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <apparelRequired>
       <li>Apparel_FlakVest</li>

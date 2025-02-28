@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!-- 仿生作戰服,No Durability, +1.75 Speed,prob PA Soldier designated best outfit.  -->
+  <!-- 仿生作戰服,+1.75 Speed,prob PA Soldier designated best outfit.  -->
   <ThingDef ParentName="ApparelBase">
     <defName>DMS_Apparel_BionicSuit</defName>
     <label>Bionic Suit</label>
