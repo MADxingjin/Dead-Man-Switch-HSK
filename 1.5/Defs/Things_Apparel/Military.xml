@@ -8,23 +8,24 @@
       bionic suit is sewn from artificial muscle fibers and amplifies the wearers pre-existing
       muscular strength. Greatly increases the wearers carrying capacity and movement speed.</description>
     <techLevel>Spacer</techLevel>
-		<recipeMaker>
-			<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-			<workSkill>Crafting</workSkill>
-			<effectWorking>Surgery</effectWorking>
-			<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
-			<recipeUsers>
-				<li>DMS_TableMachinePrinter</li>
-			</recipeUsers>
-			<researchPrerequisite>DMS_Artifuscle</researchPrerequisite>
-			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
-		</recipeMaker>
-		<costList>
-			<Plasfiber>40</Plasfiber>
-			<Artifuscle>75</Artifuscle>
-			<Paraffins>20</Paraffins>
-      <ComponentAdvanced>8</ComponentAdvanced>
-		</costList>
+    <recipeMaker>
+      <workSpeedStat>TailoringSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Surgery</effectWorking>
+      <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+      <recipeUsers>
+        <li>DMS_TableMachinePrinter</li>
+      </recipeUsers>
+      <researchPrerequisite>DMS_Artifuscle</researchPrerequisite>
+      <unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+    </recipeMaker>
+    <costList>
+      <Plasfiber>40</Plasfiber>
+      <Artifuscle>75</Artifuscle>
+      <Paraffins>20</Paraffins>
+      <ComponentSpacer>4</ComponentSpacer>
+      <ComponentStamped>2</ComponentStamped>
+    </costList>
     <tradeTags>
       <li>DMS_Armor</li>
     </tradeTags>
@@ -36,10 +37,11 @@
       <li>ApparelArmor</li>
     </thingCategories>
     <statBases>
-      <!-- <WorkToMake>8000</WorkToMake>-->
+      <MaxHitPoints>115</MaxHitPoints>
+      <WorkToMake>26000</WorkToMake>
       <Mass>7</Mass>
-      <ArmorRating_Sharp>0.4</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.4</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.6</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.6</ArmorRating_Blunt>
       <ArmorRating_Heat>0.6</ArmorRating_Heat>
       <Insulation_Cold>18</Insulation_Cold>
       <Insulation_Heat>18</Insulation_Heat>
@@ -47,11 +49,12 @@
       <DeteriorationRate>0</DeteriorationRate>
       <Flammability>0</Flammability>
     </statBases>
-    <useHitPoints>false</useHitPoints>
     <equippedStatOffsets>
       <MoveSpeed>1.75</MoveSpeed>
       <RestFallRateFactor>0.25</RestFallRateFactor>
       <ToxicEnvironmentResistance>0.25</ToxicEnvironmentResistance>
+      <GermResistance>0.25</GermResistance>
+      <GermContainment>0.25</GermContainment>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -266,6 +269,9 @@
           <li>Gold</li>
         </disallowedThingDefs>
       </defaultIngredientFilter>
+      <recipeUsers Inherit="False">
+        <li>DMS_TableMachinePrinter</li>
+      </recipeUsers>
     </recipeMaker>
     <graphicData>
       <graphicClass>Graphic_Single</graphicClass>

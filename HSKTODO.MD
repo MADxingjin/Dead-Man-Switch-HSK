@@ -65,6 +65,11 @@ Only human barearm equipable weapon is needed to modify into HSK Style, the rest
 
 ## TODO
 
+Pawnkind budget & tag
+
+Defense Building Cost.
+
+
 1. Building 
    1. stuffable
    2. power consumption
