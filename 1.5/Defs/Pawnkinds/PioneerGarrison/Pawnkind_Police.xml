@@ -15,7 +15,7 @@
       <li>IndustrialMilitaryBasic</li>
       <li>BeltDefensePop</li>
     </apparelTags>
-    <apparelMoney>1200~2400</apparelMoney>
+    <apparelMoney>1800~3000</apparelMoney>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <weaponTags>
       <li>Gun</li>
@@ -79,8 +79,8 @@
     <weaponTags Inherit="False">
       <li>Revolver</li>
       <li>ShortShots</li>
-      <li>CE_AI_Pistol</li>
-
+      <li>TierOnePistol</li>
+      <li>TierTwoPistol</li>
     </weaponTags>
   </PawnKindDef>
 
@@ -141,7 +141,7 @@
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
         <apparelLayer>Middle</apparelLayer>
-        <stuff>Steel</stuff>
+        <stuff>Plasteel</stuff>
       </li>
       <li>
         <colorGenerator Class="ColorGenerator_Options">
@@ -173,6 +173,8 @@
     </apparelTags>
     <weaponTags Inherit="False">
       <li>Revolver</li>
+      <li>TierTwoPistol</li>
+      <li>TierOneSMG</li>
     </weaponTags>
   </PawnKindDef>
 

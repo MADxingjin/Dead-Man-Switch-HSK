@@ -14,6 +14,10 @@
     <apparelMoney>1000~2000</apparelMoney>
     <apparelTags>
       <li>IndustrialBasic</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>Outlander</li>
+      <li>BanditsLight</li>
+      <li>DMS_Uniform</li>
     </apparelTags>
     <disallowedTraits>
       <li>Nudist</li>
@@ -40,10 +44,7 @@
       <li>MedievalMeleeBasic</li>
     </weaponTags>
     <weaponMoney>260~1000</weaponMoney>
-    <apparelRequired>
-      <li>DMS_Apparel_UnitSuit</li>
-    </apparelRequired>
-    <apparelMoney>500~1750</apparelMoney>
+    <apparelMoney>2000~2200</apparelMoney>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <techHediffsChance>0.06</techHediffsChance>
     <techHediffsMoney>500~600</techHediffsMoney>
@@ -53,6 +54,13 @@
       <li>Poor</li>
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialMilitaryBasic</li>
+      <li>Outlander</li>
+      <li>BanditsLight</li>
+      <li>DMS_Uniform</li>
+    </apparelTags>
     <initialWillRange>10~15</initialWillRange>
     <initialResistanceRange>10~17</initialResistanceRange>
     <requiredWorkTags> <!-- Must be capable of labor, as this pawn kind is used in laborer quests. -->
@@ -103,6 +111,7 @@
           </options>
         </colorGenerator>
       </li>
+      <!-- 
       <li>
         <bodyPartGroup>UpperHead</bodyPartGroup>
         <stuff>Polyester</stuff>
@@ -115,6 +124,7 @@
         <bodyPartGroup>Legs</bodyPartGroup>
         <stuff>Polyester</stuff>
       </li>
+      -->
     </specificApparelRequirements>
     <skills>
       <li>
@@ -173,11 +183,10 @@
     <label>minute man</label>
     <itemQuality>Normal</itemQuality>
     <weaponTags Inherit="False">
-      <li>Simple_LongRange</li>
+      <li>IndustrialGun</li>
       <li>MedievalMeleeDecent</li>
     </weaponTags>
-    <weaponMoney>800~1600</weaponMoney>
-<apparelMoney>500~1750</apparelMoney>
+    <weaponMoney>1200~2400</weaponMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <apparelRequired>
       <li>DMS_Apparel_UnitSuit</li>
@@ -205,8 +214,7 @@
       <li>CE_AI_Rifle</li>
       <li></li>
     </weaponTags>
-    <weaponMoney>1200~2000</weaponMoney>
-<apparelMoney>500~1750</apparelMoney>
+    <weaponMoney>1600~3200</weaponMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <apparelRequired>
       <li>DMS_Apparel_UnitSuit</li>
@@ -233,8 +241,7 @@
       <li>A_RC_Pistol</li>
       <li>SMG2</li>
     </weaponTags>
-    <weaponMoney>1200~2200</weaponMoney>
-<apparelMoney>500~1750</apparelMoney>
+    <weaponMoney>1600~3200</weaponMoney>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <apparelRequired>
       <li>Apparel_FlakVest</li>
