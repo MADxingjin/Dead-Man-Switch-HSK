@@ -15,12 +15,14 @@
       <li>IndustrialMilitaryBasic</li>
       <li>BeltDefensePop</li>
     </apparelTags>
-    <apparelMoney>400~600</apparelMoney>
+    <apparelMoney>1200~2400</apparelMoney>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <weaponTags>
       <li>Gun</li>
+      <li>CE_AI_Rifle</li>
+
     </weaponTags>
-    <weaponMoney>250~400</weaponMoney>
+    <weaponMoney>750~1600</weaponMoney>
     <techHediffsChance>0.04</techHediffsChance>
     <techHediffsMoney>1200~1700</techHediffsMoney>
     <techHediffsTags>
@@ -30,9 +32,12 @@
     </techHediffsTags>
     <initialWillRange>1~3</initialWillRange>
     <initialResistanceRange>15~24</initialResistanceRange>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
   </PawnKindDef>
 
-<!-- 配槍巡警-->
+  <!-- 配槍巡警-->
   <PawnKindDef ParentName="DMS_PoliceBase">
     <defName>DMS_Police_Pistol</defName>
     <label>police</label>
@@ -44,7 +49,7 @@
     <specificApparelRequirements>
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
-        <apparelLayer>Middle</apparelLayer> 
+        <apparelLayer>Middle</apparelLayer>
         <stuff>Steel</stuff>
       </li>
       <li>
@@ -72,7 +77,7 @@
       <li>IndustrialBasic</li>
     </apparelTags>
     <weaponTags Inherit="False">
-			<li>Revolver</li>
+      <li>Revolver</li>
       <li>ShortShots</li>
     </weaponTags>
   </PawnKindDef>
@@ -89,7 +94,7 @@
     <specificApparelRequirements>
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
-        <apparelLayer>Middle</apparelLayer> 
+        <apparelLayer>Middle</apparelLayer>
         <stuff>Steel</stuff>
       </li>
       <li>
@@ -117,7 +122,7 @@
       <li>IndustrialBasic</li>
     </apparelTags>
     <weaponTags Inherit="False">
-			<li>A_RC_Melee</li>
+      <li>A_RC_Melee</li>
     </weaponTags>
   </PawnKindDef>
 
@@ -133,7 +138,7 @@
     <specificApparelRequirements>
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
-        <apparelLayer>Middle</apparelLayer> 
+        <apparelLayer>Middle</apparelLayer>
         <stuff>Steel</stuff>
       </li>
       <li>
@@ -165,7 +170,7 @@
       <li>IndustrialBasic</li>
     </apparelTags>
     <weaponTags Inherit="False">
-			<li>Revolver</li>
+      <li>Revolver</li>
     </weaponTags>
   </PawnKindDef>
 
@@ -190,14 +195,14 @@
         </colorGenerator>
       </li>
       <li>
-        <bodyPartGroup>UpperHead</bodyPartGroup>        
-        <apparelLayer>Middle</apparelLayer> 
+        <bodyPartGroup>UpperHead</bodyPartGroup>
+        <apparelLayer>Middle</apparelLayer>
         <stuff>Steel</stuff>
         <color>(68,68,68)</color>
       </li>
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
-        <apparelLayer>Middle</apparelLayer> 
+        <apparelLayer>Middle</apparelLayer>
         <stuff>Steel</stuff>
       </li>
     </specificApparelRequirements>
@@ -217,12 +222,12 @@
     </apparelTags>
     <weaponMoney>530~2000</weaponMoney>
     <weaponTags Inherit="False">
-			<li>A_RC_LongRifle</li>
+      <li>A_RC_LongRifle</li>
       <li>AssaultRifle</li>
     </weaponTags>
-  </PawnKindDef>  
+  </PawnKindDef>
 
-    <!-- 特勤射手(狙擊)-->
+  <!-- 特勤射手(狙擊)-->
   <PawnKindDef ParentName="DMS_PoliceBase">
     <defName>DMS_Police_Ranged</defName>
     <label>police sniper</label>
@@ -248,7 +253,7 @@
       </li>
       <li>
         <bodyPartGroup>Torso</bodyPartGroup>
-        <apparelLayer>Middle</apparelLayer> 
+        <apparelLayer>Middle</apparelLayer>
         <stuff>Steel</stuff>
       </li>
     </specificApparelRequirements>
@@ -262,10 +267,12 @@
       <li>DMS_Tactical</li>
       <li>IndustrialBasic</li>
     </apparelTags>
-    <weaponMoney>530~2000</weaponMoney>
+    <weaponMoney>1060~3000</weaponMoney>
     <weaponTags Inherit="False">
-			<li>SniperRifle</li>
+      <li>SniperRifle</li>
+      <li>SNIP2</li>
+      <li>TierTwoSniper</li>
     </weaponTags>
-  </PawnKindDef>  
+  </PawnKindDef>
 
 </Defs>

@@ -11,15 +11,23 @@
     <apparelRequired>
       <li>DMS_Apparel_UnitSuit</li>
     </apparelRequired>
+    <apparelMoney>500~1750</apparelMoney>
     <apparelTags>
       <li>IndustrialBasic</li>
     </apparelTags>
+    <disallowedTraits>
+      <li>Nudist</li>
+    </disallowedTraits>
     <titleRequired MayRequire="Ludeon.RimWorld.Royalty">DMS_Reservist</titleRequired>
+    <weaponTags>
+      <li>CE_AI_AssaultWeapon</li>
+      <li>CE_AI_Rifle</li>
+    </weaponTags>
   </PawnKindDef>
 
 
-
-  <!--====== Traders and Civillians ====== -->
+  <!--======
+  Traders and Civillians ====== -->
   <PawnKindDef ParentName="DMS_OutlanderBase" Name="DMS_CivilianBase">
     <defName>DMS_Civilian</defName>
     <label>civilian</label>
@@ -28,12 +36,13 @@
     <isFighter>false</isFighter>
     <weaponTags>
       <li>DMS_MechWeaponUltraLight</li>
+      <li>CE_AI_AssaultWeapon</li>
       <li>MedievalMeleeBasic</li>
     </weaponTags>
-    <weaponMoney>65~250</weaponMoney>
-    <apparelMoney>200~400</apparelMoney>
+    <weaponMoney>260~1000</weaponMoney>
+
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
-    <techHediffsChance>0.06</techHediffsChance> 
+    <techHediffsChance>0.06</techHediffsChance>
     <techHediffsMoney>500~600</techHediffsMoney>
     <techHediffsTags>
       <li>DMS_BM_Bionic</li>
@@ -42,7 +51,7 @@
       <li>ImplantEmpireCommon</li>
     </techHediffsTags>
     <initialWillRange>10~15</initialWillRange>
-    <initialResistanceRange>10~17</initialResistanceRange>   
+    <initialResistanceRange>10~17</initialResistanceRange>
     <requiredWorkTags> <!-- Must be capable of labor, as this pawn kind is used in laborer quests. -->
       <li>ManualDumb</li>
       <li>ManualSkilled</li>
@@ -109,11 +118,11 @@
         <skill>Shooting</skill>
         <range>1~5</range>
       </li>
-	    <li>
+      <li>
         <skill>Melee</skill>
         <range>1~5</range>
-      </li>	    	     
-	  </skills>
+      </li>
+    </skills>
   </PawnKindDef>
 
 
@@ -127,8 +136,8 @@
     <itemQuality>Normal</itemQuality>
     <weaponTags>
     </weaponTags>
-    <weaponMoney>200~200</weaponMoney>
-    <apparelMoney>400~600</apparelMoney>
+    <weaponMoney>800~1600</weaponMoney>
+
     <apparelTags>
       <li>IndustrialMilitaryBasic</li>
       <li>IndustrialMilitaryAdvanced</li>
@@ -163,8 +172,8 @@
       <li>Simple_LongRange</li>
       <li>MedievalMeleeDecent</li>
     </weaponTags>
-    <weaponMoney>200~250</weaponMoney>
-    <apparelMoney>500~1000</apparelMoney>
+    <weaponMoney>800~1600</weaponMoney>
+
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <apparelRequired>
       <li>Apparel_FlakVest</li>
@@ -175,11 +184,11 @@
         <skill>Shooting</skill>
         <range>4~8</range>
       </li>
-	    <li>
+      <li>
         <skill>Melee</skill>
         <range>4~8</range>
-      </li>	    	     
-	  </skills>
+      </li>
+    </skills>
   </PawnKindDef>
 
   <PawnKindDef ParentName="DMS_CivilianBase">
@@ -188,9 +197,11 @@
     <itemQuality>Normal</itemQuality>
     <weaponTags Inherit="False">
       <li>ElephantGun</li>
+      <li>CE_AI_Rifle</li>
+      <li></li>
     </weaponTags>
-    <weaponMoney>400~500</weaponMoney>
-    <apparelMoney>500~1000</apparelMoney>
+    <weaponMoney>1200~2000</weaponMoney>
+
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <apparelRequired>
       <li>Apparel_FlakVest</li>
@@ -201,11 +212,11 @@
         <skill>Shooting</skill>
         <range>4~8</range>
       </li>
-	    <li>
+      <li>
         <skill>Melee</skill>
         <range>5~10</range>
-      </li>	    	     
-	  </skills>
+      </li>
+    </skills>
   </PawnKindDef>
 
   <PawnKindDef ParentName="DMS_CivilianBase">
@@ -214,9 +225,10 @@
     <itemQuality>Normal</itemQuality>
     <weaponTags Inherit="False">
       <li>A_RC_Pistol</li>
+      <li>SMG2</li>
     </weaponTags>
-    <weaponMoney>200~200</weaponMoney>
-    <apparelMoney>500~1000</apparelMoney>
+    <weaponMoney>1200~2200</weaponMoney>
+
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <apparelRequired>
       <li>Apparel_FlakVest</li>
@@ -224,18 +236,18 @@
       <li>DMS_Apparel_GarrisionCap</li>
     </apparelRequired>
     <specificApparelRequirements Inherit="False">
-       <!-- light red uniform-->
+      <!-- light red uniform-->
     </specificApparelRequirements>
     <skills Inherit="False">
       <li>
         <skill>Shooting</skill>
         <range>4~8</range>
       </li>
-	    <li>
+      <li>
         <skill>Melee</skill>
         <range>4~8</range>
-      </li>	    	     
-	  </skills>
+      </li>
+    </skills>
   </PawnKindDef>
 
 </Defs>

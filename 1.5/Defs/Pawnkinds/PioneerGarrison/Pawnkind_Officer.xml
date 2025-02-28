@@ -15,11 +15,11 @@
         <skill>Shooting</skill>
         <range>10~15</range>
       </li>
-	    <li>
+      <li>
         <skill>Melee</skill>
         <range>10~15</range>
-      </li>	    	     
-	  </skills>
+      </li>
+    </skills>
     <itemQuality>Excellent</itemQuality>
     <isFighter>false</isFighter>
     <trader>true</trader>
@@ -31,12 +31,13 @@
     <factionLeader>false</factionLeader>
     <minGenerationAge>20</minGenerationAge>
     <gearHealthRange>1~2</gearHealthRange>
-    <apparelMoney>400~600</apparelMoney>
-    <weaponMoney>250~400</weaponMoney>
+    <apparelMoney>600~1800</apparelMoney>
+    <weaponMoney>400~1600</weaponMoney>
     <techHediffsChance>0.8</techHediffsChance>
     <techHediffsMoney>2000~7000</techHediffsMoney>
     <weaponTags Inherit="False">
-			<li>A_RC_Pistol</li>
+      <li>A_RC_Pistol</li>
+      <li>CE_AI_Rifle</li>
     </weaponTags>
     <techHediffsTags>
       <li>ImplantEmpireCommon</li>
@@ -46,6 +47,9 @@
     <apparelRequired Inherit="false">
       <li>DMS_Apparel_ArmyCap</li>
     </apparelRequired>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
   </PawnKindDef>
 
   <!-- T2官員,排導 -->
@@ -55,8 +59,8 @@
     <label>platoon guide</label>
     <labelPlural>platoon guides</labelPlural>
     <combatPower>40</combatPower>
-    <apparelMoney>400~600</apparelMoney>
-    <weaponMoney>250~400</weaponMoney>
+    <apparelMoney>600~1800</apparelMoney>
+    <weaponMoney>750~1600</weaponMoney>
     <apparelRequired Inherit="false">
       <li>DMS_Apparel_ArmyCap</li>
       <li>DMS_Apparel_TacticalVest</li>
@@ -88,7 +92,7 @@
     <label>platoon leader</label>
     <labelPlural>platoon leaders</labelPlural>
     <combatPower>40</combatPower>
-    <apparelMoney>400~600</apparelMoney>
+    <apparelMoney>800~2400</apparelMoney>
     <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
     <apparelRequired Inherit="false">
       <li>DMS_Apparel_SoftKepi</li>
@@ -120,8 +124,8 @@
     <titleRequired MayRequire="Ludeon.RimWorld.Royalty">DMS_Colonel</titleRequired>
     <label>forward commander</label>
     <labelPlural>forward commanders</labelPlural>
-    <combatPower>40</combatPower>
-    <apparelMoney>400~600</apparelMoney>
+    <combatPower>50</combatPower>
+    <apparelMoney>800~3200</apparelMoney>
     <apparelAllowHeadgearChance>0.7</apparelAllowHeadgearChance>
     <apparelRequired Inherit="false">
       <li>DMS_Apparel_Beret</li>
@@ -151,36 +155,36 @@
     </specificApparelRequirements>
   </PawnKindDef>
 
-    <!-- T4官員,司儀 -->
-    <PawnKindDef ParentName="DMS_OfficerBase">
-      <defName>DMS_Officer_Ceremonist</defName>
-      <titleRequired MayRequire="Ludeon.RimWorld.Royalty">DMS_Colonel</titleRequired>
-      <label>Ceremonist</label>
-      <labelPlural>ceremonists</labelPlural>
-      <combatPower>40</combatPower>
-      <apparelMoney>0</apparelMoney>
-      <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-      <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
-      <apparelRequired Inherit="false">
-        <li>DMS_Apparel_GarrisionCap</li>
-        <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ShirtRuffle</li>
-        <li>Apparel_Pants</li>
-      </apparelRequired>
-      <specificApparelRequirements>
-        <li>
-          <bodyPartGroup>UpperHead</bodyPartGroup>
-          <apparelLayer>Overhead</apparelLayer>
-          <stuff>Cloth</stuff>
-          <color>(50, 50, 70)</color>
-        </li>
-        <li>
-          <bodyPartGroup>Torso</bodyPartGroup>
-          <apparelLayer>OnSkin</apparelLayer>
-          <stuff>Cloth</stuff>
-          <color>(50, 50, 70)</color>
-        </li>
-      </specificApparelRequirements>
-    </PawnKindDef>
+  <!-- T4官員,司儀 -->
+  <PawnKindDef ParentName="DMS_OfficerBase">
+    <defName>DMS_Officer_Ceremonist</defName>
+    <titleRequired MayRequire="Ludeon.RimWorld.Royalty">DMS_Colonel</titleRequired>
+    <label>Ceremonist</label>
+    <labelPlural>ceremonists</labelPlural>
+    <combatPower>40</combatPower>
+    <apparelMoney>0</apparelMoney>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+    <apparelRequired Inherit="false">
+      <li>DMS_Apparel_GarrisionCap</li>
+      <li MayRequire="Ludeon.RimWorld.Royalty">Apparel_ShirtRuffle</li>
+      <li>Apparel_Pants</li>
+    </apparelRequired>
+    <specificApparelRequirements>
+      <li>
+        <bodyPartGroup>UpperHead</bodyPartGroup>
+        <apparelLayer>Overhead</apparelLayer>
+        <stuff>Cloth</stuff>
+        <color>(50, 50, 70)</color>
+      </li>
+      <li>
+        <bodyPartGroup>Torso</bodyPartGroup>
+        <apparelLayer>OnSkin</apparelLayer>
+        <stuff>Cloth</stuff>
+        <color>(50, 50, 70)</color>
+      </li>
+    </specificApparelRequirements>
+  </PawnKindDef>
 
   <!-- T5官員,作戰領導 -->
   <PawnKindDef ParentName="DMS_OfficerBase">
