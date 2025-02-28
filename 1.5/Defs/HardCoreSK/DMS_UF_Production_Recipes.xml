@@ -30,7 +30,7 @@
     <products>
       <Polyester>50</Polyester>
     </products>
-    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>15</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
     <usesTemperature>false</usesTemperature>
     <processDays>1.5</processDays>
   </RecipeDef>
@@ -62,7 +62,7 @@
     <products>
       <Polyester>200</Polyester>
     </products>
-    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>15</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
     <usesTemperature>false</usesTemperature>
     <processDays>1.5</processDays>
     <slotsRequired>4</slotsRequired>
@@ -89,7 +89,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Plasteel</li>
+            <li>Titanium</li>
           </thingDefs>
         </filter>
         <count>5</count>
@@ -98,12 +98,13 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Polyester</li>
+        <li>Titanium</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
       <Plasfiber>25</Plasfiber>
     </products>
-    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>15</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
     <usesTemperature>false</usesTemperature>
     <processDays>1.5</processDays>
     <slotsRequired>3</slotsRequired>
@@ -130,7 +131,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Plasteel</li>
+            <li>Titanium</li>
           </thingDefs>
         </filter>
         <count>20</count>
@@ -139,12 +140,13 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Polyester</li>
+        <li>Titanium</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
       <Plasfiber>100</Plasfiber>
     </products>
-    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>15</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
     <usesTemperature>false</usesTemperature>
     <processDays>1.5</processDays>
     <slotsRequired>12</slotsRequired>
@@ -172,7 +174,7 @@
             <li>Gold</li>
           </thingDefs>
         </filter>
-        <count>1</count>
+        <count>5</count>
       </li>
       <li>
         <filter>
@@ -213,6 +215,7 @@
         <li>Tungsteel</li>
         <li>Plasfiber</li>
         <li>Neutroamine</li>
+        <li>Biomatter</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -244,7 +247,7 @@
             <li>Gold</li>
           </thingDefs>
         </filter>
-        <count>4</count>
+        <count>20</count>
       </li>
       <li>
         <filter>
@@ -270,7 +273,7 @@
         </filter>
         <count>40</count>
       </li>
-            <li>
+      <li>
         <filter>
           <thingDefs>
             <li>Biomatter</li>
@@ -285,6 +288,7 @@
         <li>Tungsteel</li>
         <li>Plasfiber</li>
         <li>Neutroamine</li>
+        <li>Biomatter</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -467,6 +471,8 @@
     <slotsRequired>1</slotsRequired>
   </RecipeDef>
   -->
+
+  <!-- Advanced Bionics. -->
   <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
     <defName>DMS_HSK_Make_DMS_SensoryFilter</defName>
     <label>Synthesize Emotion Filter</label>
@@ -614,5 +620,305 @@
     <usesTemperature>true</usesTemperature>
     <processDays>2</processDays>
     <slotsRequired>1</slotsRequired>
+  </RecipeDef>
+
+
+  <!-- Jump Rimfeller by DMS_UF_ReactionChamber-->
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_UF_Make_BulkChemfuelFromWood</defName>
+    <label>make chemfuel from wood</label>
+    <description>Make a batch of chemfuel by extracting and condensing wood gas from logs. Takes 1.5
+      days to make</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>280</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Chemfuel>210</Chemfuel>
+    </products>
+    <recipeUsers>
+      <li>DMS_UF_ReactionChamber</li>
+    </recipeUsers>
+
+    <!-- RecipeDef_UF fields -->
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>15</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>false</usesTemperature>
+    <processDays>2.5</processDays>
+    <slotsRequired>3</slotsRequired>
+  </RecipeDef>
+
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_UF_Make_BulkChemfuelFromOrganics</defName>
+    <label>make chemfuel from organics</label>
+    <description>Make a batch of chemfuel by extracting biofuel from organic feedstocks. Takes 1.5
+      days to make</description>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <customSummary>feedstock</customSummary>
+          <categories>
+            <li>Foods</li>
+            <li>PlantMatter</li>
+          </categories>
+          <disallowedThingDefs>
+            <li>Hay</li>
+            <li>Dye</li>
+          </disallowedThingDefs>
+          <disallowedCategories>
+            <li>FoodMeals</li>
+          </disallowedCategories>
+        </filter>
+        <count>14</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Foods</li>
+        <li>PlantMatter</li>
+      </categories>
+      <disallowedThingDefs>
+        <li>Hay</li>
+        <li>Dye</li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">HemogenPack</li>
+        <li MayRequire="Ludeon.RimWorld.Biotech">BabyFood</li>
+      </disallowedThingDefs>
+      <disallowedCategories>
+        <li>FoodMeals</li>
+        <li MayRequire="notfood.SeedsPlease">SeedsCategory</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>FoodRaw</li>
+      </categories>
+      <disallowedCategories>
+        <li>MeatRaw</li>
+        <li>AnimalProductRaw</li>
+      </disallowedCategories>
+    </defaultIngredientFilter>
+    <products>
+      <Chemfuel>210</Chemfuel>
+    </products>
+    <recipeUsers>
+      <li>DMS_UF_ReactionChamber</li>
+    </recipeUsers>
+
+    <!-- RecipeDef_UF fields -->
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>15</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>false</usesTemperature>
+    <processDays>3</processDays>
+    <slotsRequired>3</slotsRequired>
+  </RecipeDef>
+
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_UF_Make_PolymerFromChemfuel</defName>
+    <label>make Polymer from Chemfuel</label>
+    <description>Condense Chemfuel into a batch of Polymer in small quanity</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Polymers>25</Polymers>
+    </products>
+    <recipeUsers>
+      <li>DMS_UF_ReactionChamber</li>
+    </recipeUsers>
+    <!-- RecipeDef_UF fields -->
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>15</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>false</usesTemperature>
+    <processDays>2</processDays>
+  </RecipeDef>
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_UF_MakeBulk_PolymerFromChemfuel</defName>
+    <label>make Polymer from Chemfuel</label>
+    <description>Condense Chemfuel into a batch of Polymer in bulk. just fill 4 reaction chamber in
+      same time.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Chemfuel</li>
+          </thingDefs>
+        </filter>
+        <count>200</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Chemfuel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Polymers>100</Polymers>
+    </products>
+    <recipeUsers>
+      <li>DMS_UF_ReactionChamber</li>
+    </recipeUsers>
+    <!-- RecipeDef_UF fields -->
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>15</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>false</usesTemperature>
+    <processDays>2</processDays>
+    <slotsRequired>4</slotsRequired>
+  </RecipeDef>
+
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_UF_Make_SulfurFromIronOre</defName>
+    <label>Bulk Extract Sulfur from Iron Ore</label>
+    <description>Extract Sulfur from Iron Ores,slow,high extract rate,But instantly fail if power
+      failure happened during operation.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Sulfur>20</Sulfur>
+    </products>
+    <recipeUsers>
+      <li>DMS_UF_ReactionChamber</li>
+    </recipeUsers>
+    <!-- RecipeDef_UF fields -->
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>100</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>false</usesTemperature>
+    <processDays>2</processDays>
+  </RecipeDef>
+
+
+  <!-- HSK Compat. -->
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_HSK_Synthesize_BioMicroChip</defName>
+    <label>Synthesize A BioMicroChip</label>
+    <description>Synthesize a BioMicroChip,way faster than assembling it manuallly.</description>
+    <jobString>Sythesizing BioMicroChip.</jobString>
+    <recipeUsers>
+      <li>DMS_UF_TableArtifuscle</li>
+    </recipeUsers>
+    <ingredients>
+
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Biomatter</li>
+          </thingDefs>
+        </filter>
+        <count>50</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Hyperweave</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Microchips</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Biomatter</li>
+        <li>Hyperweave</li>
+        <li>Microchips</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <BioMicrochips>1</BioMicrochips>
+    </products>
+    <researchPrerequisites>
+      <li>DMS_Hypothesis</li>
+      <li>Components_D3</li>
+    </researchPrerequisites>
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>10</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>true</usesTemperature>
+    <processDays>1</processDays>
+    <slotsRequired>3</slotsRequired>
+  </RecipeDef>
+
+  <!-- Reaction Chamber convert bodies to chemfuel -->
+  <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
+    <defName>DMS_HSK_ExtractChemfuelFromCorpse</defName>
+    <label>extract Chemfuel from corpse</label>
+    <description>Extracts chemfuel from a corpse. Produces depend on size of dead body and his
+      wholeness. Takes 3 days even in high pressure chamber. power failure wont stop this recipe.</description>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Corpses</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Corpses</li>
+      </categories>
+      <disallowedCategories>
+        <li>CorpsesMechanoid</li>
+      </disallowedCategories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <thingDefs>
+        <li>Corpse_Human</li>
+      </thingDefs>
+      <specialFiltersToAllow>
+        <li>AllowCorpsesColonist</li>
+        <li>AllowCorpsesStranger</li>
+      </specialFiltersToAllow>
+    </defaultIngredientFilter>
+    <products>
+      <Chemfuel>20</Chemfuel>
+    </products>
+    <recipeUsers>
+      <li>DMS_UF_ReactionChamber</li>
+    </recipeUsers>
+    <!-- RecipeDef_UF fields -->
+    <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>1</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
+    <usesTemperature>false</usesTemperature>
+    <scaleToMeatAmount>true</scaleToMeatAmount>
+    <scaleToMeatAmountBase>127</scaleToMeatAmountBase>
+    <processDays>3</processDays>
   </RecipeDef>
 </Defs>
