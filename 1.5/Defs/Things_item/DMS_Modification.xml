@@ -550,7 +550,7 @@
     </statBases>
     <costList>
       <ComponentStamped>1</ComponentStamped>
-      <Steel>50</Steel>
+      <Plasteel>50</Plasteel>
     </costList>
     <recipeMaker>
       <workAmount>4000</workAmount>

@@ -12,7 +12,7 @@
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <statBases>
-      <MaxHitPoints>50</MaxHitPoints>
+      <MaxHitPoints>125</MaxHitPoints>
       <MarketValue>2</MarketValue>
       <Mass>0.025</Mass>
       <Flammability>0.2</Flammability>

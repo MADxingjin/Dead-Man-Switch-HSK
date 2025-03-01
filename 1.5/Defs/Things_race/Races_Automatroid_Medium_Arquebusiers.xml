@@ -49,7 +49,6 @@
           <li>SniperRifle</li>
           <li>AssaultRifle</li>
           <li>CE_AI_Rifle</li>
-          <li>CE_AI_AssaultWeapon</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
@@ -200,7 +199,6 @@
           <li>A_DMR_LongRifle</li>
           <li>ElephantGun</li>
           <li>AssaultRifle</li>
-          <li>CE_AI_Rifle</li>
           <li>CE_AI_AssaultWeapon</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
