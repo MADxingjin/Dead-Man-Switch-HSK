@@ -46,6 +46,7 @@
         <linkableFacilities>
           <li>ToolCabinet</li>
           <li MayRequire="Aoba.Fortress.Industrial.Citadel">FT_transformer</li>
+          <li>PodChair</li>
         </linkableFacilities>
       </li>
       <li MayRequire="VanillaExpanded.VFEA" Class="VFEAncients.CompProperties_SolarPowerUp" />
@@ -151,8 +152,10 @@
     </stuffCategories>
     <costStuffCount>250</costStuffCount>
     <costList>
-      <ComponentIndustrial>8</ComponentIndustrial>
-      <ComponentSpacer>1</ComponentSpacer>
+      <ComponentSpacer>10</ComponentSpacer>
+      <Wire>100</Wire>
+      <Electronics>4</Electronics>
+      <Mechanism>12</Mechanism>
     </costList>
     <statBases>
       <WorkToBuild>3000</WorkToBuild>
@@ -164,7 +167,7 @@
     </recipes>
     <size>(3,2)</size>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
@@ -175,6 +178,8 @@
     </comps>
     <researchPrerequisites>
       <li>DMS_MechBasis</li>
+      <li>Metals_C1</li>
+      <li>Stones_C1</li>
     </researchPrerequisites>
     <modExtensions>
       <li Class="RecipeInheritance.ThingDefExtension">

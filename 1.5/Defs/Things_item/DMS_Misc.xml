@@ -10,9 +10,11 @@
       <texPath>Things/BlasterInterceptor/Shell</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
+    <!-- HSK Uses its own recipe.
     <costList>
       <Chemfuel>10</Chemfuel>
       <DMS_Ceramics>10</DMS_Ceramics>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <costListForDifficulty>
       <difficultyVar>classicMortars</difficultyVar>
@@ -24,6 +26,7 @@
     <recipeMaker>
       <researchPrerequisite>DMS_Hybird</researchPrerequisite>
     </recipeMaker>
+    -->
     <comps>
       <li Class="CompProperties_Explosive">
         <explosiveDamageType>Smoke</explosiveDamageType>
