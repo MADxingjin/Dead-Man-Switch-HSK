@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-    
+
   <!-- T2 DMS_Automatroid-->
   <!-- 鬣蜥 Iguana-->
   <ThingDef ParentName="BaseAutomatroidRace">
     <defName>DMS_Mech_Iguana</defName>
     <label>Iguana</label>
-    <description>The modernized and redesigned bipedal walking tank based on the Tarbosaurus. This model is produced without the experimental electromagnetic armor allowing it to maintain greater mobility.</description>
+    <description>The modernized and redesigned bipedal walking tank based on the Tarbosaurus. This
+      model is produced without the experimental electromagnetic armor allowing it to maintain
+      greater mobility.</description>
     <statBases>
       <MoveSpeed>3.5</MoveSpeed>                                                    <!--移動速度-->
       <ArmorRating_Blunt>1.1</ArmorRating_Blunt>                                     <!--護甲-->
@@ -21,7 +23,7 @@
       <nameGenerator>DMS_VanguardMechHeavy</nameGenerator>
       <baseBodySize>2.25</baseBodySize>
       <baseHealthScale>2.75</baseHealthScale>
-      <mechWeightClass>Heavy</mechWeightClass>      
+      <mechWeightClass>Heavy</mechWeightClass>
       <detritusLeavings>
         <li>
           <def>DMS_ChunkSlag</def>
@@ -35,8 +37,8 @@
         </li>
       </detritusLeavings>
     </race>
-    <comps>  
-		  <li Class="DMS.CompProperties_VehicleWeapon">
+    <comps>
+      <li Class="DMS.CompProperties_VehicleWeapon">
         <drawData>
           <dataEast>
             <offset>(0,0,-0.15)</offset>
@@ -52,7 +54,7 @@
             <offset>(0.8,0,0)</offset>
           </dataNorth>
         </drawData>
-			  <turretRotationFollowPawn>true</turretRotationFollowPawn>
+        <turretRotationFollowPawn>true</turretRotationFollowPawn>
         <rotationSmoothTime>0.1</rotationSmoothTime>
       </li>
       <li Class="DMS.CompPropertiesMultipleTurretGun">
@@ -76,22 +78,22 @@
                     <pivot>(0.4,0.5)</pivot>
                   </defaultData>
                   <dataEast>
-                      <offset>(0.85,0,-0.15)</offset>
+                    <offset>(0.85,0,-0.15)</offset>
                   </dataEast>
                   <dataWest>
-                      <offset>(-0.85,0,-0.15)</offset>
-                      <rotationOffset>180</rotationOffset>
+                    <offset>(-0.85,0,-0.15)</offset>
+                    <rotationOffset>180</rotationOffset>
                   </dataWest>
                   <dataSouth>
-                      <offset>(0,0,-0.8)</offset>
+                    <offset>(0,0,-0.8)</offset>
                   </dataSouth>
                   <dataNorth>
-                      <offset>(0,0,0)</offset>
+                    <offset>(0,0,0)</offset>
                   </dataNorth>
                 </drawData>
               </li>
             </renderNodeProperties>
-           </li>
+          </li>
         </subTurrets>
       </li>
     </comps>
@@ -106,15 +108,20 @@
           <li>H_Gatling20mm</li>
           <li>V_Gatling556mm</li>
           <li>DMS_Gun_Recoilless</li>
+          <li>CE_AI_Launcher</li>
+          <li>CE_AI_AOE</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
           <li>Industrial</li>
+          <li>Spacer</li>
+          <li>Ultra</li>
         </UsableTechLevels>
-        <BypassUsableWeapons/>
+        <BypassUsableWeapons />
       </li>
     </modExtensions>
-    <!--need new melee tools based on their legs, not arms(those "arms" are supporting mechnical arms)-->
+    <!--need
+    new melee tools based on their legs, not arms(those "arms" are supporting mechnical arms)-->
     <tools Inherit="False">
       <li>
         <label>Mechanical Head</label>
@@ -126,7 +133,7 @@
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.08</chanceFactor>
-		    <surpriseAttack>
+        <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
@@ -145,7 +152,7 @@
         <linkedBodyPartsGroup>LeftMechanicalLeg</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
-		    <surpriseAttack>
+        <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
@@ -164,7 +171,7 @@
         <linkedBodyPartsGroup>RightMechanicalLeg</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
-		    <surpriseAttack>
+        <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
@@ -223,14 +230,15 @@
       <li>DMS_VehicleWeapon</li>
       <li>H_Gatling127mm</li>
       <li>DMS_Gun_Recoilless</li>
-    </weaponTags>   
+    </weaponTags>
     <weaponMoney>3000~9999</weaponMoney>
   </PawnKindDef>
 
   <ThingDef ParentName="BaseAutomatroidRace">
     <defName>DMS_Mech_Gecko</defName>
     <label>Gecko</label>
-    <description>An urban combat variant of the Iguana, this model is up-armored with additional electromagnetic plating to protect against shaped charge rounds and explosives.</description>
+    <description>An urban combat variant of the Iguana, this model is up-armored with additional
+      electromagnetic plating to protect against shaped charge rounds and explosives.</description>
     <statBases>
       <MoveSpeed>4</MoveSpeed>                                                    <!--移動速度-->
       <ArmorRating_Blunt>1.1</ArmorRating_Blunt>                                     <!--護甲-->
@@ -247,8 +255,8 @@
       <baseHealthScale>2.3</baseHealthScale>
       <mechWeightClass>Heavy</mechWeightClass>
     </race>
-    <comps>  
-		  <li Class="DMS.CompProperties_VehicleWeapon">
+    <comps>
+      <li Class="DMS.CompProperties_VehicleWeapon">
         <drawData>
           <dataEast>
             <offset>(0,0,-0.15)</offset>
@@ -264,9 +272,10 @@
             <offset>(0.8,0,0)</offset>
           </dataNorth>
         </drawData>
-			  <turretRotationFollowPawn>true</turretRotationFollowPawn>
+        <turretRotationFollowPawn>true</turretRotationFollowPawn>
         <rotationSmoothTime>0.1</rotationSmoothTime>
-      </li><li Class="DMS.CompPropertiesMultipleTurretGun">
+      </li>
+      <li Class="DMS.CompPropertiesMultipleTurretGun">
         <subTurrets>
           <li>
             <ID>flame thrower</ID>
@@ -286,24 +295,24 @@
                     <pivot>(0.4,0.5)</pivot>
                   </defaultData>
                   <dataEast>
-                      <offset>(0.85,0,-0.15)</offset>
+                    <offset>(0.85,0,-0.15)</offset>
                   </dataEast>
                   <dataWest>
-                      <offset>(-0.85,0,-0.15)</offset>
-                      <rotationOffset>180</rotationOffset>
+                    <offset>(-0.85,0,-0.15)</offset>
+                    <rotationOffset>180</rotationOffset>
                   </dataWest>
                   <dataSouth>
-                      <offset>(0,0,-0.8)</offset>
+                    <offset>(0,0,-0.8)</offset>
                   </dataSouth>
                   <dataNorth>
-                      <offset>(0,0,0)</offset>
+                    <offset>(0,0,0)</offset>
                   </dataNorth>
                 </drawData>
               </li>
             </renderNodeProperties>
           </li>
         </subTurrets>
-    </li>
+      </li>
     </comps>
     <modExtensions>
       <li Class="DMS.MechWeaponExtension">
@@ -317,15 +326,20 @@
           <li>H_Gatling20mm</li>
           <li>V_Gatling556mm</li>
           <li>DMS_Gun_Recoilless</li>
+          <li>CE_AI_Launcher</li>
+          <li>CE_AI_AOE</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
           <li>Industrial</li>
+          <li>Spacer</li>
+          <li>Ultra</li>
         </UsableTechLevels>
-        <BypassUsableWeapons/>
+        <BypassUsableWeapons />
       </li>
     </modExtensions>
-    <!--need new melee tools based on their legs, not arms(those "arms" are supporting mechnical arms)-->
+    <!--need
+    new melee tools based on their legs, not arms(those "arms" are supporting mechnical arms)-->
     <tools Inherit="False">
       <li>
         <label>Mechanical Head</label>
@@ -337,7 +351,7 @@
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.08</chanceFactor>
-		    <surpriseAttack>
+        <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
@@ -356,7 +370,7 @@
         <linkedBodyPartsGroup>LeftMechanicalLeg</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
-		    <surpriseAttack>
+        <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
@@ -375,7 +389,7 @@
         <linkedBodyPartsGroup>RightMechanicalLeg</linkedBodyPartsGroup>
         <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
         <chanceFactor>0.2</chanceFactor>
-		    <surpriseAttack>
+        <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
@@ -437,7 +451,7 @@
       <li>DMS_MechWeaponHeavy</li>
       <li>A_MG_GrenadeLauncher</li>
       <li>DMS_Gun_Recoilless</li>
-    </weaponTags>   
+    </weaponTags>
     <weaponMoney>3000~9999</weaponMoney>
   </PawnKindDef>
 </Defs>

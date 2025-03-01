@@ -143,10 +143,13 @@
           <li>DMS_MechWeaponHeavy</li>
           <li>H_Gatling20mm</li>
           <li>V_Gatling30mm</li>
+          <li>CE_AI_Launcher</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
           <li>Industrial</li>
+          <li>Spacer</li>
+          <li>Ultra</li>
         </UsableTechLevels>
       </li>
     </modExtensions>

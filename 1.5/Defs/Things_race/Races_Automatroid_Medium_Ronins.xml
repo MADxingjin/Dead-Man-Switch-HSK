@@ -4,7 +4,8 @@
   <ThingDef ParentName="BaseAutomatroidHumanRace">
     <defName>DMS_Mech_Ronin</defName>
     <label>Ronin</label>
-    <description>A Humanoid mech model specialized for urban combat, this unit is outfitted with assault armor and a mobility package making it a formidible foe in close quaters.</description>
+    <description>A Humanoid mech model specialized for urban combat, this unit is outfitted with
+      assault armor and a mobility package making it a formidible foe in close quaters.</description>
     <statBases>
       <MoveSpeed>5</MoveSpeed>
       <ArmorRating_Blunt>0.7</ArmorRating_Blunt>
@@ -36,6 +37,10 @@
           <li>DMS_MeleeWeapon</li>
           <li>UltratechMelee</li>
           <li>A_AP</li>
+          <li>MedievalMelee</li>
+          <li>MidworldMelee</li>
+          <li>HitechMelee</li>
+          <li>HitechMelee2H</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
@@ -44,7 +49,7 @@
           <li>Spacer</li>
           <li>Ultra</li>
         </UsableTechLevels>
-        <BypassUsableWeapons/>
+        <BypassUsableWeapons />
       </li>
     </modExtensions>
     <butcherProducts>
@@ -117,15 +122,15 @@
     <race>DMS_Mech_Ronin</race>
     <isFighter>true</isFighter>
     <combatPower>150</combatPower>
-    <lifeStages>      
-    <li>
-      <bodyGraphicData>
-        <texPath>Things/Automatroid/ronin</texPath>
-        <shaderType>CutoutComplex</shaderType>
-        <graphicClass>Graphic_Multi</graphicClass>
-        <drawSize>1.3</drawSize>
-      </bodyGraphicData>
-    </li>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Automatroid/ronin</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.3</drawSize>
+        </bodyGraphicData>
+      </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Automatroid/OldTexture/ronin</texPath>
@@ -139,6 +144,10 @@
       <li>A_SG_LongRifle</li>                                                                     <!--武器-->
       <li>A_PDW</li>
       <li>A_AP</li>
+      <li>MedievalMelee</li>
+      <li>MidworldMelee</li>
+      <li>HitechMelee</li>
+      <li>HitechMelee2H</li>
     </weaponTags>
     <abilities>
       <li>DMS_Infrasound</li>
@@ -150,7 +159,9 @@
   <ThingDef ParentName="BaseAutomatroidHumanRace">
     <defName>DMS_Mech_Gladiator</defName>
     <label>Gladiator</label>
-    <description>A melee specialized variant of the Ronin. The Gladiator maintains the Ronin's mobility and armor and comes with an upgraded melee combat module and is equipped with an assault shield.</description>
+    <description>A melee specialized variant of the Ronin. The Gladiator maintains the Ronin's
+      mobility and armor and comes with an upgraded melee combat module and is equipped with an
+      assault shield.</description>
     <statBases>
       <MoveSpeed>5</MoveSpeed>
       <ArmorRating_Blunt>0.9</ArmorRating_Blunt>
@@ -177,6 +188,10 @@
           <li>MedievalMeleeAdvanced</li>
           <li>DMS_MeleeWeapon</li>
           <li>UltratechMelee</li>
+          <li>MedievalMelee</li>
+          <li>MidworldMelee</li>
+          <li>HitechMelee</li>
+          <li>HitechMelee2H</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
@@ -233,15 +248,15 @@
     <race>DMS_Mech_Gladiator</race>
     <isFighter>true</isFighter>
     <combatPower>150</combatPower>
-    <lifeStages>      
-    <li>
-      <bodyGraphicData>
-        <texPath>Things/Automatroid/gladiator</texPath>
-        <shaderType>CutoutComplex</shaderType>
-        <graphicClass>Graphic_Multi</graphicClass>
-        <drawSize>1.3</drawSize>
-      </bodyGraphicData>
-    </li>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Automatroid/gladiator</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.3</drawSize>
+        </bodyGraphicData>
+      </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Automatroid/OldTexture/gladiator</texPath>
@@ -252,18 +267,23 @@
       </li>
     </lifeStages>
     <weaponTags>
-      <li>A_Cut_Melee</li>                                                                     <!--武器-->
+      <li>A_Cut_Melee</li>
+      <li>MedievalMelee</li>
+      <li>MidworldMelee</li>
+      <li>HitechMelee</li>
+      <li>HitechMelee2H</li>                                                                     <!--武器-->
     </weaponTags>
     <abilities>
       <li>DMS_BurstSprint</li>
     </abilities>
   </PawnKindDef>
 
-   <!-- 破城者 Siegebreaker-->
-   <ThingDef ParentName="BaseAutomatroidHumanRace">
+  <!-- 破城者 Siegebreaker-->
+  <ThingDef ParentName="BaseAutomatroidHumanRace">
     <defName>DMS_Mech_Siegebreaker</defName>
     <label>Siegebreaker</label>
-    <description>The Siegebreaker comes with top of the line armor making it ideal for sapping and breaching jobs.</description>
+    <description>The Siegebreaker comes with top of the line armor making it ideal for sapping and
+      breaching jobs.</description>
     <statBases>
       <StaggerDurationFactor>0.25</StaggerDurationFactor>
       <MoveSpeed>4.2</MoveSpeed>                                                    <!--移動速度-->
@@ -290,12 +310,16 @@
           <li>MedievalMeleeAdvanced</li>
           <li>DMS_MeleeWeapon</li>
           <li>Flamethrower</li>
+          <li>MedievalMelee</li>
+          <li>MidworldMelee</li>
+          <li>HitechMelee</li>
+          <li>HitechMelee2H</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
           <li>Industrial</li>
         </UsableTechLevels>
-        <BypassUsableWeapons/>
+        <BypassUsableWeapons />
       </li>
     </modExtensions>
     <damageMultipliers>
@@ -337,7 +361,11 @@
       </li>
     </lifeStages>
     <weaponTags>
-      <li>DMS_MechWeaponBreach</li>                                                                    <!--武器-->
+      <li>DMS_MechWeaponBreach</li>
+      <li>MedievalMelee</li>
+      <li>MidworldMelee</li>
+      <li>HitechMelee</li>
+      <li>HitechMelee2H</li>                                                                    <!--武器-->
     </weaponTags>
     <abilities>
       <li>FireBurst</li>
@@ -345,12 +373,14 @@
     </abilities>
   </PawnKindDef>
 
-    
+
   <!-- 塔盾手 Protector-->
   <ThingDef ParentName="BaseAutomatroidHumanRace">
     <defName>DMS_Mech_Protector</defName>
     <label>Protector</label>
-    <description>The protector is designed for peacekeeping operations and riot control. This model is equipped with strong armor around its frame and has a huge flash shield to compliment the use of close quater weapons like batons or shotguns.</description>
+    <description>The protector is designed for peacekeeping operations and riot control. This model
+      is equipped with strong armor around its frame and has a huge flash shield to compliment the
+      use of close quater weapons like batons or shotguns.</description>
     <statBases>
       <StaggerDurationFactor>0.25</StaggerDurationFactor>
       <MoveSpeed>4</MoveSpeed>                                                    <!--移動速度-->
@@ -380,13 +410,17 @@
           <li>MedievalMeleeAdvanced</li><!--長劍-->
           <li>ShortShots</li>
           <li>Flamethrower</li>
+          <li>MedievalMelee</li>
+          <li>MidworldMelee</li>
+          <li>HitechMelee</li>
+          <li>HitechMelee2H</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
           <li>Medieval</li>
           <li>Industrial</li>
         </UsableTechLevels>
-        <BypassUsableWeapons/>
+        <BypassUsableWeapons />
       </li>
     </modExtensions>
     <tools Inherit="False">
@@ -461,19 +495,25 @@
     </lifeStages>
     <weaponTags>
       <li>A_RC</li>
+      <li>MedievalMelee</li>
+      <li>MidworldMelee</li>
+      <li>HitechMelee</li>
+      <li>HitechMelee2H</li>
     </weaponTags>
     <abilities>
       <li>DMS_FlashShock</li>
       <li>DMS_RepairMode</li>
     </abilities>
   </PawnKindDef>
-  
+
 
   <!-- 方陣 phalanx-->
   <ThingDef ParentName="BaseAutomatroidHumanRace">
     <defName>DMS_Mech_Phalanx</defName>
     <label>Phalanx</label>
-    <description>The Phalanx is a cheap mass-producable variant specialized for urban combat. It comes packed with assault armor and high mobility package making it a fierce unit in close quarters combat.</description>
+    <description>The Phalanx is a cheap mass-producable variant specialized for urban combat. It
+      comes packed with assault armor and high mobility package making it a fierce unit in close
+      quarters combat.</description>
     <statBases>
       <MoveSpeed>4.5</MoveSpeed>                                                    <!--移動速度-->
       <ArmorRating_Blunt>0.65</ArmorRating_Blunt>                                     <!--護甲-->
@@ -504,13 +544,17 @@
           <li>Minigun</li>
           <li>V_Gatling556mm</li>
           <li>A_AP</li>
+          <li>MedievalMelee</li>
+          <li>MidworldMelee</li>
+          <li>HitechMelee</li>
+          <li>HitechMelee2H</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
           <li>Medieval</li>
           <li>Industrial</li>
         </UsableTechLevels>
-        <BypassUsableWeapons/>
+        <BypassUsableWeapons />
       </li>
     </modExtensions>
   </ThingDef>
@@ -521,15 +565,15 @@
     <race>DMS_Mech_Phalanx</race>
     <isFighter>true</isFighter>
     <combatPower>120</combatPower>
-    <lifeStages>      
-    <li>
-      <bodyGraphicData>
-        <texPath>Things/Automatroid/phalanx</texPath>
-        <shaderType>CutoutComplex</shaderType>
-        <graphicClass>Graphic_Multi</graphicClass>
-        <drawSize>1.3</drawSize>
-      </bodyGraphicData>
-    </li>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Automatroid/phalanx</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.3</drawSize>
+        </bodyGraphicData>
+      </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Automatroid/OldTexture/phalanx</texPath>
@@ -544,6 +588,10 @@
       <li>MedievalMeleeAdvanced</li>
       <li>A_AP</li>
       <li>DMS_MeleeWeapon</li>
+      <li>MedievalMelee</li>
+      <li>MidworldMelee</li>
+      <li>HitechMelee</li>
+      <li>HitechMelee2H</li>
     </weaponTags>
   </PawnKindDef>
 

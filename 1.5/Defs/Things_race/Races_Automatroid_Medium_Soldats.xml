@@ -37,9 +37,11 @@
   <ThingDef ParentName="BaseMechRace_Soldat">
     <defName>DMS_Mech_Soldat</defName>
     <label>Soldat</label>
-    <description>A bipedal humanoid robot built in the image of other pre-existing mechanoids. Soldats can be equipped with weapons rated for human use.\n\nThe Soldat has to carry a battery backpack which makes it unable to fight like other mechs without cover.</description>
+    <description>A bipedal humanoid robot built in the image of other pre-existing mechanoids.
+      Soldats can be equipped with weapons rated for human use.\n\nThe Soldat has to carry a battery
+      backpack which makes it unable to fight like other mechs without cover.</description>
     <statBases>
-      <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">1</BandwidthCost> 
+      <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">1</BandwidthCost>
     </statBases>
     <modExtensions>
       <li Class="DMS.MechWeaponExtension">
@@ -55,7 +57,7 @@
         <UsableTechLevels>
           <li>Industrial</li>
         </UsableTechLevels>
-        <BypassUsableWeapons/>
+        <BypassUsableWeapons />
       </li>
       <li Class="DMS.TurretMannableExtension">
         <mannableByDefault>false</mannableByDefault>
@@ -100,6 +102,7 @@
       <li>SimpleGun</li>
       <li>ShortShots</li>
       <li>IndustrialGun</li>
+      <li>CE_Sidearm</li>
     </weaponTags>
   </PawnKindDef>
 
@@ -137,6 +140,7 @@
     <weaponTags><!--武器-->
       <li>A_SAR_LongRifle</li>
       <li>A_PDW</li>
+      <li>CE_Sidearm</li>
     </weaponTags>
   </PawnKindDef>
 
@@ -146,7 +150,7 @@
     <label>raider</label>
     <race>DMS_Mech_Soldat</race>
     <isFighter>true</isFighter>
-    <combatPower>80</combatPower>                                               
+    <combatPower>80</combatPower>
     <maxPerGroup>20</maxPerGroup>
     <canBeSapper>false</canBeSapper>
     <aiAvoidCover>true</aiAvoidCover>
@@ -171,6 +175,7 @@
     <weaponTags><!--武器-->
       <li>SimpleGun</li>
       <li>ShortShots</li>
+      <li>CE_Sidearm</li>
     </weaponTags>
   </PawnKindDef>
 
@@ -178,9 +183,11 @@
   <ThingDef ParentName="BaseMechRace_Soldat">
     <defName>DMS_Mech_Grenadier</defName>
     <label>Grenadier</label>
-    <description>A bipedal humanoid robot built in the image of other pre-existing mechanoids. Grenadiers are specialized to use light weapons and grenade launchers.\n\nThe Grenadier has to carry a battery backpack which makes it unable to fight like other mechs without cover.</description>
+    <description>A bipedal humanoid robot built in the image of other pre-existing mechanoids.
+      Grenadiers are specialized to use light weapons and grenade launchers.\n\nThe Grenadier has to
+      carry a battery backpack which makes it unable to fight like other mechs without cover.</description>
     <statBases>
-      <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">2</BandwidthCost> 
+      <BandwidthCost MayRequire="Ludeon.Rimworld.Biotech">2</BandwidthCost>
     </statBases>
     <modExtensions>
       <li Class="DMS.MechWeaponExtension">
@@ -195,6 +202,7 @@
           <li>GrenadeEMP</li>
           <li>GrenadeSmoke</li>
           <li>GrenadeFlame</li>
+          <li>CE_AI_Grenade</li>
         </UsableWeaponTags>
         <BypassUsableWeapons>
           <li>Gun_IncendiaryLauncher</li>
@@ -203,7 +211,7 @@
         <UsableTechLevels>
           <li>Industrial</li>
         </UsableTechLevels>
-      </li>      
+      </li>
       <li Class="DMS.TurretMannableExtension">
         <mannableByDefault>false</mannableByDefault>
         <BypassMannable>
@@ -213,7 +221,7 @@
       </li>
     </modExtensions>
   </ThingDef>
-  
+
   <PawnKindDef ParentName="BaseAutomatroidKind">
     <defName>DMS_Mech_Grenadier</defName>
     <label>grenadier</label>
@@ -239,13 +247,14 @@
         </bodyGraphicData>
       </li>
     </lifeStages>
-    <weaponTags><!--武器--> 
+    <weaponTags><!--武器-->
       <li>GrenadeDestructive</li>
       <li>GrenadeEMP</li>
       <li>GrenadeSmoke</li>
-      <li>GrenadeFlame</li>                                                              
+      <li>GrenadeFlame</li>
+      <li>CE_AI_Grenade</li>
     </weaponTags>
-    <weaponMoney>570~3000</weaponMoney>
+    <weaponMoney>1000~4000</weaponMoney>
     <abilities>
       <li>DMS_FlashLauncher</li>
     </abilities>
@@ -255,7 +264,9 @@
   <ThingDef ParentName="BaseMechRace_Soldat">
     <defName>DMS_Mech_Kanonier</defName>
     <label>Kanonier</label>
-    <description>A bipedal humanoid robot built in the image of other pre-existing mechanoids. Kanoniers are specialized to use rocket launchers or recoilless rifles.\n\nThe Kanonier has to carry a battery backpack which makes it unable to fight like other mechs without cover.</description>
+    <description>A bipedal humanoid robot built in the image of other pre-existing mechanoids.
+      Kanoniers are specialized to use rocket launchers or recoilless rifles.\n\nThe Kanonier has to
+      carry a battery backpack which makes it unable to fight like other mechs without cover.</description>
     <modExtensions>
       <li Class="DMS.MechWeaponExtension">
         <EnableWeaponFilter>true</EnableWeaponFilter>
@@ -265,6 +276,7 @@
           <li>DMS_MechWeaponLight</li>
           <li>GunSingleUse</li>
           <li>DMS_Gun_Recoilless</li>
+          <li>CE_AI_Launcher</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
@@ -312,7 +324,8 @@
     <weaponMoney>1700~3000</weaponMoney>
     <weaponTags><!--武器-->
       <li>GunSingleUse</li>
-      <li>DMS_Gun_Recoilless</li>                                                          
+      <li>DMS_Gun_Recoilless</li>
+      <li>CE_AI_Launcher</li>
     </weaponTags>
   </PawnKindDef>
 
@@ -320,7 +333,10 @@
   <ThingDef ParentName="BaseMechRace_Soldat">
     <defName>DMS_Mech_Sergeant</defName>
     <label>Sergeant</label>
-    <description>As a relay command variant of the Soldat, it has a very recognizable disc-shaped omnidirectional radar and transceiver antenna. Sergeants extend a mechanitor's effective range, but due to the weight of its radar equipment it can only equip a light weapon for self defense.</description>
+    <description>As a relay command variant of the Soldat, it has a very recognizable disc-shaped
+      omnidirectional radar and transceiver antenna. Sergeants extend a mechanitor's effective
+      range, but due to the weight of its radar equipment it can only equip a light weapon for self
+      defense.</description>
     <statBases>
       <MoveSpeed>4</MoveSpeed>                                                    <!--移動速度-->
       <ArmorRating_Sharp>0.35</ArmorRating_Sharp><!--銳抗-->
@@ -341,6 +357,7 @@
         <EnableWeaponFilter>true</EnableWeaponFilter>
         <UsableWeaponTags>
           <li>DMS_MechWeaponLight</li>
+          <li>CE_OneHandedWeapon</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
@@ -382,7 +399,8 @@
       </li>
     </lifeStages>
     <weaponTags>
-      <li>DMS_MechWeaponLight</li>                                                                     <!--武器-->
+      <li>DMS_MechWeaponLight</li>
+      <li>CE_OneHandedWeapon</li>                                                                     <!--武器-->
     </weaponTags>
     <abilities>
       <li>DMS_CallDrop</li>

@@ -41,10 +41,12 @@
           <li>A_MG_Heavy</li>
           <li>A_SuppressWeapon</li>
           <li>ShortShots</li>
+          <li>CE_AI_Rifle</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
           <li>Industrial</li>
+          <li>Spacer</li>
         </UsableTechLevels>
         <BypassUsableWeapons/>
       </li>
@@ -124,6 +126,7 @@
           <li>DMS_MechWeaponLight</li>
           <li>Autopistol</li>
           <li>Revolver</li>
+          <li>CE_AI_Pistol</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
@@ -201,10 +204,12 @@
           <li>DMS_MechWeaponLight</li>
           <li>Autopistol</li>
           <li>Revolver</li>
+          <li>CE_AI_Pistol</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
           <li>Industrial</li>
+          <li>Spacer</li>
         </UsableTechLevels>
         <BypassUsableWeapons/>
       </li>
@@ -242,7 +247,7 @@
       </li>
     </lifeStages>
     <weaponTags><!--武器-->
-      <li>Autopistol</li>
+      <li>CE_AI_Pistol</li>
     </weaponTags>
   </PawnKindDef>
 
@@ -287,10 +292,12 @@
           <li>DMS_MechWeaponLight</li>
           <li>Autopistol</li>
           <li>Revolver</li>
+          <li>CE_AI_Pistol</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
           <li>Industrial</li>
+          <li>Spacer</li>
         </UsableTechLevels>
         <BypassUsableWeapons/>
       </li>

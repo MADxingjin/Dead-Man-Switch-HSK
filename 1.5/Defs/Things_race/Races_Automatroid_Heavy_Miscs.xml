@@ -33,11 +33,13 @@
           <li>A_SuppressWeapon</li>
           <li>DMS_MechWeaponHeavy</li>
           <li>DMS_Gun_Recoilless</li>
+          <li>CE_AI_Launcher</li>
         </UsableWeaponTags>
         <BypassUsableWeapons/>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
           <li>Industrial</li>
+          <li>Spacer</li>
         </UsableTechLevels>
       </li>
     </modExtensions>

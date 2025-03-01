@@ -53,6 +53,8 @@
     <weaponTags>
       <li>A_SG_Pistol</li>
       <li>Simple_LongRange</li>
+      <li>RF2</li>
+      <li>RF3</li>
     </weaponTags>
     <skills>
       <li>
@@ -202,6 +204,8 @@
       <li>A_AR_LongRifle</li>
       <li>A_SG_LongRifle</li>
       <li>IndustrialGunAdvanced</li>
+      <li>ST2</li>
+      <li>ST3</li>
     </weaponTags>
     <skills>
       <li>
@@ -249,7 +253,7 @@
     <titleRequired MayRequire="Ludeon.RimWorld.Royalty">DMS_WarrantOfficer</titleRequired>
     <weaponTags>
       <li>A_AR_LongRifle</li>
-      <li>CE_AI_Suppressive</li>
+      <li>Futuristic</li>
     </weaponTags>
     <skills>
       <li>
