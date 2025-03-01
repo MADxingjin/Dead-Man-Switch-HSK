@@ -246,6 +246,7 @@
           <li>Revolver</li>
           <li>Autopistol</li>
           <li>Flamethrower</li>
+          <li>RKT1</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <BypassUsableWeapons>
