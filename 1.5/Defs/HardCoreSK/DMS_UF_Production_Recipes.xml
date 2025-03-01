@@ -89,7 +89,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Titanium</li>
+            <li>SteelBar</li>
           </thingDefs>
         </filter>
         <count>5</count>
@@ -98,7 +98,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Polyester</li>
-        <li>Titanium</li>
+        <li>SteelBar</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -131,7 +131,7 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Titanium</li>
+            <li>SteelBar</li>
           </thingDefs>
         </filter>
         <count>20</count>
@@ -140,7 +140,7 @@
     <fixedIngredientFilter>
       <thingDefs>
         <li>Polyester</li>
-        <li>Titanium</li>
+        <li>SteelBar</li>
       </thingDefs>
     </fixedIngredientFilter>
     <products>
@@ -698,6 +698,7 @@
       <disallowedCategories>
         <li>FoodMeals</li>
         <li MayRequire="notfood.SeedsPlease">SeedsCategory</li>
+        <li>Preserves</li>
       </disallowedCategories>
     </fixedIngredientFilter>
     <defaultIngredientFilter>
@@ -807,7 +808,8 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Sulfur>20</Sulfur>
+      <Sulfur>10</Sulfur>
+      <Sulphates>5</Sulphates>
     </products>
     <recipeUsers>
       <li>DMS_UF_ReactionChamber</li>
@@ -823,7 +825,7 @@
   <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
     <defName>DMS_HSK_Synthesize_BioMicroChip</defName>
     <label>Synthesize A BioMicroChip</label>
-    <description>Synthesize a BioMicroChip,way faster than assembling it manuallly.</description>
+    <description>Synthesize a BioMicroChip,way faster and material efficent than assembling it manuallly.</description>
     <jobString>Sythesizing BioMicroChip.</jobString>
     <recipeUsers>
       <li>DMS_UF_TableArtifuscle</li>
@@ -844,7 +846,7 @@
             <li>Hyperweave</li>
           </thingDefs>
         </filter>
-        <count>15</count>
+        <count>10</count>
       </li>
       <li>
         <filter>
@@ -871,7 +873,7 @@
     </researchPrerequisites>
     <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>10</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
     <usesTemperature>true</usesTemperature>
-    <processDays>1</processDays>
+    <processDays>0.5</processDays>
     <slotsRequired>3</slotsRequired>
   </RecipeDef>
 
@@ -879,8 +881,7 @@
   <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
     <defName>DMS_HSK_ExtractChemfuelFromCorpse</defName>
     <label>extract Chemfuel from corpse</label>
-    <description>Extracts chemfuel from a corpse. Produces depend on size of dead body and his
-      wholeness. Takes 3 days even in high pressure chamber. power failure wont stop this recipe.</description>
+    <description>Extracts chemfuel from a corpse. Produces depend on size of dead body and his wholeness. Takes 3 days even in high pressure chamber. power failure wont stop this recipe.</description>
     <ingredients>
       <li>
         <filter>
@@ -909,7 +910,7 @@
       </specialFiltersToAllow>
     </defaultIngredientFilter>
     <products>
-      <Chemfuel>20</Chemfuel>
+      <Chemfuel>40</Chemfuel>
     </products>
     <recipeUsers>
       <li>DMS_UF_ReactionChamber</li>

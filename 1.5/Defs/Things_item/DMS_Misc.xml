@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-  <ThingDef ParentName="MakeableShellBase">
+  <ThingDef ParentName="ShellBase">
     <defName>Shell_BlasterSmoke</defName>
     <label>Blaster Screen Shell</label>
     <description>An artillery shell containing reagents that generate an active-particle field which triggers charged ammo's detonation mid-flight. These shells are a preferred countermeasure while fighting against mech legions and mid-world megacorps. Does not effect other projectiles.</description>

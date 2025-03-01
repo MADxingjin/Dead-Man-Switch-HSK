@@ -2,9 +2,12 @@
 <Defs>
   <RecipeDef ParentName="ArtilleryAmmoRecipeBase">
     <defName>DMS_MakeShell_BlasterSmoke</defName>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>Cremate</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
     <workAmount>1000</workAmount>
-    <description>Craft 81mm smoke mortar shells.</description>
-    <label>make 81mm smoke mortar shells x1</label>
+    <description>Craft a Blaster Smoke shell.</description>
+    <label>make 1x blaster smoke shell</label>
     <targetCountAdjustment>10</targetCountAdjustment>
     <ingredients>
       <li>
@@ -19,7 +22,7 @@
       <li>
         <filter>
           <thingDefs>
-          <li>DMS_Ceramics</li>
+            <li>DMS_Ceramics</li>
           </thingDefs>
         </filter>
         <count>5</count>
@@ -54,5 +57,9 @@
       <Shell_BlasterSmoke>1</Shell_BlasterSmoke>
     </products>
     <researchPrerequisite>DMS_Hybird</researchPrerequisite>
+    <recipeUsers>
+      <li>TableMachining</li>
+      <li>DMS_TableMachinePrinter</li>
+    </recipeUsers>
   </RecipeDef>
 </Defs>
