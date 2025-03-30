@@ -282,7 +282,8 @@
       <li>HeavyTurrets</li>
     </researchPrerequisites>
   </ThingDef>
-  <!--通古斯卡--><!--文本缺失-->
+
+  <!--通古斯卡-->
   <ThingDef ParentName="DMS_BaseCannonBuilding">
     <defName>DMS_Turret_Tunguska</defName>
     <label>Tunguska</label>
@@ -305,7 +306,7 @@
       <WorkToBuild>7500</WorkToBuild>
       <Beauty>-2</Beauty>
       <ShootingAccuracyTurret>0.98</ShootingAccuracyTurret>
-      <Mass>15000</Mass>
+      <!-- <Mass>15000</Mass> -->
     </statBases>
     <comps>
       <li Class="CompProperties_Explosive">
@@ -371,7 +372,7 @@
     </researchPrerequisites>
     <uiIconPath>Things/Turrets/DMS_Tunguska</uiIconPath>
     <uiIconScale>1.2</uiIconScale>
-    <minifiedDef></minifiedDef>
+    <!-- <minifiedDef></minifiedDef> -->
   </ThingDef>
 
   <ThingDef ParentName="BaseWeaponTurret">
@@ -448,7 +449,7 @@
       <WorkToBuild>7500</WorkToBuild>
       <Beauty>-2</Beauty>
       <ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
-      <Mass>10000</Mass>
+      <!-- <Mass>10000</Mass> -->
     </statBases>
     <comps>
       <li Class="CompProperties_Explosive">
@@ -513,10 +514,10 @@
     </researchPrerequisites>
     <uiIconPath>Things/Turrets/DMS_GateKeeper</uiIconPath>
     <uiIconScale>1.2</uiIconScale>
-    <minifiedDef>MinifiedThing</minifiedDef>  <!--================可攜帶性================-->
-    <thingCategories>
+    <!-- <minifiedDef>MinifiedThing</minifiedDef> -->
+    <!-- <thingCategories>
       <li>BuildingsSecurity</li>
-    </thingCategories>
+    </thingCategories> -->
   </ThingDef>
 
   <ThingDef ParentName="BaseWeaponTurret">
@@ -584,7 +585,7 @@
       <damageDef>Bomb</damageDef>
       <screenShakeFactor>0</screenShakeFactor>
       <damageAmountBase>27</damageAmountBase>
-      <armorPenetrationBase>0.71</armorPenetrationBase>
+      <armorPenetrationBase>0.41</armorPenetrationBase>
       <stoppingPower>8</stoppingPower>
       <explosionRadius>1.4</explosionRadius>
       <ai_IsIncendiary>false</ai_IsIncendiary>
@@ -679,10 +680,10 @@
     </researchPrerequisites>
     <uiIconPath>Things/Turrets/DMS_5ETs16U</uiIconPath>
     <uiIconScale>1.2</uiIconScale>
-    <minifiedDef>MinifiedThing</minifiedDef>  <!--================可攜帶性================-->
-    <thingCategories>
+    <!-- <minifiedDef>MinifiedThing</minifiedDef> -->
+    <!-- <thingCategories>
       <li>BuildingsSecurity</li>
-    </thingCategories>
+    </thingCategories> -->
   </ThingDef>
 
   <ThingDef ParentName="BaseWeaponTurret">
@@ -734,7 +735,7 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>18</damageAmountBase>
-      <armorPenetrationBase>0.40</armorPenetrationBase>
+      <armorPenetrationBase>0.34</armorPenetrationBase>
       <stoppingPower>4</stoppingPower>
       <speed>98</speed>
       <arcHeightFactor>0.3</arcHeightFactor>
@@ -839,6 +840,7 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
   </ThingDef>
+  
   <ThingDef ParentName="BaseWeaponTurret">
     <defName>DMS_Gun_Vasilek</defName>
     <label>2B9M vasilek</label>
@@ -905,7 +907,7 @@
       <WorkToBuild>7500</WorkToBuild>
       <Beauty>-2</Beauty>
       <ShootingAccuracyTurret>1.00</ShootingAccuracyTurret>
-      <Mass>10000</Mass>
+      <!-- <Mass>10000</Mass> -->
     </statBases>
     <comps>
       <li Class="CompProperties_Explosive">
@@ -971,10 +973,10 @@
     </researchPrerequisites>
     <uiIconPath>Things/Turrets/DMS_DawnBlade</uiIconPath>
     <uiIconScale>1.2</uiIconScale>
-    <minifiedDef>MinifiedThing</minifiedDef>  <!--================可攜帶性================-->
-    <thingCategories>
+    <!-- <minifiedDef>MinifiedThing</minifiedDef> -->
+    <!-- <thingCategories>
       <li>BuildingsSecurity</li>
-    </thingCategories>
+    </thingCategories> -->
   </ThingDef>
 
   <ThingDef ParentName="BaseWeaponTurret">
@@ -1042,7 +1044,7 @@
       <soundExplode>Explosion_Rocket</soundExplode>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>50</damageAmountBase>
-      <armorPenetrationBase>0.9</armorPenetrationBase>
+      <armorPenetrationBase>0.82</armorPenetrationBase>
       <stoppingPower>10</stoppingPower>
       <speed>100</speed>
       <arcHeightFactor>0.2</arcHeightFactor>
@@ -1064,7 +1066,7 @@
       <li Class="CompProperties_Explosive">
         <explosiveRadius>1.1</explosiveRadius>
         <explosiveDamageType>Bullet</explosiveDamageType>
-        <armorPenetrationBase>0.9</armorPenetrationBase>
+        <armorPenetrationBase>0.41</armorPenetrationBase>
         <damageAmountBase>50</damageAmountBase>
         <explodeOnDestroyed>true</explodeOnDestroyed>
         <explodeOnKilled>true</explodeOnKilled>

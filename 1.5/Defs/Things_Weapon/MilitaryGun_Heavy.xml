@@ -337,7 +337,7 @@
       <li Class="DMS.ExplosiveExtension">
         <damage>Bullet</damage>
         <damageAmount>40</damageAmount>
-        <armorPen>0.75</armorPen>
+        <armorPen>0.31</armorPen>
         <preExplosionOffset>4</preExplosionOffset>
         <range>10</range>
         <swayAngle>30</swayAngle>
@@ -528,7 +528,7 @@
     <projectile>
       <damageDef>Bullet</damageDef>
       <damageAmountBase>90</damageAmountBase>
-      <armorPenetrationBase>1.5</armorPenetrationBase>
+      <armorPenetrationBase>0.75</armorPenetrationBase>
       <stoppingPower>10</stoppingPower>
       <speed>93</speed>
       <arcHeightFactor>0.3</arcHeightFactor>
@@ -631,7 +631,7 @@
       <speed>40</speed>
       <damageDef>Bomb</damageDef>
       <damageAmountBase>60</damageAmountBase>
-      <armorPenetrationBase>0.65</armorPenetrationBase>
+      <armorPenetrationBase>0.35</armorPenetrationBase>
       <stoppingPower>1.5</stoppingPower>
       <explosionRadius>1.5</explosionRadius>
       <soundExplode>DMS_KnuckledusterRevolver_Shot</soundExplode>
