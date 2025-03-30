@@ -2,6 +2,35 @@
 
 WTF UF only allows one RecipeUser Per Recipe.
 
+## TODO
+`Unless specified, this is an unordered list.`
+
+Make some weap craftable at start.
+Apparel cost
+Mechaniod cost
+
+Pawnkind budget & tag
+
+Defense Building Cost.
+
+
+1. Building 
+   1. stuffable
+   2. power consumption
+   3. Prod type change
+   4. Cost rebalance
+2. Turret stuffable
+   1. remove turret cannon pipe req.
+   2. possibly make some weap chest?
+3. Apparel
+   1. Material recongize
+   2. Cost
+   3. rebalance
+4. Faction StockGenerator
+5. Mech cost
+6. Mech WorkType adjust to HSK
+7. Item cost
+
 ## Working on
 
 ## Works Done
@@ -60,34 +89,7 @@ Only human barearm equipable weapon is needed to modify into HSK Style, the rest
    7. DMS_Gun_DawnbladeM
    8. DMS_Flameblaster
 
-
-
-
-## TODO
-
-Pawnkind budget & tag
-
-Defense Building Cost.
-
-
-1. Building 
-   1. stuffable
-   2. power consumption
-   3. Prod type change
-   4. Cost rebalance
-2. Turret stuffable
-   1. remove turret cannon pipe req.
-   2. possibly make some weap chest?
-3. Apparel
-   1. Material recongize
-   2. Cost
-   3. rebalance
-4. Faction StockGenerator
-5. Mech cost
-6. Mech WorkType adjust to HSK
-7. Item cost
-
-## REF All Ammosets used by DMS asof 2025-01-30
+### REF All Ammosets used by DMS asof 2025-01-30
     30x165 ,used by GAU-8,but HSK has a builtin GAU-8 and it uses a different ammoset,no comment on that but if we patches it?
     30x173NATO # ! HSK has this one !
     762x385RCannonShell #added
@@ -111,7 +113,7 @@ Defense Building Cost.
     60mmMortarShell_DF # Self Def
     `DMS_FlameThrower` # Self Def,
 
-## REF Mech cost tier
+### REF Mech cost tier
 
 Somehow current cost is way too high, still needs nerf.
 
@@ -154,7 +156,7 @@ designate WCo Alloy as tungsteel(very fast)
    1. Big sister requires additional resource to support its embedded structure.
 
 
-## REF Heavy Mech Builtin Weapon
+### REF Heavy Mech Builtin Weapon
 Iguana -> 5.56x45NATO SMG -> Rifle
 Gecko -> Flamethrower -> Heavy
 Tarbosaurus -> .50BMG HMG -> Heavy
