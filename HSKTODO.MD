@@ -5,14 +5,13 @@ WTF UF only allows one RecipeUser Per Recipe.
 ## TODO
 `Unless specified, this is an unordered list.`
 
-Make some weap craftable at start.
-Apparel cost
-Mechaniod cost
+Urgent,Next:
+1. Restore DMS Artifuscle Chamber for compat need.
+
+2. Make some weap craftable at start.
 
 Pawnkind budget & tag
-
 Defense Building Cost.
-
 
 1. Building 
    1. stuffable
