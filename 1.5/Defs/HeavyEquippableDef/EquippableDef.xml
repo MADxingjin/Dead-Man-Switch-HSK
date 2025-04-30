@@ -17,6 +17,8 @@
       <li>ArchotechArm</li>
       <li>DMS_SyntheticArm</li>
       <li>DMS_ProstheticArm</li>
+      <li>ExoskeletonSuit</li>
+      <li>ProtectiveExoskeleton</li>
     </EquippableWithHediff>
     <EquippableWithApparel>
       <li>DMS_Apparel_BionicSuit</li>
@@ -36,6 +38,8 @@
     <EquippableWithHediff>
       <li>ArchotechArm</li>
       <li>DMS_SyntheticArm</li>
+      <li>ExoskeletonSuit</li>
+      <li>ProtectiveExoskeleton</li>
     </EquippableWithHediff>
     <EquippableWithApparel>
       <li>DMS_Apparel_BionicSuit</li>
@@ -56,6 +60,8 @@
     <EquippableWithHediff>
       <li>DMS_SyntheticArm</li>
       <li>ArchotechArm</li>
+      <li>ExoskeletonSuit</li>
+      <li>ProtectiveExoskeleton</li>
     </EquippableWithHediff>
     <EquippableWithApparel>
       <li>DMS_Apparel_PowerSkelton</li>

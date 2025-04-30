@@ -38,17 +38,19 @@
     </statBases>
     <recipeMaker>
       <recipeUsers>
-        <li>TableMachining</li>
+        <li>WeaponCraftingWorkTable</li>
+        <li>FabricationBench</li>
       </recipeUsers>
       <researchPrerequisites>
-        <li>Gunsmithing</li>
+        <!--<li>Gunsmithing</li>-->
         <li>DMS_EquipmentBasis</li>
       </researchPrerequisites>
     </recipeMaker>
     <costList>
-      <Pistol_Component>1</Pistol_Component>
-      <Weapon_Parts>1</Weapon_Parts>
+      <!--<Pistol_Component>1</Pistol_Component>
+      <Weapon_Parts>1</Weapon_Parts>-->
       <ComponentIndustrial>4</ComponentIndustrial>
+      <Mechanism>1</Mechanism>
     </costList>
     <verbs>
       <li>
@@ -219,18 +221,19 @@
     </equippedStatOffsets>
     <recipeMaker>
       <recipeUsers>
-        <li>TableMachining</li>
+        <li>WeaponCraftingWorkTable</li>
+        <li>FabricationBench</li>
       </recipeUsers>
       <researchPrerequisites>
-        <li>Gunsmithing</li>
+        <!--<li>Gunsmithing</li>-->
         <li>DMS_EquipmentBasis</li>
       </researchPrerequisites>
     </recipeMaker>
     <costList>
-      <Rifle_Component>1</Rifle_Component>
-      <Weapon_Parts>1</Weapon_Parts>
-      <ComponentIndustrial>3</ComponentIndustrial>
-      <Mechanism>1</Mechanism>
+     <!-- <Rifle_Component>1</Rifle_Component>
+      <Weapon_Parts>1</Weapon_Parts>-->
+      <ComponentIndustrial>7</ComponentIndustrial>
+      <Mechanism>3</Mechanism>
     </costList>
     <tools Inherit="False">
       <li>
@@ -302,7 +305,7 @@
     <soundInteract>Interact_Autopistol</soundInteract>
     <recipeMaker>
       <recipeUsers>
-        <li>TableMachining</li>
+        <li>WeaponCraftingWorkTable</li>
       </recipeUsers>
       <researchPrerequisites>
         <li>Gunsmithing</li>
@@ -529,7 +532,7 @@
     </equippedStatOffsets>
     <recipeMaker>
       <recipeUsers>
-        <li>TableMachining</li>
+        <li>WeaponCraftingWorkTable</li>
       </recipeUsers>
       <skillRequirements>
         <Crafting>5</Crafting>

@@ -6,7 +6,7 @@
   <supportedVersions>
     <li>1.5</li>
   </supportedVersions>
-  <packageId>Aoba.DeadManSwitch.Core.HSK</packageId>
+  <packageId>Aoba.DeadManSwitch.Core</packageId>
   <modDependencies>
     <li>
       <packageId>ludeon.rimworld.biotech</packageId>
@@ -34,9 +34,6 @@
     <li>arpomo6.hmc.project</li>
     <li>xxnelsonxx.parabellum</li>
   </loadAfter>
-  <incompatibleWith>
-  <li>Aoba.DeadManSwitch.Core</li>
-  </incompatibleWith>
   <description>Millennia earlier, as the threat of archotech war machines, pirates and awry
     bio-organic weapons arise. Nara Industries initiated a project of semi-automated war-machines,
     which aimed at creating a legion of war-machines with low technology and maintenance

@@ -1,15 +1,15 @@
 # HSK(ify) TODO.MD
 
-WTF UF only allows one RecipeUser Per Recipe.
-
 ## TODO
 `Unless specified, this is an unordered list.`
 
 Urgent,Next:
 1. Restore DMS Artifuscle Chamber for compat need.
-
-2. Make some weap craftable at start.
-
+2. Make some weap craftable at start,change their cost.
+   1. DMS_KnuckledusterRevolver
+   2. DMS_SurvivalRifle
+3. Move that TraderStockGen Patch to base.
+4. DMS_Apparel_PowerSkelton move to shoe/glove
 Pawnkind budget & tag
 Defense Building Cost.
 
@@ -31,10 +31,11 @@ Defense Building Cost.
 7. Item cost
 
 ## Working on
+WTF UF?
 
 ## Works Done
 
-1. CE Ammoset missing in HSK CE
+1. CE Ammoset & ammo missing in HSK CE
    Check all weap in game and record their ammo set & ammo type
    1.1 Patch ammo recipes to HSK style & cost rebalance
 
@@ -103,16 +104,18 @@ Only human barearm equipable weapon is needed to modify into HSK Style, the rest
     .50BMG
     40x53mmGrenade # merged with 40x46,since only used in one weap.
     .50AE #add, two guns uses them
-    338Lapua # CoreSK dont have this,but HMC added one 338 and wiki says they are interchangeable, so insert Mayrequire HMC 338 into the ammoset for compat
+    338Lapua # CoreSK dont have this,but HMC added one 338,however [this link](https://www.full-bore.co.uk/viewtopic.php?t=42191) says they are *NOT* interchangeable
     20x102NATO # ! HSK has this one !
-    RPG32Rocket #added for now
+    RPG32Rocket #added for now,many uses in addons
     556x45NATO
     SPG9Rocket # ! HSK has this one !
     37x223R # added for now
-    60mmMortarShell_DF # Self Def
-    `DMS_FlameThrower` # Self Def,
+    60mmMortarShell_DF # Self Def,but relies on 60mm MortarShell
+    `DMS_FlameThrower` # Self Def,relies on CE Flamer fuel.
 
 ### REF Mech cost tier
+
+Simply consult those freaking high bionic costs and you get a clue.
 
 Somehow current cost is way too high, still needs nerf.
 
@@ -121,7 +124,7 @@ Different from how CORESK patches their way to biomatterize biotech mechs,DMS me
 obviously Artifical muscle will require biomatter to grow with.
 also wetware
 
-Will add a recipe to allow manually create T/R part and CompFireControl at Stamping station.
+Will add a recipe to allow manually create T/R part and CompFireControl at Stamping station(after studies ofcuz).
 
 Mechs with T/R parts will have more electronics parts required to gest with.
 Mechs with builtin guns require additional weap parts to gest with.
