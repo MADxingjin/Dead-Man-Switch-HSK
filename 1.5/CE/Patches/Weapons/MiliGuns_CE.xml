@@ -875,7 +875,7 @@
                 </value>
             </li>
 
-            <!--===== Door Breaker =====-->
+            <!--===== Door Breaker,A Mini Rocket Launcher with Sledge Hammer Capbility. =====-->
             <li Class="CombatExtended.PatchOperationMakeGunCECompatible">
                 <defName>DMS_DoorBreaker</defName>
                 <statBases>

@@ -76,10 +76,10 @@
     </stuffCategories>
     <costStuffCount>270</costStuffCount>
     <costList>
-      <Glass>40</Glass>
+      <Glass>50</Glass>
       <ComponentIndustrial>6</ComponentIndustrial>
       <ElectronicComponents>4</ElectronicComponents>
-      <Mechanism>2</Mechanism>
+      <Mechanism>4</Mechanism>
       <Electronics>4</Electronics>
     </costList>
     <researchPrerequisites>

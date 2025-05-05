@@ -206,6 +206,37 @@ Just like a long ago when you came here with nothing, you must rebuild anew. Onl
 					<textKey>GameStartDialog</textKey>
 					<closeSound>GameStartSting</closeSound>
 				</li>
+        <!-- HSK ADD SCENE BUFF-->
+        <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>DMS_PDW</thingDef>
+					<count>1</count>
+				</li>
+        <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Ammo_50AE_FMJ</thingDef>
+					<count>241</count>
+				</li>
+        <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Plasteel</thingDef>
+					<count>300</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+					<def>StartingThing_Defined</def>
+					<thingDef>Mechanism</thingDef>
+					<count>25</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ElectronicComponents</thingDef>
+          <count>20</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Electronics</thingDef>
+          <count>15</count>
+        </li>
 			</parts>
 		</scenario>
 	</ScenarioDef> 

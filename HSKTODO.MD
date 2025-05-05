@@ -3,16 +3,16 @@
 ## TODO
 `Unless specified, this is an unordered list.`
 
-Urgent,Next:
+Urgent:
 1. Restore DMS Artifuscle Chamber for compat need.
-2. Make some weap craftable at start,change their cost.
-   1. DMS_KnuckledusterRevolver
-   2. DMS_SurvivalRifle
 3. Move that TraderStockGen Patch to base.
+Common:
+2. Move artimuscle to CoreSK bio lab, remove those junky stuff.
 4. DMS_Apparel_PowerSkelton move to shoe/glove
 Pawnkind budget & tag
 Defense Building Cost.
 
+Add a recipe to allow manually create T/R part and CompFireControl at Stamping station(after studies ofcuz).
 1. Building 
    1. stuffable
    2. power consumption
@@ -89,7 +89,7 @@ Only human barearm equipable weapon is needed to modify into HSK Style, the rest
    7. DMS_Gun_DawnbladeM
    8. DMS_Flameblaster
 
-### REF All Ammosets used by DMS asof 2025-01-30
+## -REF- All Ammosets used by DMS asof 2025-01-30
     30x165 ,used by GAU-8,but HSK has a builtin GAU-8 and it uses a different ammoset,no comment on that but if we patches it?
     30x173NATO # ! HSK has this one !
     762x385RCannonShell #added
@@ -124,7 +124,7 @@ Different from how CORESK patches their way to biomatterize biotech mechs,DMS me
 obviously Artifical muscle will require biomatter to grow with.
 also wetware
 
-Will add a recipe to allow manually create T/R part and CompFireControl at Stamping station(after studies ofcuz).
+Will 
 
 Mechs with T/R parts will have more electronics parts required to gest with.
 Mechs with builtin guns require additional weap parts to gest with.

@@ -41,10 +41,10 @@
       <GoldBar>15</GoldBar>
       <Neurocomputer>1</Neurocomputer>
     </costList>
-    					<stuffCategories>
-						<li>Metallic</li>
-					</stuffCategories>
-					<costStuffCount>150</costStuffCount>
+    <stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>150</costStuffCount>
     <researchPrerequisites>
       <li>DMS_Mechlink</li>
     </researchPrerequisites>

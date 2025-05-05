@@ -228,7 +228,7 @@
     <defName>Artifuscle</defName>
     <label>Artifuscle</label>
     <description>Artifuscle is a type of prosthetic material made from genetically enhanced lab grown muscle-fiber bundles.</description>
-    <descriptionHyperlinks><ThingDef>DMS_UF_TableArtifuscle</ThingDef></descriptionHyperlinks>
+    <descriptionHyperlinks><ThingDef>TableOrganvat</ThingDef></descriptionHyperlinks>
     <graphicData>
       <texPath>Things/Resource/Artifuscle</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -329,8 +329,8 @@
     <defName>Neurocomputer</defName>
     <label>Wetware computer</label>
     <description>An organic computer which functions as an artificial organic brain. It fills the role of a cheap computational brain for factions without access to rare metals and precision machining.</description>
-    <descriptionHyperlinks><ThingDef>DMS_UF_TableArtifuscle</ThingDef></descriptionHyperlinks>
-    <possessionCount>2</possessionCount>
+    <descriptionHyperlinks><ThingDef>TableOrganvat</ThingDef></descriptionHyperlinks>
+    <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Resource/ComponentBioCPU</texPath>
       <graphicClass>Graphic_Single</graphicClass>

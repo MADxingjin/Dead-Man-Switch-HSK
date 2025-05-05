@@ -152,7 +152,7 @@
     <slotsRequired>12</slotsRequired>
   </RecipeDef>
 
-  <!-- 合成肌肉培育槽 -->
+  <!--Recipes previously separated from Astifuscle Table, now moved to organ vat for balance sake. the independant UF variant Artifuscle Table will be removed. bad discision to use that design from start.  -->
   <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
     <defName>DMS_Make_Artifuscle</defName>
     <label>Grow artifuscle x25</label>
@@ -165,7 +165,7 @@
     </descriptionHyperlinks>
     -->
     <recipeUsers>
-      <li>DMS_UF_TableArtifuscle</li>
+      <li>TableOrganvat</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -238,7 +238,7 @@
     </descriptionHyperlinks>
     -->
     <recipeUsers>
-      <li>DMS_UF_TableArtifuscle</li>
+      <li>TableOrganvat</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -308,7 +308,7 @@
       used on a large scale.</description>
     <jobString>Sythesizing wetware computer.</jobString>
     <recipeUsers>
-      <li>DMS_UF_TableArtifuscle</li>
+      <li>TableOrganvat</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -355,7 +355,10 @@
     <products>
       <Neurocomputer>1</Neurocomputer>
     </products>
-    <researchPrerequisite>DMS_Hypothesis</researchPrerequisite>
+    <researchPrerequisites>
+      <li>Prosthesis_making_D1</li>
+      <li>DMS_Hypothesis</li>
+    </researchPrerequisites>
     <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
     <usesTemperature>true</usesTemperature>
     <processDays>3</processDays>
@@ -479,7 +482,7 @@
     <description>Synthesize Emotion Filter</description>
     <jobString>Sythesizing Emotion Filter.</jobString>
     <recipeUsers>
-      <li>DMS_UF_TableArtifuscle</li>
+      <li>TableOrganvat</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -514,7 +517,7 @@
     <description>Synthesize Nutrition port.</description>
     <jobString>Sythesizing Nutrition port.</jobString>
     <recipeUsers>
-      <li>DMS_UF_TableArtifuscle</li>
+      <li>TableOrganvat</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -557,7 +560,7 @@
     <description>Synthesize Biosynthetic arm.</description>
     <jobString>Sythesizing Biosynthetic arm.</jobString>
     <recipeUsers>
-      <li>DMS_UF_TableArtifuscle</li>
+      <li>TableOrganvat</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -592,7 +595,7 @@
     <description>Synthesize Biosynthetic Leg.</description>
     <jobString>Sythesizing Biosynthetic Leg.</jobString>
     <recipeUsers>
-      <li>DMS_UF_TableArtifuscle</li>
+      <li>TableOrganvat</li>
     </recipeUsers>
     <ingredients>
       <li>
@@ -828,7 +831,7 @@
     <description>Synthesize a BioMicroChip,way faster and material efficent than assembling it manuallly.</description>
     <jobString>Sythesizing BioMicroChip.</jobString>
     <recipeUsers>
-      <li>DMS_UF_TableArtifuscle</li>
+      <li>TableOrganvat</li>
     </recipeUsers>
     <ingredients>
 

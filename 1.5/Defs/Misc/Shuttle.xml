@@ -41,8 +41,8 @@
         <killedLeavings>
           <Plasteel>75</Plasteel>
           <Uranium>50</Uranium>
-          <ChunkSlagSteel>4</ChunkSlagSteel>
-          <ComponentIndustrial>4</ComponentIndustrial>
+          <DMS_ChunkSlag>4</DMS_ChunkSlag>
+          <ComponentAdvanced>4</ComponentAdvanced>
         </killedLeavings>
         <rotatable>false</rotatable>
         <selectable>true</selectable>
