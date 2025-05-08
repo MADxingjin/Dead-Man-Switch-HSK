@@ -188,10 +188,6 @@
 		</comps>
 	</ThingDef>
 
-
-
-
-
 	<ThingDef ParentName="ApparelArmorHelmetReconBase" Abstract="true">
 		<defName>DMS_AirRaidTest</defName>
 		<label>Air Raid Goggles</label>
@@ -242,11 +238,22 @@
 		<thingSetMakerTags Inherit="False">
 			<li>RewardStandardLowFreq</li>
 		</thingSetMakerTags>
-
 		<comps>
 			<li Class="DMS.CompProperties_AirSupportSummoner">
-				<ProjectileDef>Bullet_Shell_HighExplosive</ProjectileDef>
-				<burstCount>3</burstCount>
+				<supportDef>DMS_AirRaidTest</supportDef>
+				<label>autocannon strafe</label>
+			</li>
+			<li Class="DMS.CompProperties_AirSupportSummoner">
+				<supportDef>DMS_AirRaidTestII</supportDef>
+				<label>rocket barrage</label>
+			</li>
+			<li Class="DMS.CompProperties_AirSupportSummoner">
+				<supportDef>DMS_AirRaidTestIII</supportDef>
+				<label>rocket barrage from base</label>
+			</li>
+			<li Class="DMS.CompProperties_AirSupportSummoner">
+				<supportDef>DMS_155mm_Bombard</supportDef>
+				<label>shell barrage from base</label>
 			</li>
 		</comps>
 	</ThingDef>
