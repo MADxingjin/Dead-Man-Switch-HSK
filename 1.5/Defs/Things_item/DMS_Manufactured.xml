@@ -6,7 +6,7 @@
     <defName>Polyester</defName>
     <label>Polyester</label>
     <description>A type of synthetic fiber that is ugly but still widely used in textile materials such as clothing, bedding, and special fabrics for the military.</description>
-    <descriptionHyperlinks><ThingDef>DMS_ReactionChamber</ThingDef></descriptionHyperlinks>
+    <descriptionHyperlinks><ThingDef>DMS_UF_ReactionChamber</ThingDef></descriptionHyperlinks>
     <graphicData>
       <texPath>Things/Resource/Polyester</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
@@ -61,7 +61,7 @@
     <defName>Plasfiber</defName>
     <label>Plasticfiber</label>
     <description>A type of synthetic fiber made with plasteel and is intrinsically resistant to sharp attacks but not blunt impacts.\n\n Plastifiber has a important role in the medical field as a biomimetic surface material as it does not produce rejection reactions from the immune system.</description>
-    <descriptionHyperlinks><ThingDef>DMS_ReactionChamber</ThingDef></descriptionHyperlinks>
+    <descriptionHyperlinks><ThingDef>DMS_UF_ReactionChamber</ThingDef></descriptionHyperlinks>
     <graphicData>
       <texPath>Things/Resource/Plasfiber</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>

@@ -86,7 +86,7 @@
     <defName>DMS_TrashBin_Base</defName>
     <label>Trashbin Charging Station</label>
     <description>A station for assembling and recharging trashbin units.</description>
-    <designatorDropdown>DMS_MachineHound</designatorDropdown>
+    <!-- <designatorDropdown>DMS_MachineHound</designatorDropdown>-->
     <statBases>
       <WorkToBuild>1000</WorkToBuild>
       <MaxHitPoints>100</MaxHitPoints>

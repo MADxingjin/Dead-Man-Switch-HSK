@@ -676,7 +676,7 @@
     <researchPrerequisites>
       <li>Components_D1</li>
       <li>DMS_EquipmentElite</li>
-      <li>Heavy_C2</li>
+      <li>MultibarrelWeapons</li>
     </researchPrerequisites>
     <uiIconPath>Things/Turrets/DMS_5ETs16U</uiIconPath>
     <uiIconScale>1.2</uiIconScale>

@@ -87,14 +87,14 @@
 									<max>480</max>
 								</countRange>
 							</li>
-							<li>
+							<!-- <li>
 								<choiceChance>20</choiceChance>
 								<thingDef>Ammo_127x108mm_AP</thingDef>
 								<countRange>
 									<min>240</min>
 									<max>480</max>
 								</countRange>
-							</li>
+							</li>-->
 							<li>
 								<choiceChance>20</choiceChance>
 								<thingDef>Ammo_127x108mm_HE</thingDef>

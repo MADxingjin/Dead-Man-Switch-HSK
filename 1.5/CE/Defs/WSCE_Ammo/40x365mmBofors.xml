@@ -258,10 +258,10 @@
 		<description>Craft 25 40x365mm Bofors (Time-Fuzed) cartridges.</description>
 		<jobString>Making 40x365mm Bofors (Time-Fuzed) cartridges.</jobString>
 		<researchPrerequisite Inherit="False" />
-		<researchPrerequisites>
+		<!-- <researchPrerequisites>
 			<li>CE_TurretHeavyWeapons</li>
 			<li>CE_AdvancedLaunchers</li>
-		</researchPrerequisites>
+		</researchPrerequisites> -->
 		<workAmount>20400</workAmount>
 		<ingredients>
 			<li>
@@ -307,10 +307,10 @@
 		<description>Craft 25 40x365mm Bofors (Sabot) cartridges.</description>
 		<jobString>Making 40x365mm Bofors (Sabot) cartridges.</jobString>
 		<researchPrerequisite Inherit="False" />
-		<researchPrerequisites>
+		<!-- <researchPrerequisites>
 			<li>CE_TurretHeavyWeapons</li>
 			<li>CE_AdvancedAmmo</li>
-		</researchPrerequisites>
+		</researchPrerequisites>-->
 		<workAmount>16200</workAmount>
 		<ingredients>
 			<li>

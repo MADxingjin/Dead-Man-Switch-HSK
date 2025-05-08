@@ -28,13 +28,14 @@
 
     <!--LAW
     for Birdy and Kanonier-->
+    <!-- 
     <Operation Class="PatchOperationAdd">
         <xpath>Defs/ThingDef[defName="CE_DisposableRocketLauncher"]/weaponTags</xpath>
         <value>
             <li>VerlingBird_Weapon</li>
             <li>DMS_Kanon</li>
         </value>
-    </Operation>
+    </Operation>-->
 
     <!-- give various CE sub-mod launchers to Kanonier-->
     <Operation Class="PatchOperationFindMod">

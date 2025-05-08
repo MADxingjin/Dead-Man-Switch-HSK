@@ -1,3 +1,5 @@
 {
-  "editor.fontSize": 12
+  "editor.fontSize": 12,
+  "workbench.preferredLightColorTheme": "SAP Workbech",
+  "workbench.colorTheme": "SAP Workbech"
 }

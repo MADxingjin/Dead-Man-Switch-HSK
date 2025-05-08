@@ -237,8 +237,7 @@
     <jobString>Making 76.2x385mmR (HEAT) cannon shells.</jobString>
     <researchPrerequisite Inherit="False" />
     <researchPrerequisites>
-      <li>CE_TurretHeavyWeapons</li>
-      <li>CE_Launchers</li>
+      <li>Range_C2</li>
     </researchPrerequisites>
     <workAmount>12600</workAmount>
     <ingredients>
@@ -414,15 +413,14 @@
 
   <RecipeDef ParentName="CannonAmmoRecipeBase">
     <defName>MakeAmmo_762x385mmRCannonShell_APCR</defName>
-    <label>make 76.2x385mmR (APCR) cannon shells x5</label>
+    <label>make 76.2x385mmR (APCR) cannon
+    shells x5</label>
     <description>Craft 5 76.2x385mmR (APCR) cannon shells.</description>
     <jobString>Making 76.2x385mmR (APCR) cannon shells.</jobString>
     <researchPrerequisite Inherit="False" />
-    <researchPrerequisites>
-      <li>CE_TurretHeavyWeapons</li>
-      <li>CE_AdvancedAmmo</li>
-    </researchPrerequisites>
-    <workAmount>11200</workAmount>
+      <researchPrerequisites>
+      <li>Range_C2</li>
+    </researchPrerequisites>--> <workAmount>11200</workAmount>
     <ingredients>
       <li>
         <filter>
@@ -483,8 +481,7 @@
     <jobString>Making 76.2x385mmR (EMP) cannon shells.</jobString>
     <researchPrerequisite Inherit="False" />
     <researchPrerequisites>
-      <li>CE_TurretHeavyWeapons</li>
-      <li>MicroelectronicsBasics</li>
+      <li>Range_C2</li>
     </researchPrerequisites>
     <workAmount>13800</workAmount>
     <ingredients>
