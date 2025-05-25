@@ -1,5 +1,12 @@
 # Changelog.MD
 
+## 2025-05-W3
+### Fixed
+- 762x385mmR Cannon recipe pharse failure because a misplaced comment mark.
+
+### Removed
+.22 AP-I as it`s unrealistic.
+
 ## 2025-05-W1
 
 ### Changed

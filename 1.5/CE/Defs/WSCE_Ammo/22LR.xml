@@ -17,7 +17,7 @@
       <Ammo_22LR_FMJ>Bullet_22LR_FMJ</Ammo_22LR_FMJ>
       <Ammo_22LR_AP>Bullet_22LR_AP</Ammo_22LR_AP>
       <Ammo_22LR_HP>Bullet_22LR_HP</Ammo_22LR_HP>
-      <Ammo_22LR_API>Bullet_22LR_API</Ammo_22LR_API>
+      <!-- <Ammo_22LR_API>Bullet_22LR_API</Ammo_22LR_API>-->
     </ammoTypes>
     <!-- <similarTo>AmmoSet_Pistol</similarTo>-->
   </CombatExtended.AmmoSetDef>
@@ -84,7 +84,7 @@
     <ammoClass>HollowPoint</ammoClass>
     <cookOffProjectile>Bullet_22LR_HP</cookOffProjectile>
   </ThingDef>
-
+<!-- 
   	<ThingDef Class="CombatExtended.AmmoDef" ParentName="22LRBase">
 		<defName>Ammo_22LR_API</defName>
 		<label>.22 LR (API)</label>
@@ -98,7 +98,7 @@
 		<ammoClass>IncendiaryAP</ammoClass>
 		<cookOffProjectile>Bullet_22LR_API</cookOffProjectile>
 	</ThingDef>
-
+-->
   <!-- ================== Projectiles ================== -->
 
   <ThingDef Name="Base22LRBullet" ParentName="BaseBulletCE" Abstract="true">
@@ -311,7 +311,7 @@
     <workAmount>600</workAmount>
   </RecipeDef>
 
-  	<RecipeDef ParentName="AmmoRecipePistol">
+<!--  	<RecipeDef ParentName="AmmoRecipePistol">
 		<defName>MakeAmmo_22LR_API</defName>
 		<label>制造.22穿甲燃烧弹 x120</label>
 		<description>制造120发.22穿甲燃烧弹.</description>
@@ -370,5 +370,5 @@
 		</skillRequirements>
 		<workSkill>Crafting</workSkill>
 		<workSkillLearnFactor>0.8</workSkillLearnFactor>
-	</RecipeDef>
+	</RecipeDef>-->
 </Defs>
