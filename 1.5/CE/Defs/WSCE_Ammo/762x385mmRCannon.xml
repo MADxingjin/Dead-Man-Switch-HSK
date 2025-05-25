@@ -420,7 +420,8 @@
     <researchPrerequisite Inherit="False" />
       <researchPrerequisites>
       <li>Range_C2</li>
-    </researchPrerequisites>--> <workAmount>11200</workAmount>
+    </researchPrerequisites> 
+    <workAmount>11200</workAmount>
     <ingredients>
       <li>
         <filter>
