@@ -1,5 +1,11 @@
 # Changelog.MD
 
+## 2025-08
+
+## 2025-07
+### Fixed
+Duplicate Ammo .338 Calibre with HMC , CTRL+CV HMC 338 instead.
+
 ## 2025-05-W3
 ### Fixed
 - 762x385mmR Cannon recipe pharse failure because a misplaced comment mark.
@@ -12,7 +18,7 @@
 ### Changed
 - Artifuscle now grows at Organ lab.
 - Artifuscle bionic now grows at organ lab.
-- Reverted turtle artifuscle cost.they are, by original author means, metallic only.
+- Reverted turtle artifuscle cost. They are, by original author means, metallic only.
 - Research Project changed to HSK Parent, should their location change in ResearchTreeSK is still under consideration.
 - Tech Project from wetware computer and all after are now spacer tech.
 - DMS Starting Scene now gives a 338 marksman rifle and 11 Mags of FMJ ammo for self defense.
