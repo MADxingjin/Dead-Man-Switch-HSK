@@ -41,13 +41,20 @@
           <li>MidworldMelee</li>
           <li>HitechMelee</li>
           <li>HitechMelee2H</li>
+          <li>PT1</li>
+          <li>PT2</li>
+          <li>ST1</li>
+          <li>ST2</li>
+          <li>ST3</li>
+          <li>SMG1</li>
+          <li>SMG2</li>
+          <li>SMG3</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
           <li>Medieval</li>
           <li>Industrial</li>
           <li>Spacer</li>
-          <li>Ultra</li>
         </UsableTechLevels>
         <BypassUsableWeapons />
       </li>
@@ -115,13 +122,13 @@
       </li>
     </tools>
   </ThingDef>
-
+<!-- Colonial Army NPC ,keep Melee focused -->
   <PawnKindDef ParentName="BaseAutomatroidKind">  <!-- DMS_Mech_Ronin 浪人:均衡型  -->
     <defName>DMS_Mech_Ronin</defName>
     <label>Ronin</label>
     <race>DMS_Mech_Ronin</race>
     <isFighter>true</isFighter>
-    <combatPower>150</combatPower>
+    <combatPower>200</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -140,14 +147,18 @@
         </bodyGraphicData>
       </li>
     </lifeStages>
-    <weaponTags>
-      <li>A_SG_LongRifle</li>                                                                     <!--武器-->
+    <weaponTags><!--武器-->
+      <li>A_SG_LongRifle</li>
       <li>A_PDW</li>
       <li>A_AP</li>
       <li>MedievalMelee</li>
       <li>MidworldMelee</li>
       <li>HitechMelee</li>
       <li>HitechMelee2H</li>
+      <li>ST1</li>
+      <li>SMG2</li>
+      <li>SMG1</li>
+      <li>SMG2</li>
     </weaponTags>
     <abilities>
       <li>DMS_Infrasound</li>
@@ -198,7 +209,6 @@
           <li>Medieval</li>
           <li>Industrial</li>
           <li>Spacer</li>
-          <li>Ultra</li>
         </UsableTechLevels>
       </li>
     </modExtensions>
@@ -247,7 +257,7 @@
     <label>gladiator</label>
     <race>DMS_Mech_Gladiator</race>
     <isFighter>true</isFighter>
-    <combatPower>150</combatPower>
+    <combatPower>200</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -317,7 +327,9 @@
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
+          <li>Medieval</li>
           <li>Industrial</li>
+          <li>Spacer</li>
         </UsableTechLevels>
         <BypassUsableWeapons />
       </li>
@@ -340,7 +352,7 @@
     <race>DMS_Mech_Siegebreaker</race>
     <canBeSapper>true</canBeSapper>
     <isGoodBreacher>true</isGoodBreacher>
-    <combatPower>200</combatPower>
+    <combatPower>350</combatPower>
     <maxPerGroup>10</maxPerGroup>
     <lifeStages>                                                                 <!--身體圖片-->
       <li>
@@ -414,11 +426,18 @@
           <li>MidworldMelee</li>
           <li>HitechMelee</li>
           <li>HitechMelee2H</li>
+          <li>ST1</li>
+          <li>ST2</li>
+          <li>ST3</li>
+          <li>SMG1</li>
+          <li>SMG2</li>
+          <li>SMG3</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
           <li>Medieval</li>
           <li>Industrial</li>
+          <li>Spacer</li>
         </UsableTechLevels>
         <BypassUsableWeapons />
       </li>
@@ -468,13 +487,13 @@
       </li>
     </damageMultipliers>
   </ThingDef>
-
+<!-- Colonial Army Protecter,melee focus -->
   <PawnKindDef ParentName="BaseAutomatroidKind">  <!-- DMS_Mech_Protector 塔盾手:防禦特化  -->
     <defName>DMS_Mech_Protector</defName>
     <label>protector</label>
     <race>DMS_Mech_Protector</race>
     <isFighter>true</isFighter>
-    <combatPower>180</combatPower>
+    <combatPower>360</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -548,11 +567,18 @@
           <li>MidworldMelee</li>
           <li>HitechMelee</li>
           <li>HitechMelee2H</li>
+          <li>ST1</li>
+          <li>ST2</li>
+          <li>ST3</li>
+          <li>SMG1</li>
+          <li>SMG2</li>
+          <li>SMG3</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
           <li>Medieval</li>
           <li>Industrial</li>
+          <li>Spacer</li>
         </UsableTechLevels>
         <BypassUsableWeapons />
       </li>
@@ -564,7 +590,7 @@
     <label>Phalanx</label>
     <race>DMS_Mech_Phalanx</race>
     <isFighter>true</isFighter>
-    <combatPower>120</combatPower>
+    <combatPower>220</combatPower>
     <lifeStages>
       <li>
         <bodyGraphicData>
