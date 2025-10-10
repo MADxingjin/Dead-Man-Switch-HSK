@@ -1,5 +1,10 @@
 # Changelog.MD
 
+## 2025-10
+### Changed
+Nerfed most automatrid by rearranging their weaponpool (weaponTags) when generated as NPC. elinmates situation where DMS_Mech_Raider(pirate variant of soldat) in early game holds a plasma blaster and 1shot plate armor colonist.
+Also Drastically increased automatrid combat power to make them less common in early event
+
 ## 2025-08
 
 ## 2025-07

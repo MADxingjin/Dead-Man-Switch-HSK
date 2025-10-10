@@ -49,9 +49,16 @@
         <UsableWeaponTags>
           <li>SimpleGun</li>
           <li>ShortShots</li>
-          <li>CE_SMG</li>
-          <li>DMS_MechWeaponLight</li>
           <li>IndustrialGun</li>
+          <li>DMS_MechWeaponLight</li>
+          <li>PT1</li>
+          <li>PT2</li>
+          <li>ST1</li>
+          <li>ST2</li>
+          <li>SMG1</li>
+          <li>SMG2</li>
+          <li>RF1</li>
+          <li>RF2</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
         <UsableTechLevels>
@@ -72,13 +79,13 @@
       </li>
     </modExtensions>
   </ThingDef>
-
+  <!-- Colonial Army -->
   <PawnKindDef ParentName="BaseAutomatroidKind">
     <defName>DMS_Mech_Soldat</defName>
     <label>soldat</label>
     <race>DMS_Mech_Soldat</race>
     <isFighter>true</isFighter>
-    <combatPower>40</combatPower>                                               <!--威脅點數-->
+    <combatPower>140</combatPower>                                               <!--威脅點數-->
     <maxPerGroup>20</maxPerGroup>                                                 <!--單個集群內的數量-->
     <lifeStages>                                                                 <!--身體圖片-->
       <li>
@@ -105,13 +112,13 @@
       <li>CE_Sidearm</li>
     </weaponTags>
   </PawnKindDef>
-
+  <!-- Colonial Army -->
   <PawnKindDef ParentName="BaseAutomatroidKind">
     <defName>DMS_Mech_Soldat_B</defName>
     <label>vanguard</label>
     <race>DMS_Mech_Soldat</race>
     <isFighter>true</isFighter>
-    <combatPower>80</combatPower>
+    <combatPower>140</combatPower>
     <maxPerGroup>20</maxPerGroup>
     <skills>
       <li>
@@ -144,13 +151,13 @@
     </weaponTags>
   </PawnKindDef>
 
-
+  <!-- Pirate -->
   <PawnKindDef ParentName="BaseAutomatroidKind"><!--海盜特供型-->
     <defName>DMS_Mech_Raider</defName>
     <label>raider</label>
     <race>DMS_Mech_Soldat</race>
     <isFighter>true</isFighter>
-    <combatPower>80</combatPower>
+    <combatPower>140</combatPower>
     <maxPerGroup>20</maxPerGroup>
     <canBeSapper>false</canBeSapper>
     <aiAvoidCover>true</aiAvoidCover>
@@ -175,7 +182,9 @@
     <weaponTags><!--武器-->
       <li>SimpleGun</li>
       <li>ShortShots</li>
-      <li>CE_Sidearm</li>
+      <li>PT1</li>
+      <li>ST1</li>
+      <li>SMG1</li>
     </weaponTags>
   </PawnKindDef>
 
@@ -227,7 +236,7 @@
     <label>grenadier</label>
     <race>DMS_Mech_Grenadier</race>
     <isFighter>true</isFighter>
-    <combatPower>120</combatPower>                                               <!--威脅點數-->
+    <combatPower>240</combatPower>                                               <!--威脅點數-->
     <maxPerGroup>20</maxPerGroup>                                                 <!--單個集群內的數量-->
     <lifeStages>                                                                 <!--身體圖片-->
       <li>
@@ -301,7 +310,7 @@
     <label>Kanonier</label>
     <race>DMS_Mech_Kanonier</race>
     <isFighter>true</isFighter>
-    <combatPower>140</combatPower>                                               <!--威脅點數-->
+    <combatPower>360</combatPower>                                               <!--威脅點數-->
     <maxPerGroup>20</maxPerGroup>                                                 <!--單個集群內的數量-->
     <lifeStages>                                                                 <!--身體圖片-->
       <li>
@@ -378,7 +387,7 @@
     <label>sergeant</label>
     <race>DMS_Mech_Sergeant</race>
     <isFighter>true</isFighter>
-    <combatPower>75</combatPower>                                               <!--威脅點數-->
+    <combatPower>300</combatPower>                                               <!--威脅點數-->
     <maxPerGroup>3</maxPerGroup>                                                 <!--單個襲擊隊伍中的最大數量-->
     <lifeStages>                                                                 <!--身體圖片-->
       <li>
