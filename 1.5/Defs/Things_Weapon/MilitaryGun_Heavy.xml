@@ -239,118 +239,113 @@
     </modExtensions>
   </ThingDef>
 
-  <!-- 無後座力砲 基本上是給龍騎兵用的-->
-  <ThingDef ParentName="DMS_AutomatroidHeavyGun">
-    <defName>DMS_Gun_Recoilless</defName>
-    <label>Recoilless Rifle</label>
-    <description>A recoilless rifle designed to counter heavy-armored targets at range.\n\nThis
-      weapon is designed specifically for automatroid use,it's so heavy only specific automatroids
-      can operate it.</description>
-    <graphicData>
-      <texPath>Things/Weapons/DMS_RecoillessRifle</texPath>
-      <drawSize>2.5</drawSize>
-    </graphicData>
-    <soundInteract>Artillery_ShellLoaded</soundInteract>
-    <statBases>
-      <AccuracyTouch>0.84</AccuracyTouch>
-      <AccuracyShort>0.95</AccuracyShort>
-      <AccuracyMedium>0.92</AccuracyMedium>
-      <AccuracyLong>0.90</AccuracyLong>
-      <RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
-      <Mass>80</Mass>
-    </statBases>
-    <weaponTags>
-      <li>DMS_MechWeaponUltraHeavy</li>
-      <li>DMS_Gun_Recoilless</li>
-      <li>NoSwitch</li>
-    </weaponTags>
-    <recipeMaker>
-      <skillRequirements>
-        <Crafting>8</Crafting>
-      </skillRequirements>
-    </recipeMaker>
-    <costList>
-      <Launcher_Component>1</Launcher_Component>
-      <Weapon_Parts>15</Weapon_Parts>
-      <Electronics>5</Electronics>
-      <Tungsteel>60</Tungsteel>
-      <ComponentStamped>5</ComponentStamped>
-    </costList>
-    <verbs>
-      <li>
-        <verbClass>Verb_Shoot</verbClass>
-        <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>DMS_Bullet_RR</defaultProjectile>
-        <warmupTime>2.2</warmupTime>
-        <minRange>8</minRange>
-        <range>34.9</range>
-        <burstShotCount>1</burstShotCount>
-        <isMortar>true</isMortar>
-        <soundCast>RocketswarmLauncher_Fire</soundCast>
-        <soundCastTail>GunTail_Heavy</soundCastTail>
-        <muzzleFlashScale>25</muzzleFlashScale>
-        <consumeFuelPerShot>1</consumeFuelPerShot>
-        <targetParams>
-          <canTargetLocations>true</canTargetLocations>
-        </targetParams>
-        <ai_AvoidFriendlyFireRadius>6</ai_AvoidFriendlyFireRadius>
-        <forcedMissRadius>3</forcedMissRadius>
-      </li>
-    </verbs>
-    <modExtensions>
-      <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
-        <def>MF_StandardMuzzleFalsh</def>
-        <drawSize>(1.5,1.5)</drawSize>
-        <offsets>
-          <li>(1,0)</li>
-        </offsets>
-        <isAlternately>true</isAlternately>
-      </li>
-      <li Class="DMS.HeavyEquippableExtension">
-        <EquippableDef>BulkyAutomatroid</EquippableDef>
-      </li>
-    </modExtensions>
-  </ThingDef>
-  <ThingDef ParentName="BaseBullet">
-    <defName>DMS_Bullet_RR</defName>
-    <label>Shape-charged Grenade</label>
-    <thingClass>DMS.Projectile_ConeExplosive</thingClass>
-    <tickerType>Normal</tickerType>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Big</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>TransparentPostLight</shaderType>
-      <drawSize>1.8</drawSize>
-    </graphicData>
-    <projectile>
-      <speed>80</speed>
-      <damageDef>Bomb</damageDef>
-      <damageAmountBase>100</damageAmountBase>
-      <armorPenetrationBase>0.7</armorPenetrationBase>
-      <stoppingPower>1.5</stoppingPower>
-      <ai_IsIncendiary>false</ai_IsIncendiary>
-      <!-- <arcHeightFactor>0.75</arcHeightFactor> -->
-      <soundExplode>Explosion_Rocket</soundExplode>
-      <shadowSize>0.6</shadowSize>
-    </projectile>
-    <modExtensions>
-      <li Class="DMS.ExplosiveExtension">
-        <damage>Bullet</damage>
-        <damageAmount>40</damageAmount>
-        <armorPen>0.31</armorPen>
-        <preExplosionOffset>4</preExplosionOffset>
-        <range>10</range>
-        <swayAngle>30</swayAngle>
-        <doVisualEffects>false</doVisualEffects>
-        <effecterDef>DMS_ConeExplosion</effecterDef>
-      </li>
-    </modExtensions>
-    <comps>
-      <li Class="CompProperties_ProjectileEffecter">
-        <effecterDef>DMS_LaunchDust_Recoilless</effecterDef>
-      </li>
-    </comps>
-  </ThingDef>
+	<!-- 無後座力砲 基本上是給龍騎兵用的-->
+	<ThingDef ParentName="DMS_AutomatroidHeavyGun">
+		<defName>DMS_Gun_Recoilless</defName>
+		<label>Recoilless Rifle</label>
+		<description>A recoilless rifle designed to counter heavy-armored targets at range.\n\nThis weapon is designed specifically for automatroid use,it's so heavy only specific automatroids can operate it.</description>
+		<graphicData>
+			<texPath>Things/Weapons/DMS_RecoillessRifle</texPath>
+			<drawSize>2.5</drawSize>
+		</graphicData>
+		<soundInteract>Artillery_ShellLoaded</soundInteract>
+		<statBases>
+			<AccuracyTouch>0.84</AccuracyTouch>
+			<AccuracyShort>0.95</AccuracyShort>
+			<AccuracyMedium>0.92</AccuracyMedium>
+			<AccuracyLong>0.90</AccuracyLong>
+			<RangedWeapon_Cooldown>2.7</RangedWeapon_Cooldown>
+			<Mass>80</Mass>
+		</statBases>
+		<weaponTags>
+			<li>DMS_MechWeaponUltraHeavy</li>
+			<li>DMS_Gun_Recoilless</li>
+			<li>NoSwitch</li>
+		</weaponTags>
+		<recipeMaker>
+			<skillRequirements>
+				<Crafting>8</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+		<costList>
+			<Tungsteel>120</Tungsteel>
+			<ComponentStamped>5</ComponentStamped>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>DMS_Bullet_RR</defaultProjectile>
+				<warmupTime>2.2</warmupTime>
+				<minRange>8</minRange>
+				<range>34.9</range>
+				<burstShotCount>1</burstShotCount>
+				<isMortar>true</isMortar>
+				<soundCast>RocketswarmLauncher_Fire</soundCast>
+				<soundCastTail>GunTail_Heavy</soundCastTail>
+				<muzzleFlashScale>25</muzzleFlashScale>
+				<consumeFuelPerShot>1</consumeFuelPerShot>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<ai_AvoidFriendlyFireRadius>6</ai_AvoidFriendlyFireRadius>
+				<forcedMissRadius>3</forcedMissRadius>
+			</li>
+		</verbs>
+		<modExtensions>
+			<li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+				<def>MF_StandardMuzzleFalsh</def>
+				<drawSize>(1.5,1.5)</drawSize>
+				<offsets>
+					<li>(1,0)</li>
+				</offsets>
+				<isAlternately>true</isAlternately>
+			</li>
+			<li Class="DMS.HeavyEquippableExtension">
+				<EquippableDef>BulkyAutomatroid</EquippableDef>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>DMS_Bullet_RR</defName>
+		<label>Shape-charged Grenade</label>
+		<thingClass>DMS.Projectile_ConeExplosive</thingClass>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Projectile/Bullet_Big</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.8</drawSize>
+		</graphicData>
+		<projectile>
+			<speed>80</speed>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>100</damageAmountBase>
+			<armorPenetrationBase>0.7</armorPenetrationBase>
+			<stoppingPower>1.5</stoppingPower>
+			<ai_IsIncendiary>false</ai_IsIncendiary>
+			<!-- <arcHeightFactor>0.75</arcHeightFactor> -->
+			<soundExplode>Explosion_Rocket</soundExplode>
+			<shadowSize>0.6</shadowSize>
+		</projectile>
+		<modExtensions>
+		  <li Class="DMS.ExplosiveExtension">
+			<damage>Bullet</damage>
+			<damageAmount>40</damageAmount>
+			<armorPen>0.31</armorPen>
+			<preExplosionOffset>4</preExplosionOffset>
+			<range>10</range>
+			<swayAngle>30</swayAngle>
+			<doVisualEffects>false</doVisualEffects>
+			<effecterDef>DMS_ConeExplosion</effecterDef>
+		  </li>
+		</modExtensions>
+		<comps>
+			<li Class="CompProperties_ProjectileEffecter">
+				<effecterDef>DMS_LaunchDust_Recoilless</effecterDef>
+			</li>
+		</comps>
+	</ThingDef>
 
   <!--2A38M
   給駭蜥Boss的武器-->

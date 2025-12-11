@@ -7,14 +7,6 @@ using Verse.Grammar;
 
 namespace DMS
 {
-    [DefOf]
-    public static class QuestKindDefOf
-    {
-        public static PawnKindDef DMS_Officer_Ceremonist;
-        public static PawnKindDef DMS_Escort;
-        public static ThingDef DMS_Shuttle;
-        public static TransportShipDef DMS_Ship_TransportShuttle;
-    }
     public class QuestNode_Root_PromotionCeremony : QuestNode
     {
         public const string QuestTag = "Bestowing";
@@ -79,10 +71,10 @@ namespace DMS
             string inSignal3 = QuestGenUtility.QuestTagSignal(text, "BeingAttacked");
             string inSignal4 = QuestGenUtility.QuestTagSignal(text, "Fleeing");
             string inSignal5 = QuestGenUtility.QuestTagSignal(text, "TitleAwardedWhenUpdatingChanged");
-            Thing thing = QuestGen_Shuttle.GenerateShuttle(bestowingFaction,shuttleDef:QuestKindDefOf.DMS_Shuttle);
+            Thing thing = QuestGen_Shuttle.GenerateShuttle(bestowingFaction,shuttleDef:DMS_DefOf.DMS_Shuttle);
             Pawn pawn2 = quest.GetPawn(new QuestGen_Pawns.GetPawnParms
             {
-                mustBeOfKind = QuestKindDefOf.DMS_Officer_Ceremonist,
+                mustBeOfKind = DMS_DefOf.DMS_Officer_Ceremonist,
                 canGeneratePawn = true,
                 mustBeOfFaction = bestowingFaction,
                 mustBeWorldPawn = true,
@@ -91,7 +83,6 @@ namespace DMS
             });
             QuestUtility.AddQuestTag(ref thing.questTags, text);
             QuestUtility.AddQuestTag(ref pawn.questTags, text);
-
             ThingOwner<Thing> innerContainer = pawn2.inventory.innerContainer;
             for (int num = innerContainer.Count - 1; num >= 0; num--)
             {
@@ -119,7 +110,7 @@ namespace DMS
             List<Pawn> list2 = new List<Pawn>();
             for (int j = 0; j < 6; j++)
             {
-                Pawn item = quest.GeneratePawn(QuestKindDefOf.DMS_Escort, bestowingFaction);
+                Pawn item = quest.GeneratePawn(DMS_DefOf.DMS_Escort, bestowingFaction);
                 list.Add(item);
                 list2.Add(item);
             }
@@ -127,7 +118,10 @@ namespace DMS
             quest.EnsureNotDowned(list);
             slate.Set("defenders", list2);
             thing.TryGetComp<CompShuttle>().requiredPawns = list;
-            TransportShip transportShip = quest.GenerateTransportShip(QuestKindDefOf.DMS_Ship_TransportShuttle, list, thing).transportShip;
+            TransportShip transportShip = quest.GenerateTransportShip(DMS_DefOf.DMS_Ship_TransportShuttle, list, thing).transportShip; Quest quest2 = quest;
+            Pawn mapOfPawn = pawn;
+            
+            Faction ofEmpire = Find.FactionManager.FirstFactionOfDef(DMS_DefOf.DMS_Army);
             quest.AddShipJob_Arrive(transportShip, null, pawn, null, ShipJobStartMode.Instant, Faction.OfEmpire);
             quest.AddShipJob(transportShip, ShipJobDefOf.Unload);
             quest.AddShipJob_WaitForever(transportShip, leaveImmediatelyWhenSatisfied: true, showGizmos: false, list.Cast<Thing>().ToList()).sendAwayIfAnyDespawnedDownedOrDead = new List<Thing> { pawn2 };
@@ -185,6 +179,8 @@ namespace DMS
             quest.Letter(LetterDefOf.NegativeEvent, text2, null, null, null, useColonistsFromCaravanArg: false, QuestPart.SignalListenMode.OngoingOnly, null, filterDeadPawnsFromLookTargets: false, label: "LetterLabelBestowingCeremonyExpired".Translate(), text: "LetterTextBestowingCeremonyExpired".Translate(pawn.Named("TARGET")));
             quest.End(QuestEndOutcome.Fail, 0, null, QuestGenUtility.HardcodedSignalWithQuestID("target.Killed"), QuestPart.SignalListenMode.OngoingOrNotYetAccepted, sendStandardLetter: true);
             quest.End(QuestEndOutcome.Fail, 0, null, QuestGenUtility.HardcodedSignalWithQuestID("bestower.Killed"), QuestPart.SignalListenMode.OngoingOrNotYetAccepted, sendStandardLetter: true);
+            quest.End(QuestEndOutcome.Fail, 0, null, QuestGenUtility.HardcodedSignalWithQuestID("bestower.LeftBehind"), QuestPart.SignalListenMode.OngoingOrNotYetAccepted, sendStandardLetter: true);
+            quest.End(QuestEndOutcome.Fail, 0, null, QuestGenUtility.HardcodedSignalWithQuestID("shuttle.LeftBehind"), QuestPart.SignalListenMode.OngoingOrNotYetAccepted, sendStandardLetter: true);
             quest.End(QuestEndOutcome.Fail, 0, null, text2);
             quest.End(QuestEndOutcome.Fail, 0, null, inSignal8, QuestPart.SignalListenMode.OngoingOrNotYetAccepted, sendStandardLetter: true);
             quest.End(QuestEndOutcome.Fail, 0, null, inSignal, QuestPart.SignalListenMode.OngoingOnly, sendStandardLetter: true);
@@ -195,13 +191,13 @@ namespace DMS
             QuestPart_Choice.Choice item2 = new QuestPart_Choice.Choice
             {
                 rewards = { (Reward)new Reward_BestowingCeremony
-            {
+                {
                 targetPawnName = pawn.NameShortColored.Resolve(),
                 titleName = titleAwardedWhenUpdating.GetLabelCapFor(pawn),
                 awardingFaction = bestowingFaction,
                 givePsylink = (titleAwardedWhenUpdating.maxPsylinkLevel > pawn.GetPsylinkLevel()),
                 royalTitle = titleAwardedWhenUpdating
-            } }
+                } }
             };
             questPart_Choice.choices.Add(item2);
             List<Rule> list3 = new List<Rule>();
@@ -224,7 +220,7 @@ namespace DMS
             }
 
             QuestGen_Pawns.GetPawnParms parms = default(QuestGen_Pawns.GetPawnParms);
-            parms.mustBeOfKind = QuestKindDefOf.DMS_Officer_Ceremonist;
+            parms.mustBeOfKind = DMS_DefOf.DMS_Officer_Ceremonist;
             parms.canGeneratePawn = true;
             parms.mustBeOfFaction = bestowingFaction;
             if (!QuestGen_Pawns.GetPawnTest(parms, out pawn))
