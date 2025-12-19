@@ -72,7 +72,6 @@
     <!--<unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>-->
     <recipeUsers>
       <li>DMS_Furnace</li>
-      <li>EAF</li>
     </recipeUsers>
     <skillRequirements>
       <Crafting>5</Crafting>
@@ -184,7 +183,6 @@
     <soundWorking>Interact_Repair</soundWorking>
     <recipeUsers>
       <li>DMS_Furnace</li>
-      <li>EAF</li>
     </recipeUsers>
     <skillRequirements>
       <Crafting>11</Crafting>

@@ -1,5 +1,9 @@
 # Changelog.MD
 
+## 2025-12
+Created Branch: TryBackport1.6
+This branch will be a testing ground for backporting some 1.6 new mech to 1.5 while HSK hasn`t upgrade to 1.6.
+
 ## 2025-10
 ### Changed
 Nerfed most automatrid by rearranging their weaponpool (weaponTags) when generated as NPC. elinmates situation where DMS_Mech_Raider(pirate variant of soldat) in early game holds a plasma blaster and 1shot plate armor colonist.

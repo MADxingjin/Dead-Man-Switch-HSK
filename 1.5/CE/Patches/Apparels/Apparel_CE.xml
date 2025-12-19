@@ -334,8 +334,9 @@
 					</li>
 				</value>
 			</li>
-
-			<!--DMS_Apparel_GarrisonCoat-->
+      -->
+      
+			<!-- DMS_Apparel_GarrisonCoat-->
 			<li Class="PatchOperationReplace">
 				<xpath>Defs/ThingDef[defName="DMS_Apparel_GarrisonCoat"]/statBases/StuffEffectMultiplierArmor</xpath>
 				<value>
