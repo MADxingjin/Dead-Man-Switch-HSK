@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- 
+  <WorkGiverDef>
+    <defName>FFF_DoAutonomousBill</defName>
+    <label>make things</label>
+    <giverClass>Fortified.WorkGiver_DoAutonomousBill</giverClass>
+    <workType>Smithing</workType>
+    <priorityInType>210</priorityInType>
+    <verb>work at</verb>
+    <gerund>working at</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <prioritizeSustains>true</prioritizeSustains>
+  </WorkGiverDef>
+-->
+  <JobDef>
+    <defName>FFF_DoAutonomousBill</defName>
+    <driverClass>Fortified.JobDriver_DoAutonomousBill</driverClass>
+    <reportString>working.</reportString>
+  </JobDef>
+
+  <JobDef>
+    <defName>FFF_FinishAutonomousBill</defName>
+    <driverClass>Fortified.JobDriver_FinishAutonomousBill</driverClass>
+    <reportString>working.</reportString>
+  </JobDef>
+</Defs>	

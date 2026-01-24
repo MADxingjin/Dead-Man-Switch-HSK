@@ -27,9 +27,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.5.4104" />
-    <PackageReference Include="Lib.Harmony" Version="2.3.3" />
-    <PackageReference Include="Krafs.Publicizer" Version="2.2.1" />
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.5.4409" />
+    <PackageReference Include="Lib.Harmony" Version="2.4.2" />
+    <PackageReference Include="Krafs.Publicizer" Version="2.3.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
 
     <Publicize Include="Assembly-CSharp:RimWorld.CompTargetable.selectedTarget" />
     <Publicize Include="Assembly-CSharp:RimWorld.LordToil_Siege.SetAsDefender" />
