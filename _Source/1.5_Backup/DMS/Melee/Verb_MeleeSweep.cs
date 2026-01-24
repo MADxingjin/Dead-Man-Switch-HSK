@@ -19,7 +19,7 @@ namespace DMS
         {
             return base.TryStartCastOn(castTarg, destTarg, surpriseAttack, canHitNonTargetPawns, preventFriendlyFire, nonInterruptingSelfCast);
         }
-        protected override DamageWorker.DamageResult ApplyMeleeDamageToTarget(LocalTargetInfo target)
+        public override DamageWorker.DamageResult ApplyMeleeDamageToTarget(LocalTargetInfo target)
         {
             DamageWorker.DamageResult result = new DamageWorker.DamageResult();
             Pawn casterPawn = CasterPawn;

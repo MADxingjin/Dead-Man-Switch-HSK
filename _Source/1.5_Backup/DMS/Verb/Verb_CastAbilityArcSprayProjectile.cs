@@ -18,7 +18,7 @@ namespace DMS
 
         protected Vector3 initialTargetPosition;
 
-        protected override int ShotsPerBurst => verbProps.burstShotCount;
+        public override int ShotsPerBurst => verbProps.burstShotCount;
 
         public override float? AimAngleOverride
         {
@@ -31,7 +31,7 @@ namespace DMS
                 return null;
             }
         }
-        protected override bool TryCastShot()
+        public override bool TryCastShot()
         {
             if (burstShotsLeft == verbProps.burstShotCount && !base.TryCastShot())
             {

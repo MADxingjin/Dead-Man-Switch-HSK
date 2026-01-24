@@ -16,7 +16,7 @@ namespace DMS
         {
             return pawn.Reserve(TargetA, job);
         }
-        protected override IEnumerable<Toil> MakeNewToils()
+        public override IEnumerable<Toil> MakeNewToils()
         {
             this.FailOnDespawnedNullOrForbidden(TargetIndex.A);
             yield return Toils_Goto.GotoCell(Tar.Position, PathEndMode.OnCell);
@@ -51,14 +51,14 @@ namespace DMS
     }
     public class ThinkNode_ConditionalNeedRepair : ThinkNode_Conditional
     {
-        protected override bool Satisfied(Pawn pawn)
+        public override bool Satisfied(Pawn pawn)
         {
             return MechRepairUtility.CanRepair(pawn);
         }
     }
     public class ThinkNode_GotoMaintenanceBay : ThinkNode_JobGiver
     {
-        protected override Job TryGiveJob(Pawn pawn)
+        public override Job TryGiveJob(Pawn pawn)
         {
             foreach (var b in pawn.Map.listerThings.ThingsOfDef(MaintainDefOf.DMS_MechGestatorSmall))
             {

@@ -18,7 +18,7 @@ namespace DMS
 
         public bool multiplyByGeneToleranceFactors;
 
-        protected override void DoIngestionOutcomeSpecial(Pawn pawn, Thing ingested, int ingestedCount)
+        public override void DoIngestionOutcomeSpecial(Pawn pawn, Thing ingested, int ingestedCount)
         {
             //沒有特定Hediff才會產生副作用
             if (!pawn.health.hediffSet.HasHediff(BionicHediff))

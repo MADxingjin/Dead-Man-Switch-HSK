@@ -49,7 +49,7 @@
       <WorkToBuild>3000</WorkToBuild>
       <MaxHitPoints>500</MaxHitPoints>
       <Flammability>0.25</Flammability>
-      <WorkTableWorkSpeedFactor>2.0</WorkTableWorkSpeedFactor>
+<!--  <WorkTableWorkSpeedFactor>2.0</WorkTableWorkSpeedFactor>-->
     </statBases>
     <recipes>
     </recipes>

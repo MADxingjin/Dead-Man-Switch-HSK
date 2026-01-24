@@ -12,7 +12,7 @@ namespace DMS
         protected float coneSway = 10f;
         protected Vector3 Angle => (destination - origin).normalized;
         protected float Sway => Angle.RotatedBy(coneSway).ToAngleFlat();
-        protected override void Impact(Thing hitThing, bool blockedByShield = false)
+        public override void Impact(Thing hitThing, bool blockedByShield = false)
         {
             DoExplosion();
             base.Impact(hitThing, blockedByShield);

@@ -8,7 +8,7 @@ namespace DMS
     public class CompTargetable_AddHediffOnTarget : CompTargetable
     {
         public new CompProperties_AddHediffOnTarget Props => (CompProperties_AddHediffOnTarget)props;
-        protected override TargetingParameters GetTargetingParameters()
+        public override TargetingParameters GetTargetingParameters()
         {
             return new TargetingParameters
             {
@@ -21,7 +21,7 @@ namespace DMS
                 canTargetLocations = false
             };
         }
-        protected override bool PlayerChoosesTarget => true;
+        public override bool PlayerChoosesTarget => true;
         public override IEnumerable<Thing> GetTargets(Thing targetChosenByPlayer = null)
         {
             yield return targetChosenByPlayer;

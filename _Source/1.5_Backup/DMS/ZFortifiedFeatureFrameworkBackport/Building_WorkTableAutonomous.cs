@@ -162,6 +162,7 @@ namespace Fortified
             {
                 yield return gizmo;
             }
+
             if (curWorkAmount > 0)
             {
                 yield return new Command_Action
@@ -169,12 +170,10 @@ namespace Fortified
                     defaultLabel = "FFF.CancelActiveBill".Translate(),
                     defaultDesc = "FFF.CancelActiveBillDesc".Translate(),
                     icon = FFF_Icons.icon_Cancel,
-                    action = delegate
-                    {
-                        Cancel();
-                    }
+                    action = delegate { Cancel(); }
                 };
             }
+
             if (DebugSettings.godMode)
             {
                 yield return new Command_Action
@@ -183,7 +182,8 @@ namespace Fortified
                     icon = FFF_Icons.icon_Cancel,
                     action = delegate
                     {
-                        var v = this.modExtension.GetEffecterDef_DoneTrigger(this.Rotation)?.SpawnMaintained(this, this);
+                        var v = this.modExtension.GetEffecterDef_DoneTrigger(this.Rotation)
+                            ?.SpawnMaintained(this, this);
                         v.Trigger(this, this);
                     }
                 };
@@ -191,14 +191,12 @@ namespace Fortified
                 {
                     defaultLabel = "Test Phase Trigger",
                     icon = FFF_Icons.icon_Cancel,
-                    action = delegate
-                    {
-                        PlayEffecter();
-                    }
+                    action = delegate { PlayEffecter(); }
                 };
             }
         }
-
+        /*
+        This is 1.6 Exclusive
         protected override void TickInterval(int delta)
         {
             if (!prepared || !CanRun) return;
@@ -210,6 +208,7 @@ namespace Fortified
                 if (totalWorkAmount <= 0f) modExtension?.GetEffecterDef_DoneTrigger(Rotation)?.SpawnAttached(this, Map).Trigger(this, this);
             }
         }
+        */
         private bool effectActive = false;
         public override void Tick()
         {
@@ -224,6 +223,20 @@ namespace Fortified
                 else
                 {
                     Power.PowerOutput = 0f - Power.Props.idlePowerDraw;
+                }
+            }
+
+            if (this.IsHashIntervalTick(60))
+            {
+                if (prepared || CanRun)
+                {
+                    curWorkAmount -= 60* (this.GetStatValue(StatDefOf.WorkTableEfficiencyFactor) > 1 ? this.GetStatValue(StatDefOf.WorkTableEfficiencyFactor) : 1);
+                    if (curWorkAmount <= 0f)
+                    {
+                        curWorkAmount = 0f;
+                        prepared = false;
+                        if (totalWorkAmount <= 0f) modExtension?.GetEffecterDef_DoneTrigger(Rotation)?.SpawnAttached(this, Map).Trigger(this, this);
+                    }
                 }
             }
             if (this.IsHashIntervalTick(3))
@@ -307,6 +320,7 @@ namespace Fortified
                     }
                     else stringBuilder.AppendInNewLine("FFF.Autofacturer.Prepared".Translate());
                 }
+                stringBuilder.AppendInNewLine(innerContainer.ContentsString);
             }
             return stringBuilder.ToString().Trim();
         }

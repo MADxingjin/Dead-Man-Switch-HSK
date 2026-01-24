@@ -110,4 +110,5 @@
         </value>
       </li>
     </operations>
-  /</Operation> /</Patch>
+    /</Operation>
+</Patch>

@@ -57,7 +57,7 @@ namespace DMS
             return false;
         }
 
-        protected override void RunInt()
+        public override void RunInt()
         {
             if (!ModLister.CheckRoyalty("Bestowing ceremony"))
             {
@@ -216,7 +216,7 @@ namespace DMS
             QuestGen.AddQuestDescriptionRules(list4);
         }
 
-        protected override bool TestRunInt(Slate slate)
+        public override bool TestRunInt(Slate slate)
         {
             if (!TryGetCeremonyTarget(slate, out var pawn, out var bestowingFaction) || bestowingFaction.HostileTo(Faction.OfPlayer))
             {

@@ -23,7 +23,7 @@ namespace DMS
             }
             return false;
         }
-        protected override IEnumerable<Toil> MakeNewToils()
+        public override IEnumerable<Toil> MakeNewToils()
         {
             yield return Toils_Goto.GotoThing(TargetIndex.B, PathEndMode.Touch).FailOnDespawnedOrNull(TargetIndex.B).FailOnDespawnedOrNull(TargetIndex.A);
             yield return Toils_Haul.StartCarryThing(TargetIndex.B);

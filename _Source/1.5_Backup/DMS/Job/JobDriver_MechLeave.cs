@@ -16,7 +16,7 @@ namespace DMS
             return true;
         }
 
-        protected override IEnumerable<Toil> MakeNewToils()
+        public override IEnumerable<Toil> MakeNewToils()
         {
             Toil toil = Toils_Goto.GotoCell(TargetIndex.A, PathEndMode.OnCell);
             toil.AddPreTickAction(delegate

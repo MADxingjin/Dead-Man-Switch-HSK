@@ -24,7 +24,7 @@ namespace DMS
             return true;
         }
 
-        protected override IEnumerable<Toil> MakeNewToils()
+        public override IEnumerable<Toil> MakeNewToils()
         {
             if (!ModLister.CheckBiotech("Mech repair"))
             {

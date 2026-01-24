@@ -11,7 +11,7 @@ namespace DMS
 {
     public class JobGiver_RepairSelf : ThinkNode_JobGiver
     {
-        protected override Job TryGiveJob(Pawn pawn)
+        public override Job TryGiveJob(Pawn pawn)
         {
             if (pawn.TryGetComp<CompDeadManSwitch>() is CompDeadManSwitch comp && comp.woken
     && MechRepairUtility.CanRepair(pawn))

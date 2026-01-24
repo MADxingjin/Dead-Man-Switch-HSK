@@ -10,7 +10,7 @@ namespace DMS
 {
     public class ThinkNode_Condition_Wake : ThinkNode_Conditional
     {
-        protected override bool Satisfied(Pawn pawn)
+        public override bool Satisfied(Pawn pawn)
         {
             return pawn.TryGetComp<CompDeadManSwitch>() is CompDeadManSwitch comp && comp.woken;
         }

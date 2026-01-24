@@ -48,7 +48,7 @@ namespace DMS
             ageTicks = -vector.magnitude * 60 / def.skyfaller.speed;
         }
 
-        protected override void DrawAt(Vector3 drawLoc, bool flip = false)
+        public override void DrawAt(Vector3 drawLoc, bool flip = false)
         {
             Graphic.Draw(drawLoc, default, this, angle);
             if (GenCelestial.IsDaytime(GenCelestial.CurCelestialSunGlow(Map)))

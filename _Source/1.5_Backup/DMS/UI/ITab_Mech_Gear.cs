@@ -118,7 +118,7 @@ namespace DMS
             tutorTag = "Gear";
         }
 
-        protected override void FillTab()
+        public override void FillTab()
         {
             //IL_040c: Unknown result type (might be due to invalid IL or missing references)
             //IL_0412: Invalid comparison between Unknown and I4

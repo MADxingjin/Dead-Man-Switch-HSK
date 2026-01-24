@@ -6,7 +6,7 @@ namespace DMS
 {
     public class PawnFlyerWithEffect:PawnFlyer
     {
-        protected override void RespawnPawn()
+        public override void RespawnPawn()
         {
             ModExtensionJumper me = def.GetModExtension<ModExtensionJumper>();
             if(me.compExplosive!=null)

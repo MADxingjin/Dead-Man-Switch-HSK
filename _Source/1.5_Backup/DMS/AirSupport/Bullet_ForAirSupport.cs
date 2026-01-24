@@ -30,7 +30,7 @@ namespace DMS
             return true;
         }
 
-        protected override void ImpactSomething()
+        public override void ImpactSomething()
         {
             if (def.projectile.flyOverhead)
             {

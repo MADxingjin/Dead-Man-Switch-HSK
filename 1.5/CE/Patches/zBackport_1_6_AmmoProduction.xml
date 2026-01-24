@@ -22,13 +22,14 @@
 					<li>CE_AutoEnableCrafting_DMS_TableAmmoPrinter</li>
 				</value>
 			</li>
-
+<!-- This patch is moved to def/
 			<li Class="PatchOperationAdd">
 				<xpath>/Defs/WorkGiverDef[defName="DMS_Operate"]/fixedBillGiverDefs</xpath>
 				<value>
 					<li>DMS_TableAmmoPrinter</li>
 				</value>
 			</li>
+-->
 		</operations>
 	</Operation>
 </Patch>
