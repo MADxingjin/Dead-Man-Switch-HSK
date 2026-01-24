@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+NAME=蹄兔
+NAME=Hyrax
+-->
+<Defs>
+  <ThingDef Name="BaseMechRace_Hyrax" ParentName="BaseAutomatroidRace" Abstract="True">
+    <thingClass>Pawn</thingClass>
+    <statBases>
+      <MoveSpeed>4</MoveSpeed>
+      <ArmorRating_Sharp>0.3</ArmorRating_Sharp><!--銳抗-->
+      <ArmorRating_Blunt>0.5</ArmorRating_Blunt><!--鈍抗-->
+      <ArmorRating_Heat>0.8</ArmorRating_Heat>  <!--能抗-->
+
+      <!-- 履帶平台的特色就是用電低。並且被攻擊不減速 -->
+      <StaggerDurationFactor>0</StaggerDurationFactor>
+      <MechEnergyUsageFactor>0.5</MechEnergyUsageFactor>
+    </statBases>
+    <race>
+      <body>DMS_Caterpillar</body>
+      <baseBodySize>0.8</baseBodySize>
+      <baseHealthScale>0.5</baseHealthScale>
+      <mechWeightClass>Light</mechWeightClass>
+      <mechEnabledWorkTypes>
+        <li>Hauling</li>
+      </mechEnabledWorkTypes>
+    </race>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseMechRace_Hyrax">
+    <defName>DMS_Mech_Hyrax</defName>
+    <label>hyrax</label>
+    <description>A lightweight tracked platform, this type of automatic weapon can be usually said
+      to be the first practical product developed by any killer machine manufacturer.</description>
+    <comps>
+      <li Class="DMS.CompProperties_VehicleWeapon">
+        <defaultWeapon>DMS_SubMachineGunMounted</defaultWeapon>
+        <turretRotationFollowPawn>true</turretRotationFollowPawn>
+        <rotationSmoothTime>0.1</rotationSmoothTime>
+        <drawData>
+          <defaultData>
+            <pivot>(0.5,0.5)</pivot>
+          </defaultData>
+          <dataEast>
+            <offset>(0.15,0,0.15)</offset>
+          </dataEast>
+          <dataWest>
+            <offset>(-0.15,0,0.15)</offset>
+            <rotationOffset>0</rotationOffset>
+          </dataWest>
+          <dataSouth>
+            <offset>(0,0,0)</offset>
+          </dataSouth>
+          <dataNorth>
+            <offset>(0,0,0.2)</offset>
+          </dataNorth>
+        </drawData>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BaseAutomatroidKind">
+    <defName>DMS_Mech_Hyrax</defName>
+    <label>hyrax</label>
+    <race>DMS_Mech_Hyrax</race>
+    <isFighter>true</isFighter>
+    <combatPower>70</combatPower>
+    <maxPerGroup>10</maxPerGroup>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Automatroid/hyrax</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.5</drawSize>
+        </bodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Automatroid/hyrax</texPath>
+          <shaderType>CutoutComplex</shaderType>
+          <graphicClass>Graphic_Multi</graphicClass>
+          <drawSize>1.5</drawSize>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+    <weaponTags>
+      <li>DMS_SubMachineGunMounted</li>
+    </weaponTags>
+  </PawnKindDef>
+
+  <RecipeDef ParentName="DMS_MediumMechanoidRecipe">
+    <defName>DMS_Make_Hyrax</defName>
+    <label>gestate hyrax</label>
+    <description>Gestate a hyrax Automatroid.</description>
+    <products>
+      <DMS_Mech_Hyrax>1</DMS_Mech_Hyrax>
+    </products>
+    <gestationCycles>1</gestationCycles>
+    <descriptionHyperlinks>
+      <ThingDef>DMS_Mech_Hyrax</ThingDef>
+    </descriptionHyperlinks>
+    <ingredients Inherit="False">
+      <li>
+        <filter>
+          <categories>
+            <li>SLDBar</li>
+            <li>USLDBar</li>
+          </categories>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Mechanism</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ElectronicComponents</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>12</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>SLDBar</li>
+        <li>USLDBar</li>
+      </categories>
+    </fixedIngredientFilter>
+  </RecipeDef>
+</Defs>
