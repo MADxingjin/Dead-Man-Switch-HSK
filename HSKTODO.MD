@@ -5,10 +5,13 @@
 ## TODO
 
 Backport Fortified Features Framework Autonomous worktable to 1.5 && backport DMS 1.6 automatic ammo print to 1.5
-Modify Job code to try "Haul all required material to bill workbench"
+Reprospect research and early survival weapon cost.
+Reprospect turtle series cost (AOBA says they are not artifuscle monster with tungsteel sheel so the cost must be reworked.)
+Reprospect HCM Bar usage (should just switch to cables)
+Fix That waist hang RPG Cost.
 
-
-Makesure our CE patch is working
+## Always 
+!!! Makesure our CE patch is working !!!
 
 
 
