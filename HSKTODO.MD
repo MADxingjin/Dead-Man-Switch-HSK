@@ -6,14 +6,13 @@
 
 Backport Fortified Features Framework Autonomous worktable to 1.5 && backport DMS 1.6 automatic ammo print to 1.5
 Reprospect research and early survival weapon cost.
-Reprospect turtle series cost (AOBA says they are not artifuscle monster with tungsteel sheel so the cost must be reworked.)
+Reprospect turtle series cost (AOBA says they are not artifuscle monster with tungsteel sheel so the cost must be reworked.)\
 Reprospect HCM Bar usage (should just switch to cables)
+Reprospect Basic gear workbench
 Fix That waist hang RPG Cost.
 
 ## Always 
 !!! Makesure our CE patch is working !!!
-
-
 
 ## Working on
 WTF UF?

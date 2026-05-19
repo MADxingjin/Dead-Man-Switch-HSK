@@ -246,18 +246,10 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Artifuscle</li>
-          </thingDefs>
-        </filter>
-        <count>75</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
             <li>ComponentStamped</li>
           </thingDefs>
         </filter>
-        <count>6</count>
+        <count>8</count>
       </li>
       <li>
         <filter>
@@ -291,6 +283,30 @@
         </filter>
         <count>6</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wire</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Heavy_Component</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Weapon_Parts</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
     </ingredients>
     <fixedIngredientFilter>
       <categories>
@@ -318,15 +334,7 @@
             <li>Tungsteel</li>
           </thingDefs>
         </filter>
-        <count>250</count>
-      </li>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>Artifuscle</li>
-          </thingDefs>
-        </filter>
-        <count>75</count>
+        <count>200</count>
       </li>
       <li>
         <filter>
@@ -376,6 +384,30 @@
         </filter>
         <count>6</count>
       </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wire</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Heavy_Component</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Weapon_Parts</li>
+          </thingDefs>
+        </filter>
+        <count>8</count>
+      </li>
     </ingredients>
     <fixedIngredientFilter>
       <categories>
@@ -407,7 +439,7 @@
         </filter>
         <count>250</count>
       </li>
-            <li>
+      <li>
         <filter>
           <thingDefs>
             <li>Artifuscle</li>
@@ -438,6 +470,14 @@
           </thingDefs>
         </filter>
         <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wire</li>
+          </thingDefs>
+        </filter>
+        <count>150</count>
       </li>
       <li>
         <filter>
@@ -509,7 +549,7 @@
         </filter>
         <count>200</count>
       </li>
-            <li>
+      <li>
         <filter>
           <thingDefs>
             <li>Artifuscle</li>
