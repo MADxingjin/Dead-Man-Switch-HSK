@@ -94,11 +94,13 @@
                         </li>
                     </kindCounts>
                 </li>
-                <li Class="Fortified.ScenPart_GeneratePrefab">
-                    <def>FFF_PrefabGen</def>
-                    <maps>
-                        <li>DMS_LightTower</li>
-                    </maps>
+                <li Class="Fortified.Structures.ScenPart_AddStartingStructure">
+                    <def>FFF_AddStartingStructure</def>
+                    <structureLabel>A destroyed signal tower</structureLabel>
+                    <nearMapCenter>True</nearMapCenter>
+                    <chooseFrom>
+                        <li>DMS_LightTower_A</li>
+                    </chooseFrom>
                 </li>
                 <li Class="ScenPart_PlayerPawnsArriveMethod">
                     <def>PlayerPawnsArriveMethod</def>
@@ -183,14 +185,14 @@
                     <hediff>CryptosleepSickness</hediff>
                     <severityRange>1~1</severityRange>
                 </li>
-                <li Class="VEF.Factions.ScenPart_ForcedFactionGoodwill" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+                <li Class="Fortified.Structures.ScenPart_ForcedFactionGoodwill">
                     <factionDef>DMS_Army</factionDef>
                     <affectHiddenFactions>True</affectHiddenFactions>
                     <affectStartingGoodwill>True</affectStartingGoodwill>
                     <startingGoodwillRange>100~100</startingGoodwillRange>
                     <affectNaturalGoodwill>True</affectNaturalGoodwill>
                     <naturalGoodwillRange>56~63</naturalGoodwillRange>
-                    <def>VFEC_ForcedFactionGoodwill</def>
+                    <def>FFF_ForcedFactionGoodwill</def>
                 </li>
                 <li Class="ScenPart_GameStartDialog">
                     <def>GameStartDialog</def>

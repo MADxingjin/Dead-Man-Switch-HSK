@@ -14,7 +14,7 @@
 				<li>ElectricTailoringBench</li>
 				<li>HandTailoringBench</li>
 				<li>DMS_TableMachinePrinter</li>
-			</recipeUsers>	
+			</recipeUsers>
 			<researchPrerequisite>DMS_EquipmentBasis</researchPrerequisite>
 			<unfinishedThingDef>UnfinishedApparel</unfinishedThingDef>
 		</recipeMaker>
@@ -23,6 +23,9 @@
 			<li>Fabric</li>
 			<li>Leathery</li>
 		</stuffCategories>
+		<costList>
+			<DMS_Ceramics>20</DMS_Ceramics>
+		</costList>
 		<tradeTags>
 			<li>Clothing</li>
 			<li>DMS_Clothing</li>
@@ -38,7 +41,7 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>5000</WorkToMake>
 			<Mass>0.5</Mass>
-			<StuffEffectMultiplierArmor>0.24</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierArmor>0.14</StuffEffectMultiplierArmor>
 			<StuffEffectMultiplierInsulation_Cold>0.21</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.17</StuffEffectMultiplierInsulation_Heat>
 			<EquipDelay>3</EquipDelay>
@@ -111,83 +114,86 @@
 		<description>A typical coat for an enlisted man, designed to keep one warm in chilly weather.</description>
 		<possessionCount>1</possessionCount>
 		<recipeMaker>
-		  <researchPrerequisite>DMS_EquipmentBasis</researchPrerequisite>
+			<researchPrerequisite>DMS_EquipmentBasis</researchPrerequisite>
 		</recipeMaker>
 		<graphicData>
 			<texPath>Things/Apparel/GarrisonCoat/Apparel</texPath>
-		  <graphicClass>Graphic_Single</graphicClass>
-		  <drawSize>0.85</drawSize>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.85</drawSize>
 		</graphicData>
 		<costStuffCount>80</costStuffCount>
 		<stuffCategories>
-		  <li>Fabric</li>
-		  <li>Leathery</li>
+			<li>Fabric</li>
+			<li>Leathery</li>
 		</stuffCategories>
 		<thingCategories>
-		  <li>ApparelMisc</li>
+			<li>ApparelMisc</li>
 		</thingCategories>
+		<costList>
+			<DMS_Ceramics>20</DMS_Ceramics>
+		</costList>
 		<statBases>
-		  <MaxHitPoints>160</MaxHitPoints>
-		  <WorkToMake>7000</WorkToMake>
-		  <Mass>1.5</Mass>
-		  <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
-		  <StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
-		  <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
-		  <EquipDelay>1.5</EquipDelay>
+			<MaxHitPoints>160</MaxHitPoints>
+			<WorkToMake>7000</WorkToMake>
+			<Mass>1.5</Mass>
+			<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+			<EquipDelay>1.5</EquipDelay>
 		</statBases>
 		<apparel>
-		  <bodyPartGroups>
-			<li>Torso</li>
-			<li>Neck</li>
-			<li>Shoulders</li>
-			<li>Arms</li>
-		  </bodyPartGroups>
-		  <wornGraphicPath>Things/Apparel/GarrisonCoat/Apparel</wornGraphicPath>
-		  <blocksAddedPartWoundGraphics>true</blocksAddedPartWoundGraphics>
-		  <layers>
-			<li>Shell</li>
-		  </layers>
-		  <tags>
-			<li>IndustrialAdvanced</li>
-			<li>DMS_Garrison</li>
-			<li>DMS_Officer</li>
-		  </tags>
-		  <defaultOutfitTags>
-			<li>Soldier</li>
-		  </defaultOutfitTags>
-		  <canBeDesiredForIdeo>true</canBeDesiredForIdeo>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/GarrisonCoat/Apparel</wornGraphicPath>
+			<blocksAddedPartWoundGraphics>true</blocksAddedPartWoundGraphics>
+			<layers>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>IndustrialAdvanced</li>
+				<li>DMS_Garrison</li>
+				<li>DMS_Officer</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<canBeDesiredForIdeo>true</canBeDesiredForIdeo>
 		</apparel>
 		<colorGenerator Class="ColorGenerator_Options">
-		  <options>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.33,0.33,0.33)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.65,0.65,0.65)</only>
-			</li>
-			<li>
-			  <weight>10</weight>
-			  <only>(0.4,0.3,0.15)</only>
-			</li>
-			<li>
-			  <weight>15</weight>
-			  <min>(0.3,0.3,0.3)</min>
-			  <max>(0.5,0.5,0.5)</max>
-			</li>
-			<li>
-			  <weight>6</weight>
-			  <min>(0.5,0.5,0.5)</min>
-			  <max>(1,1,1)</max>
-			</li>
-		  </options>
+			<options>
+				<li>
+					<weight>10</weight>
+					<only>(0.33,0.33,0.33)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.65,0.65,0.65)</only>
+				</li>
+				<li>
+					<weight>10</weight>
+					<only>(0.4,0.3,0.15)</only>
+				</li>
+				<li>
+					<weight>15</weight>
+					<min>(0.3,0.3,0.3)</min>
+					<max>(0.5,0.5,0.5)</max>
+				</li>
+				<li>
+					<weight>6</weight>
+					<min>(0.5,0.5,0.5)</min>
+					<max>(1,1,1)</max>
+				</li>
+			</options>
 		</colorGenerator>
 		<tradeTags>
-		  <li>BasicClothing</li>
-		  <li>DMS_Clothing</li>
+			<li>BasicClothing</li>
+			<li>DMS_Clothing</li>
 		</tradeTags>
-	  </ThingDef>
+	</ThingDef>
 
 	<ThingDef ParentName="ApparelBase">
 		<defName>DMS_Apparel_HazardSuit</defName>
@@ -254,14 +260,14 @@
 			<blocksAddedPartWoundGraphics>true</blocksAddedPartWoundGraphics>
 			<parentTagDef>ApparelBody</parentTagDef>
 			<renderSkipFlags>
-			  <li>Hair</li>
-			  <li>Beard</li>
-			  <li>Eyes</li>
+				<li>Hair</li>
+				<li>Beard</li>
+				<li>Eyes</li>
 			</renderSkipFlags>
 			<drawData>
-			  <defaultData>
-				<layer>75</layer>
-			  </defaultData>
+				<defaultData>
+					<layer>75</layer>
+				</defaultData>
 			</drawData>
 			<immuneToToxGasExposure>true</immuneToToxGasExposure>
 			<layers>
@@ -274,7 +280,7 @@
 			<canBeGeneratedToSatisfyToxicEnvironmentResistance>true</canBeGeneratedToSatisfyToxicEnvironmentResistance>
 		</apparel>
 		<modExtensions>
-			<li Class="Fortified.BiochemicalProtectionExtension"/>
+			<li Class="Fortified.BiochemicalProtectionExtension" />
 		</modExtensions>
 	</ThingDef>
 
@@ -290,7 +296,7 @@
 			<soundWorking>Recipe_Machining</soundWorking>
 			<researchPrerequisite>DMS_MechBasis</researchPrerequisite>
 			<recipeUsers>
-			  <li>DMS_TableMachinePrinter</li>
+				<li>DMS_TableMachinePrinter</li>
 			</recipeUsers>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 		</recipeMaker>
@@ -323,7 +329,7 @@
 		</statBases>
 		<equippedStatOffsets>
 			<MoveSpeed>0.5</MoveSpeed>
-			<VEF_MassCarryCapacity MayRequire="oskarpotocki.vanillafactionsexpanded.core">75</VEF_MassCarryCapacity>
+			<FFF_MassCarryCapacity>75</FFF_MassCarryCapacity>
 		</equippedStatOffsets>
 		<apparel>
 			<bodyPartGroups>
@@ -352,7 +358,7 @@
 			<canBeGeneratedToSatisfyToxicEnvironmentResistance>false</canBeGeneratedToSatisfyToxicEnvironmentResistance>
 		</apparel>
 		<modExtensions>
-			<li Class="VEF.Apparels.ApparelExtension" MayRequire="oskarpotocki.vanillafactionsexpanded.core">
+			<li Class="Fortified.ApparelExtension">
 				<pawnCapacityMinLevels>
 					<li>
 						<capacity>Moving</capacity>

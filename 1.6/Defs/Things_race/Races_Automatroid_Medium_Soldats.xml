@@ -109,12 +109,6 @@
     <isFighter>true</isFighter>
     <combatPower>80</combatPower>
     <maxPerGroup>20</maxPerGroup>
-    <skills>
-      <li>
-        <skill>Shooting</skill>
-        <range>18~20</range>
-      </li>
-    </skills>
     <lifeStages>
       <li>
         <bodyGraphicData>
@@ -337,6 +331,8 @@
       <li Class="Fortified.MechWeaponExtension">
         <EnableWeaponFilter>true</EnableWeaponFilter>
         <UsableWeaponTags>
+          <li>Autopistol</li>
+          <li>Revolver</li>
           <li>DMS_MechWeaponLight</li>
         </UsableWeaponTags>
         <EnableTechLevelFilter>true</EnableTechLevelFilter>
