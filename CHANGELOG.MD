@@ -1,6 +1,14 @@
 # Changelog.MD
 Not a strictly formated changelog.
 
+## 2026 Autumn
+
+2026-08
+
+Branch Made: HSK1.6
+Begin effort on moving to 1.6 with latest stable DMS v1 before AOBA ships DMS 2 inplace.
+
+
 ## 2026 Summer
 
 2026-05
