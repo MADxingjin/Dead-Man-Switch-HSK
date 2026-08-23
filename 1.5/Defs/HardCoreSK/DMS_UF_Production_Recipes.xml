@@ -43,7 +43,10 @@
     <recipeUsers>
       <li>DMS_UF_ReactionChamber</li>
     </recipeUsers>
-    <researchPrerequisite>DMS_Plasfiber</researchPrerequisite>
+    <researchPrerequisites>
+      <li>DMS_Plasfiber</li>
+      <li>DMS_Autofacturer</li>
+    </researchPrerequisites>
     <ingredients>
       <li>
         <filter>
@@ -118,7 +121,10 @@
     <recipeUsers>
       <li>DMS_UF_ReactionChamber</li>
     </recipeUsers>
-    <researchPrerequisite>DMS_Plasfiber</researchPrerequisite>
+    <researchPrerequisites>
+      <li>DMS_Plasfiber</li>
+      <li>DMS_Autofacturer</li>
+    </researchPrerequisites>
     <ingredients>
       <li>
         <filter>
@@ -152,7 +158,10 @@
     <slotsRequired>12</slotsRequired>
   </RecipeDef>
 
-  <!--Recipes previously separated from Astifuscle Table, now moved to organ vat for balance sake. the independant UF variant Artifuscle Table will be removed. bad discision to use that design from start.  -->
+  <!--Recipes
+  previously separated from Astifuscle Table, now moved to organ vat for balance sake. the
+  independant UF variant Artifuscle Table will be removed. bad discision to use that design from
+  start.  -->
   <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
     <defName>DMS_Make_Artifuscle</defName>
     <label>Grow artifuscle x25</label>
@@ -294,7 +303,10 @@
     <products>
       <Artifuscle>100</Artifuscle>
     </products>
-    <researchPrerequisite>DMS_Artifuscle</researchPrerequisite>
+    <researchPrerequisites>
+      <li>DMS_Artifuscle</li>
+      <li>DMS_Autofacturer</li>
+    </researchPrerequisites>
     <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>5</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
     <usesTemperature>true</usesTemperature>
     <processDays>3</processDays>
@@ -783,6 +795,7 @@
     <recipeUsers>
       <li>DMS_UF_ReactionChamber</li>
     </recipeUsers>
+    <researchPrerequisite>DMS_Autofacturer</researchPrerequisite>
     <!-- RecipeDef_UF fields -->
     <ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>15</ruinedIfNoPowerOrNoFuelOrFlickedOffPerHour>
     <usesTemperature>false</usesTemperature>
@@ -828,7 +841,8 @@
   <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
     <defName>DMS_HSK_Synthesize_BioMicroChip</defName>
     <label>Synthesize A BioMicroChip</label>
-    <description>Synthesize a BioMicroChip,way faster and material efficent than assembling it manuallly.</description>
+    <description>Synthesize a BioMicroChip,way faster and material efficent than assembling it
+      manuallly.</description>
     <jobString>Sythesizing BioMicroChip.</jobString>
     <recipeUsers>
       <li>TableOrganvat</li>
@@ -884,7 +898,8 @@
   <RecipeDef ParentName="GlitterpediaModExtBase" Class="UniversalFermenterSK.RecipeDef_UF">
     <defName>DMS_HSK_ExtractChemfuelFromCorpse</defName>
     <label>extract Chemfuel from corpse</label>
-    <description>Extracts chemfuel from a corpse. Produces depend on size of dead body and his wholeness. Takes 3 days even in high pressure chamber. power failure wont stop this recipe.</description>
+    <description>Extracts chemfuel from a corpse. Produces depend on size of dead body and his
+      wholeness. Takes 3 days even in high pressure chamber. power failure wont stop this recipe.</description>
     <ingredients>
       <li>
         <filter>

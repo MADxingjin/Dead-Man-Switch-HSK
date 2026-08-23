@@ -42,14 +42,20 @@
     </graphicData>
     <designationCategory>DMS_Category</designationCategory>
     <costList>
-      <Steel>300</Steel>
+      <Mechanism>10</Mechanism>
       <ComponentStamped>10</ComponentStamped>
+      <Wire>100</Wire>
+      <Electronics>4</Electronics>
     </costList>
+    <stuffCategories>
+      <li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>250</costStuffCount>
     <statBases>
       <WorkToBuild>3000</WorkToBuild>
       <MaxHitPoints>500</MaxHitPoints>
       <Flammability>0.25</Flammability>
-<!--  <WorkTableWorkSpeedFactor>2.0</WorkTableWorkSpeedFactor>-->
+      <!--  <WorkTableWorkSpeedFactor>2.0</WorkTableWorkSpeedFactor>-->
     </statBases>
     <recipes>
     </recipes>
@@ -65,7 +71,7 @@
       </li>
     </comps>
     <researchPrerequisites>
-      <!-- <li>DMS_Autofacturer</li> -->
+      <li>DMS_Autofacturer</li>
       <li>Gunsmithing</li>
     </researchPrerequisites>
     <modExtensions>

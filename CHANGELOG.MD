@@ -1,14 +1,32 @@
 # Changelog.MD
+Not a strictly formated changelog.
 
-## 2025-03
+## 2026 Summer
 
-### Branch: TryBackport1.6
+2026-05
 
-#### Added
+Branch Made: TryBackport1.6
+
+Merged upstream DMS
+
+Added Rimotamic compat to enable mechanoid nuclear battery production
+
+Backported 1.6 research proj
+
+
+## 2026 Spring
+
+Branch: TryBackport1.6
+
+### Added
 
 Backported hyrax a small early caravan carry mech to 1.5, fires a .22lr machinegun, itself is fragile though.
 
-#### Updated
+Backported Part of FF Framework (AOBA`s new framework in 1.6) to 1.5, specificly, the semi auto bill system.
+Backported Auto Ammo Stamp(print?) to 1.5, uses FFF semi auto bill system to compatible with standard CE ammo crafting bills.(THIS IS NOT A UF barrel reskin)
+
+
+### Updated
 
 Updated Geochelone cost to remove artifucle cost, add internal wire cost, and included builtin turret cost (weapon comp). Chat with AOBA the original mod author, these metal "turtle" are actually tanks that moves via track instead of artifucle body+ tungsteel shell.
 
